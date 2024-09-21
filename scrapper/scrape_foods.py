@@ -1,13 +1,14 @@
+import json
 import os
+
 import requests
 from bs4 import BeautifulSoup
-import json
-from colorama import Fore, Style, init
+from colorama import Fore, init
 
 init(autoreset=True)  # Initialize colorama
 
 
-def process_table_data(soup, table_id):
+def process_food_table_data(soup, table_id):
     """Fetch data from a table and download associated images."""
 
     heading = soup.find('span', {'id': table_id})
@@ -62,7 +63,72 @@ def process_table_data(soup, table_id):
     return data
 
 
+def process_cooking_table_data(soup, table_id):
+    """ TODO """
+
+    heading = soup.find('span', {'id': table_id})
+    if not heading:
+        print(f"{Fore.YELLOW}Warning: No heading found for table ID '{table_id}'")
+        return []
+
+    table = heading.find_next('table', {'class': 'fandom-table'})
+    if not table:
+        print(f"{Fore.YELLOW}Warning: No table found for heading '{table_id}'")
+        return []
+
+    data = []
+    for row in table.find('tbody').find_all('tr'):
+
+        if row.find('th'):
+            print(
+                f"{Fore.YELLOW}Warning: Skipping row (appears to be a header or invalid). Content: {row.get_text(separator='|', strip=True)}")
+            continue
+
+        columns = row.find_all('td')
+
+        if columns and len(columns) >= 3:
+
+            full_name = columns[0].text.strip()
+            # Split the name into main name and adjective/noun
+            if '•' in full_name:
+                food_name = full_name.split('(')[0].strip()
+                adjective_noun = full_name.split('(')[1].replace(')', '').strip().split(' • ')
+                adjective = adjective_noun[0] if len(adjective_noun) > 0 else ''
+                noun = adjective_noun[1] if len(adjective_noun) > 1 else ''
+            else:
+                food_name = full_name
+                adjective, noun = '', ''
+
+            base_cooked_effects = (
+                [effect.strip() for effect in columns[1].find_all(string=True) if effect.strip()]
+                if len(columns) > 2 else []
+            )
+            rarity = columns[2].text.strip()
+            food_type = table_id
+
+            data.append({
+                'food_name': food_name,
+                'adjective': adjective,
+                'noun': noun,
+                'base_cooked_effects': base_cooked_effects,
+                'rarity': rarity,
+                'type': food_type
+            })
+
+            print(f'{Fore.CYAN}{len(data)}. {food_name}')
+
+        else:
+            print(
+                f"{Fore.YELLOW}Warning: Skipping row, as it does not have enough columns. Row content: {row.get_text(separator='|', strip=True)}")
+
+    save_to_json(data, table_id)
+    print(f'{Fore.GREEN}\n==[ Successfully saved {table_id} data to {table_id}.json ]==\n')
+
+    return data
+
+
 def download_image(img_tag):
+
     image_folder = 'images'
     if not os.path.exists(image_folder):
         os.makedirs(image_folder)
@@ -114,17 +180,27 @@ def save_to_json(data, filename):
         print(f"{Fore.RED}Failed to save data to {json_file_path}: {e}")
 
 
-if __name__ == '__main__':
-
-    url = 'https://core-keeper.fandom.com/wiki/Foods'
+def get_page_soup(url):
     try:
         downloaded_page = requests.get(url)
         downloaded_page.raise_for_status()
-        soup = BeautifulSoup(downloaded_page.content, 'html.parser')
+        return BeautifulSoup(downloaded_page.content, 'html.parser')
     except requests.exceptions.RequestException as e:
         print(f"{Fore.RED}Failed to download page content: {e}")
         exit(1)
 
-    basic_foods = process_table_data(soup, 'Basic')
-    cooking_ingredients = process_table_data(soup, 'Cooking_ingredients')
-    unobtainable_foods = process_table_data(soup, 'Unobtainable')
+
+if __name__ == '__main__':
+
+    food_soup = get_page_soup('https://core-keeper.fandom.com/wiki/Foods')
+
+    food_basic = process_food_table_data(food_soup, 'Basic')
+    food_cooking_ingredients = process_food_table_data(food_soup, 'Cooking_ingredients')
+    food_unobtainable = process_food_table_data(food_soup, 'Unobtainable')
+
+
+    cooking_soup = get_page_soup('https://core-keeper.fandom.com/wiki/Cooking')
+
+    cooking_others = process_cooking_table_data(cooking_soup, 'Others')
+    cooking_plants = process_cooking_table_data(cooking_soup, 'Plants')
+    cooking_fish = process_cooking_table_data(cooking_soup, 'Fish')
