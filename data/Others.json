@@ -1,0 +1,86 @@
+[
+    {
+        "food_name": "Larva Meat",
+        "adjective": "Gooey",
+        "noun": "Meat",
+        "base_cooked_effects": [
+            "+22 food",
+            "+2.8 health every sec for 20 sec",
+            "+6% critical hit chance for 10 min"
+        ],
+        "rarity": "Common",
+        "type": "Others"
+    },
+    {
+        "food_name": "Shiny Larva Meat",
+        "adjective": "Shiny",
+        "noun": "Gold",
+        "base_cooked_effects": [
+            "+25 food",
+            "+13% critical hit chance for 10 min",
+            "+4 life on melee hit for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Others"
+    },
+    {
+        "food_name": "Marbled Meat",
+        "adjective": "Tender",
+        "noun": "Meat",
+        "base_cooked_effects": [
+            "+27 food",
+            "+2.6 health every sec for 20 sec",
+            "+13.3% damage for 10 min"
+        ],
+        "rarity": "Common",
+        "type": "Others"
+    },
+    {
+        "food_name": "Amber Larva",
+        "adjective": "Meaty",
+        "noun": "Amber",
+        "base_cooked_effects": [
+            "+21 food",
+            "+50 max health (only once)",
+            "+52 max health for 5 min"
+        ],
+        "rarity": "Epic",
+        "type": "Others"
+    },
+    {
+        "food_name": "Amber Larva",
+        "adjective": "old",
+        "noun": "",
+        "base_cooked_effects": [
+            "+21 food",
+            "+50 max health",
+            "+52 max health for 10 min"
+        ],
+        "rarity": "Epic",
+        "type": "Others"
+    },
+    {
+        "food_name": "Dodo Egg",
+        "adjective": "Yummy",
+        "noun": "Cream",
+        "base_cooked_effects": [
+            "+30 food",
+            "+4.3 health every sec for 20 sec",
+            "+25% more healing from health over time regeneration for 10 min"
+        ],
+        "rarity": "Common",
+        "type": "Others"
+    },
+    {
+        "food_name": "Atlantean Worm Heart",
+        "adjective": "Atlantean",
+        "noun": "Giant",
+        "base_cooked_effects": [
+            "+27 food",
+            "+20 health every sec to you and all nearby allies for 20 sec",
+            "+100 max health (only once)"
+        ],
+        "rarity": "Epic",
+        "type": "Others"
+    }
+]

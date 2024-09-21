@@ -1,0 +1,289 @@
+[
+    {
+        "food_name": "Green Kelp",
+        "effects": [
+            "+1 food"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "1",
+        "image_file_path": "images\\Green_Kelp.png",
+        "wiki_url": "/wiki/Green_Kelp"
+    },
+    {
+        "food_name": "Grey Kelp",
+        "effects": [
+            "+1 food"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "1",
+        "image_file_path": "images\\Grey_Kelp.png",
+        "wiki_url": "/wiki/Grey_Kelp"
+    },
+    {
+        "food_name": "Yellow Kelp",
+        "effects": [
+            "+1 food"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "1",
+        "image_file_path": "images\\Yellow_Kelp.png",
+        "wiki_url": "/wiki/Yellow_Kelp"
+    },
+    {
+        "food_name": "Red Kelp",
+        "effects": [
+            "+1 food"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "1",
+        "image_file_path": "images\\Red_Kelp.png",
+        "wiki_url": "/wiki/Red_Kelp"
+    },
+    {
+        "food_name": "Pale Kelp",
+        "effects": [
+            "+1 food"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "1",
+        "image_file_path": "images\\Pale_Kelp.png",
+        "wiki_url": "/wiki/Pale_Kelp"
+    },
+    {
+        "food_name": "Blue Kelp",
+        "effects": [
+            "+1 food"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "1",
+        "image_file_path": "images\\Blue_Kelp.png",
+        "wiki_url": "/wiki/Blue_Kelp"
+    },
+    {
+        "food_name": "Flesh Kelp",
+        "effects": [
+            "+1 food"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "9",
+        "image_file_path": "images\\Flesh_Kelp.png",
+        "wiki_url": "/wiki/Flesh_Kelp"
+    },
+    {
+        "food_name": "Dark Blue Kelp",
+        "effects": [
+            "+1 food"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "11",
+        "image_file_path": "images\\Dark_Blue_Kelp.png",
+        "wiki_url": "/wiki/Dark_Blue_Kelp"
+    },
+    {
+        "food_name": "Crystal Kelp",
+        "effects": [
+            "+1 food"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "10",
+        "image_file_path": "images\\Crystal_Kelp.png",
+        "wiki_url": "/wiki/Crystal_Kelp"
+    },
+    {
+        "food_name": "Evil Eye Candy",
+        "effects": [
+            "+2 food",
+            "Your eyes glow red for 1 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Evil_Eye_Candy.png",
+        "wiki_url": "/wiki/Evil_Eye_Candy"
+    },
+    {
+        "food_name": "Spooky Pop Candy",
+        "effects": [
+            "+2 food",
+            "You look like a ghost for 1 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Spooky_Pop_Candy.png",
+        "wiki_url": "/wiki/Spooky_Pop_Candy"
+    },
+    {
+        "food_name": "Chewy Cone Candy",
+        "effects": [
+            "+3 food",
+            "+8.8 health every sec for 20 sec",
+            "-5.1% movement speed for 20 sec"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Chewy_Cone_Candy.png",
+        "wiki_url": "/wiki/Chewy_Cone_Candy"
+    },
+    {
+        "food_name": "Winter Cookies",
+        "effects": [
+            "+6 food",
+            "You can feel the winter embracing you for 1 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Winter_Cookies.png",
+        "wiki_url": "/wiki/Winter_Cookies"
+    },
+    {
+        "food_name": "Box of Chocolates",
+        "effects": [
+            "+7 food",
+            "+3 pink glow for 10 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Box_of_Chocolates.png",
+        "wiki_url": "/wiki/Box_of_Chocolates"
+    },
+    {
+        "food_name": "Rainbow Kelp",
+        "effects": [
+            "+7 food",
+            "+6.2 health every sec for 20 sec",
+            "+18 armor for 10 min",
+            "+11.5% melee and range attack speed for 10 min",
+            "+5% critical hit chance for 5 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "63",
+        "image_file_path": "images\\Rainbow_Kelp.png",
+        "wiki_url": "/wiki/Rainbow_Kelp"
+    },
+    {
+        "food_name": "Golden Chocolate",
+        "effects": [
+            "+9 food",
+            "+5% less food drained when running for 10 min",
+            "+28 max health (only once)"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "17",
+        "image_file_path": "images\\Golden_Chocolate.png",
+        "wiki_url": "/wiki/Golden_Chocolate"
+    },
+    {
+        "food_name": "Glazed Heart Berry",
+        "effects": [
+            "+10 food",
+            "+65 max health for 10 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Glazed_Heart_Berry.png",
+        "wiki_url": "/wiki/Glazed_Heart_Berry"
+    },
+    {
+        "food_name": "Food Ration",
+        "effects": [
+            "+12 food",
+            "+2.8 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "1",
+        "image_file_path": "images\\Food_Ration.png",
+        "wiki_url": "/wiki/Food_Ration"
+    },
+    {
+        "food_name": "Lunar Cheese",
+        "effects": [
+            "+14 food",
+            "+5 blue glow for 10 min",
+            "Snare and stun durations reduced by +32% for 10 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Lunar_Cheese.png",
+        "wiki_url": "/wiki/Lunar_Cheese"
+    },
+    {
+        "food_name": "Cave Crunch",
+        "effects": [
+            "+19 food",
+            "+50 mining damage for 10 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Cave_Crunch.png",
+        "wiki_url": "/wiki/Cave_Crunch"
+    },
+    {
+        "food_name": "Tentacle Jerky",
+        "effects": [
+            "+19 food",
+            "+34% knockback chance for 2 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Tentacle_Jerky.png",
+        "wiki_url": "/wiki/Tentacle_Jerky"
+    },
+    {
+        "food_name": "Kelp Dumpling",
+        "effects": [
+            "+21 food",
+            "+15% chance to get double fish when catching a fish for 10 min",
+            "+15% larger harvests for 10 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Kelp_Dumpling.png",
+        "wiki_url": "/wiki/Kelp_Dumpling"
+    },
+    {
+        "food_name": "Caveling Bread",
+        "effects": [
+            "+36 food"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Caveling_Bread.png",
+        "wiki_url": "/wiki/Caveling_Bread"
+    },
+    {
+        "food_name": "Winter Dinner",
+        "effects": [
+            "+39 food",
+            "+2.5 health every sec for 20 sec",
+            "+25 max health for 10 min",
+            "+11.8% damage for 10 min",
+            "+12 armor for 5 min"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "11",
+        "image_file_path": "images\\Winter_Dinner.png",
+        "wiki_url": "/wiki/Winter_Dinner"
+    },
+    {
+        "food_name": "Fruit Bread",
+        "effects": [
+            "+50 food",
+            "Fall asleep for 5 sec"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "6",
+        "image_file_path": "images\\Fruit_Bread.png",
+        "wiki_url": "/wiki/Fruit_Bread"
+    },
+    {
+        "food_name": "Anniversary Cake",
+        "effects": [
+            "+66 food",
+            "+7 blue glow for 10 min",
+            "+27 max health (only once)"
+        ],
+        "base_cooked_effects": [],
+        "sell_value": "156",
+        "image_file_path": "images\\Anniversary_Cake.png",
+        "wiki_url": "/wiki/Anniversary_Cake"
+    }
+]

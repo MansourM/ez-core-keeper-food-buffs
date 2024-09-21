@@ -199,6 +199,10 @@ def download_image(img_tag):
 
     img_file_path = os.path.join(image_folder, img_tag["data-image-key"])
 
+    if os.path.exists(img_file_path):
+        # print(f"{Fore.GREEN}Image already exists: {img_file_path}")
+        return img_file_path
+
     try:
         downloaded_image = requests.get(img_url, stream=True)
         downloaded_image.raise_for_status()  # Raise an error for bad status codes

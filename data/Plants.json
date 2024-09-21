@@ -1,0 +1,306 @@
+[
+    {
+        "food_name": "Mushroom",
+        "adjective": "Mushy",
+        "noun": "Mushroom",
+        "base_cooked_effects": [
+            "+19 food",
+            "+4.2 health every sec for 20 sec"
+        ],
+        "rarity": "Common",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Heart Berry",
+        "adjective": "Hearty",
+        "noun": "Berry",
+        "base_cooked_effects": [
+            "+19 food",
+            "+2.8 health every sec for 20 sec",
+            "+25 max health for 10 min"
+        ],
+        "rarity": "Common",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Heart Berry",
+        "adjective": "Hearty",
+        "noun": "Berry",
+        "base_cooked_effects": [
+            "+18 food",
+            "+4.4 health every sec for 20 sec",
+            "+50 max health for 10 min",
+            "+17.1% physical melee damage for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Glow Tulip",
+        "adjective": "Glowing",
+        "noun": "Tulip",
+        "base_cooked_effects": [
+            "+2 food",
+            "+5 blue glow for 10 min",
+            "+1.4 mana every sec for 10 min"
+        ],
+        "rarity": "Uncommon",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Glow Tulip",
+        "adjective": "Glowing",
+        "noun": "Tulip",
+        "base_cooked_effects": [
+            "+2 food",
+            "+6 blue glow for 10 min",
+            "+2.3 mana every sec for 10 min",
+            "+25 max mana for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Bomb Pepper",
+        "adjective": "Spicy",
+        "noun": "Pepper",
+        "base_cooked_effects": [
+            "+10 food",
+            "+21% movement speed for 1 min"
+        ],
+        "rarity": "Uncommon",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Bomb Pepper",
+        "adjective": "Spicy",
+        "noun": "Pepper",
+        "base_cooked_effects": [
+            "+11 food",
+            "+26.9% movement speed for 1 min",
+            "+8.9% melee attack speed for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Carrock",
+        "adjective": "Crunchy",
+        "noun": "Stone",
+        "base_cooked_effects": [
+            "+15 food",
+            "+23 armor for 10 min"
+        ],
+        "rarity": "Uncommon",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Carrock",
+        "adjective": "Crunchy",
+        "noun": "Stone",
+        "base_cooked_effects": [
+            "+13 food",
+            "+26 armor for 10 min",
+            "+18% knockback chance for 2 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Bloat Oat",
+        "adjective": "Filling",
+        "noun": "Oat",
+        "base_cooked_effects": [
+            "+43 food",
+            "+9.1 health every sec for 20 sec"
+        ],
+        "rarity": "Uncommon",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Bloat Oat",
+        "adjective": "Filling",
+        "noun": "Oat",
+        "base_cooked_effects": [
+            "+42 food",
+            "+12.1 health every sec for 20 sec",
+            "+10% less food drained when running for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Puffungi",
+        "adjective": "Puffy",
+        "noun": "Mold",
+        "base_cooked_effects": [
+            "+10 food",
+            "+5.5 health every sec for 20 sec",
+            "+6% reduced damage taken from bosses for 10 min"
+        ],
+        "rarity": "Uncommon",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Puffungi",
+        "adjective": "Puffy",
+        "noun": "Mold",
+        "base_cooked_effects": [
+            "+10 food",
+            "+7.9 health every sec for 20 sec",
+            "+9% reduced damage taken from bosses for 10 min",
+            "+14% damage against bosses for 1 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Pewpaya",
+        "adjective": "Juicy",
+        "noun": "Fruit",
+        "base_cooked_effects": [
+            "+20 food",
+            "+6.3 health every sec for 20 sec",
+            "+22.4% physical range damage for 10 min"
+        ],
+        "rarity": "Uncommon",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Pewpaya",
+        "adjective": "Juicy",
+        "noun": "Fruit",
+        "base_cooked_effects": [
+            "+21 food",
+            "+8.2 health every sec for 20 sec",
+            "+28.2% physical range damage for 10 min",
+            "+8.4% range attack speed for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Pinegrapple",
+        "adjective": "Sweet",
+        "noun": "Tropics",
+        "base_cooked_effects": [
+            "+20 food",
+            "+5.4 health every sec for 20 sec",
+            "+22.4% physical melee damage for 10 min"
+        ],
+        "rarity": "Uncommon",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Pinegrapple",
+        "adjective": "Sweet",
+        "noun": "Tropics",
+        "base_cooked_effects": [
+            "+21 food",
+            "+9 health every sec for 20 sec",
+            "+28.2% physical melee damage for 10 min",
+            "+8.4% melee attack speed for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Sunrice",
+        "adjective": "Radiant",
+        "noun": "Sun",
+        "base_cooked_effects": [
+            "+13 food",
+            "+4 glow for 10 min",
+            "+30% magic damage for 10 min"
+        ],
+        "rarity": "Uncommon",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Sunrice",
+        "adjective": "Radiant",
+        "noun": "Sun",
+        "base_cooked_effects": [
+            "+13 food",
+            "+4 glow for 10 min",
+            "+43.3% magic damage for 10 min",
+            "+49 magic barrier for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Lunacorn",
+        "adjective": "Iridescent",
+        "noun": "Moon",
+        "base_cooked_effects": [
+            "+13 food",
+            "+4 blue glow for 10 min",
+            "+30% minion damage for 10 min"
+        ],
+        "rarity": "Uncommon",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Lunacorn",
+        "adjective": "Iridescent",
+        "noun": "Moon",
+        "base_cooked_effects": [
+            "+14 food",
+            "+4 blue glow for 10 min",
+            "+39.5% minion damage for 10 min",
+            "+55.2% minion attack speed for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Grumpkin",
+        "adjective": "Lumpy",
+        "noun": "Lump",
+        "base_cooked_effects": [
+            "+21 food",
+            "+4.3 health every sec for 20 sec",
+            "+45 mining damage for 10 min"
+        ],
+        "rarity": "Uncommon",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Golden Grumpkin",
+        "adjective": "Lumpy",
+        "noun": "Lump",
+        "base_cooked_effects": [
+            "+18 food",
+            "+6.2 health every sec for 20 sec",
+            "+71 mining damage for 10 min",
+            "+7.2% mining speed for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Giant Mushroom",
+        "adjective": "Giant",
+        "noun": "Mushroom",
+        "base_cooked_effects": [
+            "+31 food",
+            "+25 max health (only once)",
+            "+24 max health for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    },
+    {
+        "food_name": "Giant Mushroom",
+        "adjective": "old",
+        "noun": "",
+        "base_cooked_effects": [
+            "+31 food",
+            "+25 max health",
+            "+24 max health for 10 min"
+        ],
+        "rarity": "Rare",
+        "type": "Plants"
+    }
+]
