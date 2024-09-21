@@ -33,6 +33,7 @@ def process_food_table_data(soup, table_id):
 
         if columns and len(columns) >= 3:
             food_name = columns[0].text.strip()
+            wiki_url = columns[0].find('a')['href'] if columns[0].find('a') else ""
             effects = [effect.strip() for effect in columns[1].find_all(string=True) if effect.strip()]
             base_cooked_effects = (
                 [effect.strip() for effect in columns[2].find_all(string=True) if effect.strip()]
@@ -48,7 +49,8 @@ def process_food_table_data(soup, table_id):
                 'effects': effects,
                 'base_cooked_effects': base_cooked_effects,
                 'sell_value': sell_value,
-                'image_file_path': img_filename
+                'image_file_path': img_filename,
+                'wiki_url': wiki_url
             })
 
             print(f'{Fore.CYAN}{len(data)}. {food_name}')

@@ -6,7 +6,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_file_path": "images\\Green_Kelp.png"
+        "image_file_path": "images\\Green_Kelp.png",
+        "wiki_url": "/wiki/Green_Kelp"
     },
     {
         "food_name": "Grey Kelp",
@@ -15,7 +16,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_file_path": "images\\Grey_Kelp.png"
+        "image_file_path": "images\\Grey_Kelp.png",
+        "wiki_url": "/wiki/Grey_Kelp"
     },
     {
         "food_name": "Yellow Kelp",
@@ -24,7 +26,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_file_path": "images\\Yellow_Kelp.png"
+        "image_file_path": "images\\Yellow_Kelp.png",
+        "wiki_url": "/wiki/Yellow_Kelp"
     },
     {
         "food_name": "Red Kelp",
@@ -33,7 +36,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_file_path": "images\\Red_Kelp.png"
+        "image_file_path": "images\\Red_Kelp.png",
+        "wiki_url": "/wiki/Red_Kelp"
     },
     {
         "food_name": "Pale Kelp",
@@ -42,7 +46,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_file_path": "images\\Pale_Kelp.png"
+        "image_file_path": "images\\Pale_Kelp.png",
+        "wiki_url": "/wiki/Pale_Kelp"
     },
     {
         "food_name": "Blue Kelp",
@@ -51,7 +56,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_file_path": "images\\Blue_Kelp.png"
+        "image_file_path": "images\\Blue_Kelp.png",
+        "wiki_url": "/wiki/Blue_Kelp"
     },
     {
         "food_name": "Flesh Kelp",
@@ -60,7 +66,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "9",
-        "image_file_path": "images\\Flesh_Kelp.png"
+        "image_file_path": "images\\Flesh_Kelp.png",
+        "wiki_url": "/wiki/Flesh_Kelp"
     },
     {
         "food_name": "Dark Blue Kelp",
@@ -69,7 +76,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "11",
-        "image_file_path": "images\\Dark_Blue_Kelp.png"
+        "image_file_path": "images\\Dark_Blue_Kelp.png",
+        "wiki_url": "/wiki/Dark_Blue_Kelp"
     },
     {
         "food_name": "Crystal Kelp",
@@ -78,7 +86,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "10",
-        "image_file_path": "images\\Crystal_Kelp.png"
+        "image_file_path": "images\\Crystal_Kelp.png",
+        "wiki_url": "/wiki/Crystal_Kelp"
     },
     {
         "food_name": "Evil Eye Candy",
@@ -88,7 +97,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Evil_Eye_Candy.png"
+        "image_file_path": "images\\Evil_Eye_Candy.png",
+        "wiki_url": "/wiki/Evil_Eye_Candy"
     },
     {
         "food_name": "Spooky Pop Candy",
@@ -98,7 +108,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Spooky_Pop_Candy.png"
+        "image_file_path": "images\\Spooky_Pop_Candy.png",
+        "wiki_url": "/wiki/Spooky_Pop_Candy"
     },
     {
         "food_name": "Chewy Cone Candy",
@@ -109,7 +120,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Chewy_Cone_Candy.png"
+        "image_file_path": "images\\Chewy_Cone_Candy.png",
+        "wiki_url": "/wiki/Chewy_Cone_Candy"
     },
     {
         "food_name": "Winter Cookies",
@@ -119,7 +131,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Winter_Cookies.png"
+        "image_file_path": "images\\Winter_Cookies.png",
+        "wiki_url": "/wiki/Winter_Cookies"
     },
     {
         "food_name": "Box of Chocolates",
@@ -129,7 +142,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Box_of_Chocolates.png"
+        "image_file_path": "images\\Box_of_Chocolates.png",
+        "wiki_url": "/wiki/Box_of_Chocolates"
     },
     {
         "food_name": "Rainbow Kelp",
@@ -142,7 +156,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "63",
-        "image_file_path": "images\\Rainbow_Kelp.png"
+        "image_file_path": "images\\Rainbow_Kelp.png",
+        "wiki_url": "/wiki/Rainbow_Kelp"
     },
     {
         "food_name": "Golden Chocolate",
@@ -153,7 +168,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "17",
-        "image_file_path": "images\\Golden_Chocolate.png"
+        "image_file_path": "images\\Golden_Chocolate.png",
+        "wiki_url": "/wiki/Golden_Chocolate"
     },
     {
         "food_name": "Glazed Heart Berry",
@@ -163,7 +179,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Glazed_Heart_Berry.png"
+        "image_file_path": "images\\Glazed_Heart_Berry.png",
+        "wiki_url": "/wiki/Glazed_Heart_Berry"
     },
     {
         "food_name": "Food Ration",
@@ -173,7 +190,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_file_path": "images\\Food_Ration.png"
+        "image_file_path": "images\\Food_Ration.png",
+        "wiki_url": "/wiki/Food_Ration"
     },
     {
         "food_name": "Lunar Cheese",
@@ -184,7 +202,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Lunar_Cheese.png"
+        "image_file_path": "images\\Lunar_Cheese.png",
+        "wiki_url": "/wiki/Lunar_Cheese"
     },
     {
         "food_name": "Cave Crunch",
@@ -194,7 +213,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Cave_Crunch.png"
+        "image_file_path": "images\\Cave_Crunch.png",
+        "wiki_url": "/wiki/Cave_Crunch"
     },
     {
         "food_name": "Tentacle Jerky",
@@ -204,7 +224,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Tentacle_Jerky.png"
+        "image_file_path": "images\\Tentacle_Jerky.png",
+        "wiki_url": "/wiki/Tentacle_Jerky"
     },
     {
         "food_name": "Kelp Dumpling",
@@ -215,7 +236,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Kelp_Dumpling.png"
+        "image_file_path": "images\\Kelp_Dumpling.png",
+        "wiki_url": "/wiki/Kelp_Dumpling"
     },
     {
         "food_name": "Caveling Bread",
@@ -224,7 +246,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Caveling_Bread.png"
+        "image_file_path": "images\\Caveling_Bread.png",
+        "wiki_url": "/wiki/Caveling_Bread"
     },
     {
         "food_name": "Winter Dinner",
@@ -237,7 +260,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "11",
-        "image_file_path": "images\\Winter_Dinner.png"
+        "image_file_path": "images\\Winter_Dinner.png",
+        "wiki_url": "/wiki/Winter_Dinner"
     },
     {
         "food_name": "Fruit Bread",
@@ -247,7 +271,8 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_file_path": "images\\Fruit_Bread.png"
+        "image_file_path": "images\\Fruit_Bread.png",
+        "wiki_url": "/wiki/Fruit_Bread"
     },
     {
         "food_name": "Anniversary Cake",
@@ -258,6 +283,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "156",
-        "image_file_path": "images\\Anniversary_Cake.png"
+        "image_file_path": "images\\Anniversary_Cake.png",
+        "wiki_url": "/wiki/Anniversary_Cake"
     }
 ]
