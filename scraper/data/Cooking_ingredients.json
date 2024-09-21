@@ -11,7 +11,8 @@
             "+6% critical hit chance for 10 min"
         ],
         "sell_value": "1",
-        "image_file_path": "images\\Larva_Meat.png"
+        "image_file_path": "images\\Larva_Meat.png",
+        "wiki_url": "/wiki/Larva_Meat"
     },
     {
         "food_name": "Shiny Larva Meat",
@@ -26,7 +27,8 @@
             "+4 life on melee hit for 10 min"
         ],
         "sell_value": "12",
-        "image_file_path": "images\\Shiny_Larva_Meat.png"
+        "image_file_path": "images\\Shiny_Larva_Meat.png",
+        "wiki_url": "/wiki/Shiny_Larva_Meat"
     },
     {
         "food_name": "Mushroom",
@@ -39,7 +41,8 @@
             "+4.2 health every sec for 20 sec"
         ],
         "sell_value": "1",
-        "image_file_path": "images\\Mushroom.png"
+        "image_file_path": "images\\Mushroom.png",
+        "wiki_url": "/wiki/Mushroom"
     },
     {
         "food_name": "Giant Mushroom",
@@ -53,7 +56,8 @@
             "+24 max health for 10 min"
         ],
         "sell_value": "12",
-        "image_file_path": "images\\Giant_Mushroom.png"
+        "image_file_path": "images\\Giant_Mushroom.png",
+        "wiki_url": "/wiki/Giant_Mushroom"
     },
     {
         "food_name": "Amber Larva",
@@ -67,7 +71,8 @@
             "+52 max health for 5 min"
         ],
         "sell_value": "17",
-        "image_file_path": "images\\Amber_Larva.png"
+        "image_file_path": "images\\Amber_Larva.png",
+        "wiki_url": "/wiki/Amber_Larva"
     },
     {
         "food_name": "Marbled Meat",
@@ -81,7 +86,8 @@
             "+13.3% damage for 10 min"
         ],
         "sell_value": "1",
-        "image_file_path": "images\\Marbled_Meat.png"
+        "image_file_path": "images\\Marbled_Meat.png",
+        "wiki_url": "/wiki/Marbled_Meat"
     },
     {
         "food_name": "Dodo Egg",
@@ -95,7 +101,8 @@
             "+25% more healing from health over time regeneration for 10 min"
         ],
         "sell_value": "1",
-        "image_file_path": "images\\Dodo_Egg.png"
+        "image_file_path": "images\\Dodo_Egg.png",
+        "wiki_url": "/wiki/Dodo_Egg"
     },
     {
         "food_name": "Heart Berry",
@@ -109,7 +116,8 @@
             "+25 max health for 10 min"
         ],
         "sell_value": "1",
-        "image_file_path": "images\\Heart_Berry.png"
+        "image_file_path": "images\\Heart_Berry.png",
+        "wiki_url": "/wiki/Heart_Berry"
     },
     {
         "food_name": "Glow Tulip",
@@ -123,7 +131,8 @@
             "+1.4 mana every sec for 10 min"
         ],
         "sell_value": "7",
-        "image_file_path": "images\\Glow_Tulip.png"
+        "image_file_path": "images\\Glow_Tulip.png",
+        "wiki_url": "/wiki/Glow_Tulip"
     },
     {
         "food_name": "Bomb Pepper",
@@ -136,7 +145,8 @@
             "+21% movement speed for 1 min"
         ],
         "sell_value": "6",
-        "image_file_path": "images\\Bomb_Pepper.png"
+        "image_file_path": "images\\Bomb_Pepper.png",
+        "wiki_url": "/wiki/Bomb_Pepper"
     },
     {
         "food_name": "Carrock",
@@ -149,7 +159,8 @@
             "+23 armor for 10 min"
         ],
         "sell_value": "5",
-        "image_file_path": "images\\Carrock.png"
+        "image_file_path": "images\\Carrock.png",
+        "wiki_url": "/wiki/Carrock"
     },
     {
         "food_name": "Puffungi",
@@ -163,7 +174,8 @@
             "+6% reduced damage taken from bosses for 10 min"
         ],
         "sell_value": "6",
-        "image_file_path": "images\\Puffungi.png"
+        "image_file_path": "images\\Puffungi.png",
+        "wiki_url": "/wiki/Puffungi"
     },
     {
         "food_name": "Bloat Oat",
@@ -175,7 +187,8 @@
             "+9.1 health every sec for 20 sec"
         ],
         "sell_value": "6",
-        "image_file_path": "images\\Bloat_Oat.png"
+        "image_file_path": "images\\Bloat_Oat.png",
+        "wiki_url": "/wiki/Bloat_Oat"
     },
     {
         "food_name": "Pewpaya",
@@ -189,7 +202,8 @@
             "+22.4% physical range damage for 10 min"
         ],
         "sell_value": "5",
-        "image_file_path": "images\\Pewpaya.png"
+        "image_file_path": "images\\Pewpaya.png",
+        "wiki_url": "/wiki/Pewpaya"
     },
     {
         "food_name": "Pinegrapple",
@@ -203,7 +217,8 @@
             "+22.4% physical melee damage for 10 min"
         ],
         "sell_value": "6",
-        "image_file_path": "images\\Pinegrapple.png"
+        "image_file_path": "images\\Pinegrapple.png",
+        "wiki_url": "/wiki/Pinegrapple"
     },
     {
         "food_name": "Grumpkin",
@@ -217,7 +232,8 @@
             "+45 mining damage for 10 min"
         ],
         "sell_value": "6",
-        "image_file_path": "images\\Grumpkin.png"
+        "image_file_path": "images\\Grumpkin.png",
+        "wiki_url": "/wiki/Grumpkin"
     },
     {
         "food_name": "Sunrice",
@@ -230,7 +246,8 @@
             "+30% magic damage for 10 min"
         ],
         "sell_value": "6",
-        "image_file_path": "images\\Sunrice.png"
+        "image_file_path": "images\\Sunrice.png",
+        "wiki_url": "/wiki/Sunrice"
     },
     {
         "food_name": "Lunacorn",
@@ -243,7 +260,8 @@
             "+30% minion damage for 10 min"
         ],
         "sell_value": "6",
-        "image_file_path": "images\\Lunacorn.png"
+        "image_file_path": "images\\Lunacorn.png",
+        "wiki_url": "/wiki/Lunacorn"
     },
     {
         "food_name": "Golden Heart Berry",
@@ -258,7 +276,8 @@
             "+17.1% physical melee damage for 10 min"
         ],
         "sell_value": "12",
-        "image_file_path": "images\\Golden_Heart_Berry.png"
+        "image_file_path": "images\\Golden_Heart_Berry.png",
+        "wiki_url": "/wiki/Golden_Heart_Berry"
     },
     {
         "food_name": "Golden Glow Tulip",
@@ -273,7 +292,8 @@
             "+25 max mana for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Golden_Glow_Tulip.png"
+        "image_file_path": "images\\Golden_Glow_Tulip.png",
+        "wiki_url": "/wiki/Golden_Glow_Tulip"
     },
     {
         "food_name": "Golden Bomb Pepper",
@@ -287,7 +307,8 @@
             "+8.9% melee attack speed for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Golden_Bomb_Pepper.png"
+        "image_file_path": "images\\Golden_Bomb_Pepper.png",
+        "wiki_url": "/wiki/Golden_Bomb_Pepper"
     },
     {
         "food_name": "Golden Carrock",
@@ -301,7 +322,8 @@
             "+18% knockback chance for 2 min"
         ],
         "sell_value": "12",
-        "image_file_path": "images\\Golden_Carrock.png"
+        "image_file_path": "images\\Golden_Carrock.png",
+        "wiki_url": "/wiki/Golden_Carrock"
     },
     {
         "food_name": "Golden Puffungi",
@@ -316,7 +338,8 @@
             "+14% damage against bosses for 1 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Golden_Puffungi.png"
+        "image_file_path": "images\\Golden_Puffungi.png",
+        "wiki_url": "/wiki/Golden_Puffungi"
     },
     {
         "food_name": "Golden Bloat Oat",
@@ -329,7 +352,8 @@
             "+10% less food drained when running for 10 min"
         ],
         "sell_value": "11",
-        "image_file_path": "images\\Golden_Bloat_Oat.png"
+        "image_file_path": "images\\Golden_Bloat_Oat.png",
+        "wiki_url": "/wiki/Golden_Bloat_Oat"
     },
     {
         "food_name": "Golden Pewpaya",
@@ -344,7 +368,8 @@
             "+8.4% range attack speed for 10 min"
         ],
         "sell_value": "12",
-        "image_file_path": "images\\Golden_Pewpaya.png"
+        "image_file_path": "images\\Golden_Pewpaya.png",
+        "wiki_url": "/wiki/Golden_Pewpaya"
     },
     {
         "food_name": "Golden Pinegrapple",
@@ -359,7 +384,8 @@
             "+8.4% melee attack speed for 10 min"
         ],
         "sell_value": "11",
-        "image_file_path": "images\\Golden_Pinegrapple.png"
+        "image_file_path": "images\\Golden_Pinegrapple.png",
+        "wiki_url": "/wiki/Golden_Pinegrapple"
     },
     {
         "food_name": "Golden Grumpkin",
@@ -374,7 +400,8 @@
             "+7.2% mining speed for 10 min"
         ],
         "sell_value": "12",
-        "image_file_path": "images\\Golden_Grumpkin.png"
+        "image_file_path": "images\\Golden_Grumpkin.png",
+        "wiki_url": "/wiki/Golden_Grumpkin"
     },
     {
         "food_name": "Golden Sunrice",
@@ -388,7 +415,8 @@
             "+49 magic barrier for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Golden_Sunrice.png"
+        "image_file_path": "images\\Golden_Sunrice.png",
+        "wiki_url": "/wiki/Golden_Sunrice"
     },
     {
         "food_name": "Golden Lunacorn",
@@ -402,7 +430,8 @@
             "+55.2% minion attack speed for 10 min"
         ],
         "sell_value": "11",
-        "image_file_path": "images\\Golden_Lunacorn.png"
+        "image_file_path": "images\\Golden_Lunacorn.png",
+        "wiki_url": "/wiki/Golden_Lunacorn"
     },
     {
         "food_name": "Atlantean Worm Heart",
@@ -417,7 +446,8 @@
             "+100 max health (only once)"
         ],
         "sell_value": "17",
-        "image_file_path": "images\\Atlantean_Worm_Heart.png"
+        "image_file_path": "images\\Atlantean_Worm_Heart.png",
+        "wiki_url": "/wiki/Atlantean_Worm_Heart"
     },
     {
         "food_name": "Orange Cave Guppy",
@@ -431,7 +461,8 @@
             "+8 mining damage for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Orange_Cave_Guppy.png"
+        "image_file_path": "images\\Orange_Cave_Guppy.png",
+        "wiki_url": "/wiki/Orange_Cave_Guppy"
     },
     {
         "food_name": "Blue Cave Guppy",
@@ -445,7 +476,8 @@
             "+13 magic barrier for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Blue_Cave_Guppy.png"
+        "image_file_path": "images\\Blue_Cave_Guppy.png",
+        "wiki_url": "/wiki/Blue_Cave_Guppy"
     },
     {
         "food_name": "Rock Jaw",
@@ -459,7 +491,8 @@
             "+15.9% physical melee damage for 10 min"
         ],
         "sell_value": "13",
-        "image_file_path": "images\\Rock_Jaw.png"
+        "image_file_path": "images\\Rock_Jaw.png",
+        "wiki_url": "/wiki/Rock_Jaw"
     },
     {
         "food_name": "Gem Crab",
@@ -473,7 +506,8 @@
             "+14 armor for 10 min"
         ],
         "sell_value": "16",
-        "image_file_path": "images\\Gem_Crab.png"
+        "image_file_path": "images\\Gem_Crab.png",
+        "wiki_url": "/wiki/Gem_Crab"
     },
     {
         "food_name": "Dagger Fin",
@@ -487,7 +521,8 @@
             "+23.3% minion damage for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Dagger_Fin.png"
+        "image_file_path": "images\\Dagger_Fin.png",
+        "wiki_url": "/wiki/Dagger_Fin"
     },
     {
         "food_name": "Pink Palace Fish",
@@ -501,7 +536,8 @@
             "+9.2% melee attack speed for 10 min"
         ],
         "sell_value": "15",
-        "image_file_path": "images\\Pink_Palace_Fish.png"
+        "image_file_path": "images\\Pink_Palace_Fish.png",
+        "wiki_url": "/wiki/Pink_Palace_Fish"
     },
     {
         "food_name": "Teal Palace Fish",
@@ -515,7 +551,8 @@
             "+10.4% range attack speed for 10 min"
         ],
         "sell_value": "13",
-        "image_file_path": "images\\Teal_Palace_Fish.png"
+        "image_file_path": "images\\Teal_Palace_Fish.png",
+        "wiki_url": "/wiki/Teal_Palace_Fish"
     },
     {
         "food_name": "Crown Squid",
@@ -529,7 +566,8 @@
             "+19% knockback chance for 10 min"
         ],
         "sell_value": "19",
-        "image_file_path": "images\\Crown_Squid.png"
+        "image_file_path": "images\\Crown_Squid.png",
+        "wiki_url": "/wiki/Crown_Squid"
     },
     {
         "food_name": "Yellow Blister Head",
@@ -543,7 +581,8 @@
             "Immune to being slowed by slime for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Yellow_Blister_Head.png"
+        "image_file_path": "images\\Yellow_Blister_Head.png",
+        "wiki_url": "/wiki/Yellow_Blister_Head"
     },
     {
         "food_name": "Green Blister Head",
@@ -557,7 +596,8 @@
             "Immune to acid damage for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Green_Blister_Head.png"
+        "image_file_path": "images\\Green_Blister_Head.png",
+        "wiki_url": "/wiki/Green_Blister_Head"
     },
     {
         "food_name": "Devil Worm",
@@ -571,7 +611,8 @@
             "+22.8% physical range damage for 10 min"
         ],
         "sell_value": "13",
-        "image_file_path": "images\\Devil_Worm.png"
+        "image_file_path": "images\\Devil_Worm.png",
+        "wiki_url": "/wiki/Devil_Worm"
     },
     {
         "food_name": "Vampire Eel",
@@ -585,7 +626,8 @@
             "+3 life on melee hit for 10 min"
         ],
         "sell_value": "16",
-        "image_file_path": "images\\Vampire_Eel.png"
+        "image_file_path": "images\\Vampire_Eel.png",
+        "wiki_url": "/wiki/Vampire_Eel"
     },
     {
         "food_name": "Mold Shark",
@@ -599,7 +641,8 @@
             "+38.6% physical melee damage for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Mold_Shark.png"
+        "image_file_path": "images\\Mold_Shark.png",
+        "wiki_url": "/wiki/Mold_Shark"
     },
     {
         "food_name": "Rot Fish",
@@ -612,7 +655,8 @@
             "Immune to mold infection for 10 min"
         ],
         "sell_value": "13",
-        "image_file_path": "images\\Rot_Fish.png"
+        "image_file_path": "images\\Rot_Fish.png",
+        "wiki_url": "/wiki/Rot_Fish"
     },
     {
         "food_name": "Black Steel Urchin",
@@ -627,7 +671,8 @@
             "+15 thorns damage for 10 min"
         ],
         "sell_value": "16",
-        "image_file_path": "images\\Black_Steel_Urchin.png"
+        "image_file_path": "images\\Black_Steel_Urchin.png",
+        "wiki_url": "/wiki/Black_Steel_Urchin"
     },
     {
         "food_name": "Azure Feather Fish",
@@ -640,7 +685,8 @@
             "+8.1 health every sec for 20 sec"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Azure_Feather_Fish.png"
+        "image_file_path": "images\\Azure_Feather_Fish.png",
+        "wiki_url": "/wiki/Azure_Feather_Fish"
     },
     {
         "food_name": "Emerald Feather Fish",
@@ -655,7 +701,8 @@
             "+21% magic damage for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Emerald_Feather_Fish.png"
+        "image_file_path": "images\\Emerald_Feather_Fish.png",
+        "wiki_url": "/wiki/Emerald_Feather_Fish"
     },
     {
         "food_name": "Spirit Veil",
@@ -668,7 +715,8 @@
             "+36.2% movement speed for 2 min"
         ],
         "sell_value": "13",
-        "image_file_path": "images\\Spirit_Veil.png"
+        "image_file_path": "images\\Spirit_Veil.png",
+        "wiki_url": "/wiki/Spirit_Veil"
     },
     {
         "food_name": "Astral Jelly",
@@ -682,7 +730,8 @@
             "+63 fishing for 10 min"
         ],
         "sell_value": "16",
-        "image_file_path": "images\\Astral_Jelly.png"
+        "image_file_path": "images\\Astral_Jelly.png",
+        "wiki_url": "/wiki/Astral_Jelly"
     },
     {
         "food_name": "Bottom Tracer",
@@ -696,7 +745,8 @@
             "+2.8 mana every sec for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Bottom_Tracer.png"
+        "image_file_path": "images\\Bottom_Tracer.png",
+        "wiki_url": "/wiki/Bottom_Tracer"
     },
     {
         "food_name": "Silver Dart",
@@ -710,7 +760,8 @@
             "+31% critical hit damage for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Silver_Dart.png"
+        "image_file_path": "images\\Silver_Dart.png",
+        "wiki_url": "/wiki/Silver_Dart"
     },
     {
         "food_name": "Golden Dart",
@@ -724,7 +775,8 @@
             "+11% dodge chance for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Golden_Dart.png"
+        "image_file_path": "images\\Golden_Dart.png",
+        "wiki_url": "/wiki/Golden_Dart"
     },
     {
         "food_name": "Pink Coralotl",
@@ -739,7 +791,8 @@
             "+36 magic barrier for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Pink_Coralotl.png"
+        "image_file_path": "images\\Pink_Coralotl.png",
+        "wiki_url": "/wiki/Pink_Coralotl"
     },
     {
         "food_name": "White Coralotl",
@@ -753,7 +806,8 @@
             "+14.8% mining speed for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\White_Coralotl.png"
+        "image_file_path": "images\\White_Coralotl.png",
+        "wiki_url": "/wiki/White_Coralotl"
     },
     {
         "food_name": "Solid Spikeback",
@@ -767,7 +821,8 @@
             "+50 thorns damage for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Solid_Spikeback.png"
+        "image_file_path": "images\\Solid_Spikeback.png",
+        "wiki_url": "/wiki/Solid_Spikeback"
     },
     {
         "food_name": "Sandy Spikeback",
@@ -781,7 +836,8 @@
             "+206 mining damage for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Sandy_Spikeback.png"
+        "image_file_path": "images\\Sandy_Spikeback.png",
+        "wiki_url": "/wiki/Sandy_Spikeback"
     },
     {
         "food_name": "Grey Dune Tail",
@@ -795,7 +851,8 @@
             "+13.9% melee attack speed for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Grey_Dune_Tail.png"
+        "image_file_path": "images\\Grey_Dune_Tail.png",
+        "wiki_url": "/wiki/Grey_Dune_Tail"
     },
     {
         "food_name": "Brown Dune Tail",
@@ -809,7 +866,8 @@
             "+13.9% range attack speed for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Brown_Dune_Tail.png"
+        "image_file_path": "images\\Brown_Dune_Tail.png",
+        "wiki_url": "/wiki/Brown_Dune_Tail"
     },
     {
         "food_name": "Tornis Kingfish",
@@ -823,7 +881,8 @@
             "+50.4% damage for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Tornis_Kingfish.png"
+        "image_file_path": "images\\Tornis_Kingfish.png",
+        "wiki_url": "/wiki/Tornis_Kingfish"
     },
     {
         "food_name": "Dark Lava Eater",
@@ -837,7 +896,8 @@
             "+7 life on melee hit for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Dark_Lava_Eater.png"
+        "image_file_path": "images\\Dark_Lava_Eater.png",
+        "wiki_url": "/wiki/Dark_Lava_Eater"
     },
     {
         "food_name": "Bright Lava Eater",
@@ -851,7 +911,8 @@
             "+21% more healing from health over time regeneration for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Bright_Lava_Eater.png"
+        "image_file_path": "images\\Bright_Lava_Eater.png",
+        "wiki_url": "/wiki/Bright_Lava_Eater"
     },
     {
         "food_name": "Verdant Dragonfish",
@@ -864,7 +925,8 @@
             "Immune to burning for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Verdant_Dragonfish.png"
+        "image_file_path": "images\\Verdant_Dragonfish.png",
+        "wiki_url": "/wiki/Verdant_Dragonfish"
     },
     {
         "food_name": "Elder Dragonfish",
@@ -877,7 +939,8 @@
             "Immune to burning for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Elder_Dragonfish.png"
+        "image_file_path": "images\\Elder_Dragonfish.png",
+        "wiki_url": "/wiki/Elder_Dragonfish"
     },
     {
         "food_name": "Starlight Nautilus",
@@ -894,7 +957,8 @@
             "+100 max health (only once)"
         ],
         "sell_value": "\u200eN/A\u200e",
-        "image_file_path": "images\\Starlight_Nautilus.png"
+        "image_file_path": "images\\Starlight_Nautilus.png",
+        "wiki_url": "/wiki/Starlight_Nautilus"
     },
     {
         "food_name": "Beryll Angle Fish",
@@ -907,7 +971,8 @@
             "+136 max health for 10 min"
         ],
         "sell_value": "15",
-        "image_file_path": "images\\Beryll_Angle_Fish.png"
+        "image_file_path": "images\\Beryll_Angle_Fish.png",
+        "wiki_url": "/wiki/Beryll_Angle_Fish"
     },
     {
         "food_name": "Glistening Deepstalker",
@@ -920,7 +985,8 @@
             "+27.2% movement speed for 1 min"
         ],
         "sell_value": "15",
-        "image_file_path": "images\\Glistening_Deepstalker.png"
+        "image_file_path": "images\\Glistening_Deepstalker.png",
+        "wiki_url": "/wiki/Glistening_Deepstalker"
     },
     {
         "food_name": "Cosmic Form",
@@ -933,7 +999,8 @@
             "+30.9% damage dealt by your pet for 10 min"
         ],
         "sell_value": "15",
-        "image_file_path": "images\\Cosmic_Form.png"
+        "image_file_path": "images\\Cosmic_Form.png",
+        "wiki_url": "/wiki/Cosmic_Form"
     },
     {
         "food_name": "Jasper Angle Fish",
@@ -947,7 +1014,8 @@
             "+45 armor for 10 min"
         ],
         "sell_value": "15",
-        "image_file_path": "images\\Jasper_Angle_Fish.png"
+        "image_file_path": "images\\Jasper_Angle_Fish.png",
+        "wiki_url": "/wiki/Jasper_Angle_Fish"
     },
     {
         "food_name": "Splendid Deepstalker",
@@ -961,7 +1029,8 @@
             "+11.3% melee and range attack speed for 10 min"
         ],
         "sell_value": "15",
-        "image_file_path": "images\\Splendid_Deepstalker.png"
+        "image_file_path": "images\\Splendid_Deepstalker.png",
+        "wiki_url": "/wiki/Splendid_Deepstalker"
     },
     {
         "food_name": "Terra Trilobite",
@@ -974,7 +1043,8 @@
             "+344 mining damage for 10 min"
         ],
         "sell_value": "20",
-        "image_file_path": "images\\Terra_Trilobite.png"
+        "image_file_path": "images\\Terra_Trilobite.png",
+        "wiki_url": "/wiki/Terra_Trilobite"
     },
     {
         "food_name": "Litho Trilobite",
@@ -989,7 +1059,8 @@
             "+43 magic barrier for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Litho_Trilobite.png"
+        "image_file_path": "images\\Litho_Trilobite.png",
+        "wiki_url": "/wiki/Litho_Trilobite"
     },
     {
         "food_name": "Pinkhorn Pico",
@@ -1003,7 +1074,8 @@
             "+52.1% minion damage for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Pinkhorn_Pico.png"
+        "image_file_path": "images\\Pinkhorn_Pico.png",
+        "wiki_url": "/wiki/Pinkhorn_Pico"
     },
     {
         "food_name": "Greenhorn Pico",
@@ -1018,7 +1090,8 @@
             "+12% minion critical hit chance for 10 min"
         ],
         "sell_value": "15",
-        "image_file_path": "images\\Greenhorn_Pico.png"
+        "image_file_path": "images\\Greenhorn_Pico.png",
+        "wiki_url": "/wiki/Greenhorn_Pico"
     },
     {
         "food_name": "Riftian Lampfish",
@@ -1035,6 +1108,7 @@
             "+5 blue glow for 10 min"
         ],
         "sell_value": "20",
-        "image_file_path": "images\\Riftian_Lampfish.png"
+        "image_file_path": "images\\Riftian_Lampfish.png",
+        "wiki_url": "/wiki/Riftian_Lampfish"
     }
 ]

@@ -132,7 +132,7 @@ def process_cooking_table_data(soup, table_id):
 def process_cooking_food_items_table_data(soup):
     """Fetch cooking food items data from a table and download associated images."""
 
-    table_id='Food_items'
+    table_id = 'Food_items'
 
     heading = soup.find('span', {'id': table_id})
     if not heading:
@@ -184,7 +184,6 @@ def process_cooking_food_items_table_data(soup):
 
 
 def download_image(img_tag):
-
     image_folder = 'images'
     if not os.path.exists(image_folder):
         os.makedirs(image_folder)
@@ -246,14 +245,12 @@ def get_page_soup(url):
         exit(1)
 
 
-if __name__ == '__main__':
-
+def scrape_data():
     food_soup = get_page_soup('https://core-keeper.fandom.com/wiki/Foods')
 
     food_basic = process_food_table_data(food_soup, 'Basic')
     food_cooking_ingredients = process_food_table_data(food_soup, 'Cooking_ingredients')
     food_unobtainable = process_food_table_data(food_soup, 'Unobtainable')
-
 
     cooking_soup = get_page_soup('https://core-keeper.fandom.com/wiki/Cooking')
 
@@ -262,3 +259,7 @@ if __name__ == '__main__':
     cooking_fish = process_cooking_table_data(cooking_soup, 'Fish')
 
     cooking_food_items = process_cooking_food_items_table_data(cooking_soup)
+
+
+if __name__ == '__main__':
+    scrape_data()

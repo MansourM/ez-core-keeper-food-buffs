@@ -11,7 +11,8 @@
             "+24 max health for 10 min"
         ],
         "sell_value": "10",
-        "image_file_path": "images\\Giant_Mushroom.png"
+        "image_file_path": "images\\Giant_Mushroom.png",
+        "wiki_url": "/wiki/Giant_Mushroom_(old)"
     },
     {
         "food_name": "Amber Larva (old)",
@@ -25,6 +26,7 @@
             "+52 max health for 10 min"
         ],
         "sell_value": "15",
-        "image_file_path": "images\\Amber_Larva.png"
+        "image_file_path": "images\\Amber_Larva.png",
+        "wiki_url": "/wiki/Amber_Larva_(old)"
     }
 ]
