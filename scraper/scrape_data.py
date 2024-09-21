@@ -60,7 +60,6 @@ def process_food_table_data(soup, table_id):
                 f"{Fore.YELLOW}Warning: Skipping row, as it does not have enough columns. Row content: {row.get_text(separator='|', strip=True)}")
 
     save_to_json(data, table_id)
-    print(f'{Fore.GREEN}\n==[ Successfully saved {table_id} data to {table_id}.json ]==\n')
 
     return data
 
@@ -231,6 +230,7 @@ def save_to_json(data, filename):
     try:
         with open(json_file_path, 'w') as json_file:
             json.dump(data, json_file, indent=4)
+        print(f'{Fore.GREEN}\n==[ Successfully saved {filename} data to {json_file_path} ]==\n')
     except Exception as e:
         print(f"{Fore.RED}Failed to save data to {json_file_path}: {e}")
 
