@@ -6,6 +6,7 @@ from colorama import Fore, Style, init
 
 init(autoreset=True)  # Initialize colorama
 
+
 def process_table_data(soup, table_id):
     """Fetch data from a table and download associated images."""
 
@@ -23,7 +24,8 @@ def process_table_data(soup, table_id):
     for row in table.find('tbody').find_all('tr'):
 
         if row.find('th'):
-            print(f"{Fore.YELLOW}Warning: Skipping row (appears to be a header or invalid). Content: {row.get_text(separator='|', strip=True)}")
+            print(
+                f"{Fore.YELLOW}Warning: Skipping row (appears to be a header or invalid). Content: {row.get_text(separator='|', strip=True)}")
             continue
 
         columns = row.find_all('td')
@@ -45,20 +47,22 @@ def process_table_data(soup, table_id):
                 'effects': effects,
                 'base_cooked_effects': base_cooked_effects,
                 'sell_value': sell_value,
-                'image_filename': img_filename
+                'image_file_path': img_filename
             })
 
-            save_to_json(data, table_id + '.json')
-            print(f'{Fore.GREEN}{len(data)}. Successfully saved {food_name} data to {table_id}.json')
+            print(f'{Fore.CYAN}{len(data)}. {food_name}')
 
         else:
-            print(f"{Fore.YELLOW}Warning: Skipping row, as it does not have enough columns. Row content: {row.get_text(separator='|', strip=True)}")
+            print(
+                f"{Fore.YELLOW}Warning: Skipping row, as it does not have enough columns. Row content: {row.get_text(separator='|', strip=True)}")
+
+    save_to_json(data, table_id)
+    print(f'{Fore.GREEN}\n==[ Successfully saved {table_id} data to {table_id}.json ]==\n')
 
     return data
 
 
 def download_image(img_tag):
-
     image_folder = 'images'
     if not os.path.exists(image_folder):
         os.makedirs(image_folder)
@@ -73,34 +77,41 @@ def download_image(img_tag):
         print(f"{Fore.YELLOW}Warning: Skipping base64 encoded image.")
         return ""  # TODO parse base64 img later?
 
-    img_filename = os.path.join(image_folder, img_tag["data-image-key"])
+    img_file_path = os.path.join(image_folder, img_tag["data-image-key"])
 
     try:
         downloaded_image = requests.get(img_url, stream=True)
         downloaded_image.raise_for_status()  # Raise an error for bad status codes
 
-        with open(img_filename, "wb") as file:
+        with open(img_file_path, "wb") as file:
             for chunk in downloaded_image.iter_content(1024):
                 file.write(chunk)
 
-        return img_filename
+        return img_file_path
 
     except requests.exceptions.RequestException as e:
         print(f"{Fore.RED}Failed to download image {img_url}: {e}")
         return ""
 
     except Exception as e:
-        print(f"{Fore.RED}Error saving image {img_filename}: {e}")
+        print(f"{Fore.RED}Error saving image {img_file_path}: {e}")
         return ""
 
 
 def save_to_json(data, filename):
     """Save the data to a JSON file."""
+
+    data_folder = 'data'
+    if not os.path.exists(data_folder):
+        os.makedirs(data_folder)
+
+    json_file_path = os.path.join(data_folder, filename + '.json')
+
     try:
-        with open(filename, 'w') as json_file:
+        with open(json_file_path, 'w') as json_file:
             json.dump(data, json_file, indent=4)
     except Exception as e:
-        print(f"{Fore.RED}Failed to save data to {filename}: {e}")
+        print(f"{Fore.RED}Failed to save data to {json_file_path}: {e}")
 
 
 if __name__ == '__main__':

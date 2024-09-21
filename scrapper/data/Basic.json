@@ -6,7 +6,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_filename": "images\\Green_Kelp.png"
+        "image_file_path": "images\\Green_Kelp.png"
     },
     {
         "food_name": "Grey Kelp",
@@ -15,7 +15,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_filename": "images\\Grey_Kelp.png"
+        "image_file_path": "images\\Grey_Kelp.png"
     },
     {
         "food_name": "Yellow Kelp",
@@ -24,7 +24,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_filename": "images\\Yellow_Kelp.png"
+        "image_file_path": "images\\Yellow_Kelp.png"
     },
     {
         "food_name": "Red Kelp",
@@ -33,7 +33,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_filename": "images\\Red_Kelp.png"
+        "image_file_path": "images\\Red_Kelp.png"
     },
     {
         "food_name": "Pale Kelp",
@@ -42,7 +42,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_filename": "images\\Pale_Kelp.png"
+        "image_file_path": "images\\Pale_Kelp.png"
     },
     {
         "food_name": "Blue Kelp",
@@ -51,7 +51,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_filename": "images\\Blue_Kelp.png"
+        "image_file_path": "images\\Blue_Kelp.png"
     },
     {
         "food_name": "Flesh Kelp",
@@ -60,7 +60,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "9",
-        "image_filename": "images\\Flesh_Kelp.png"
+        "image_file_path": "images\\Flesh_Kelp.png"
     },
     {
         "food_name": "Dark Blue Kelp",
@@ -69,7 +69,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "11",
-        "image_filename": "images\\Dark_Blue_Kelp.png"
+        "image_file_path": "images\\Dark_Blue_Kelp.png"
     },
     {
         "food_name": "Crystal Kelp",
@@ -78,7 +78,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "10",
-        "image_filename": "images\\Crystal_Kelp.png"
+        "image_file_path": "images\\Crystal_Kelp.png"
     },
     {
         "food_name": "Evil Eye Candy",
@@ -88,7 +88,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Evil_Eye_Candy.png"
+        "image_file_path": "images\\Evil_Eye_Candy.png"
     },
     {
         "food_name": "Spooky Pop Candy",
@@ -98,7 +98,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Spooky_Pop_Candy.png"
+        "image_file_path": "images\\Spooky_Pop_Candy.png"
     },
     {
         "food_name": "Chewy Cone Candy",
@@ -109,7 +109,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Chewy_Cone_Candy.png"
+        "image_file_path": "images\\Chewy_Cone_Candy.png"
     },
     {
         "food_name": "Winter Cookies",
@@ -119,7 +119,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Winter_Cookies.png"
+        "image_file_path": "images\\Winter_Cookies.png"
     },
     {
         "food_name": "Box of Chocolates",
@@ -129,7 +129,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Box_of_Chocolates.png"
+        "image_file_path": "images\\Box_of_Chocolates.png"
     },
     {
         "food_name": "Rainbow Kelp",
@@ -142,7 +142,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "63",
-        "image_filename": "images\\Rainbow_Kelp.png"
+        "image_file_path": "images\\Rainbow_Kelp.png"
     },
     {
         "food_name": "Golden Chocolate",
@@ -153,7 +153,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "17",
-        "image_filename": "images\\Golden_Chocolate.png"
+        "image_file_path": "images\\Golden_Chocolate.png"
     },
     {
         "food_name": "Glazed Heart Berry",
@@ -163,7 +163,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Glazed_Heart_Berry.png"
+        "image_file_path": "images\\Glazed_Heart_Berry.png"
     },
     {
         "food_name": "Food Ration",
@@ -173,7 +173,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "1",
-        "image_filename": "images\\Food_Ration.png"
+        "image_file_path": "images\\Food_Ration.png"
     },
     {
         "food_name": "Lunar Cheese",
@@ -184,7 +184,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Lunar_Cheese.png"
+        "image_file_path": "images\\Lunar_Cheese.png"
     },
     {
         "food_name": "Cave Crunch",
@@ -194,7 +194,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Cave_Crunch.png"
+        "image_file_path": "images\\Cave_Crunch.png"
     },
     {
         "food_name": "Tentacle Jerky",
@@ -204,7 +204,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Tentacle_Jerky.png"
+        "image_file_path": "images\\Tentacle_Jerky.png"
     },
     {
         "food_name": "Kelp Dumpling",
@@ -215,7 +215,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Kelp_Dumpling.png"
+        "image_file_path": "images\\Kelp_Dumpling.png"
     },
     {
         "food_name": "Caveling Bread",
@@ -224,7 +224,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Caveling_Bread.png"
+        "image_file_path": "images\\Caveling_Bread.png"
     },
     {
         "food_name": "Winter Dinner",
@@ -237,7 +237,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "11",
-        "image_filename": "images\\Winter_Dinner.png"
+        "image_file_path": "images\\Winter_Dinner.png"
     },
     {
         "food_name": "Fruit Bread",
@@ -247,7 +247,7 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "6",
-        "image_filename": "images\\Fruit_Bread.png"
+        "image_file_path": "images\\Fruit_Bread.png"
     },
     {
         "food_name": "Anniversary Cake",
@@ -258,6 +258,6 @@
         ],
         "base_cooked_effects": [],
         "sell_value": "156",
-        "image_filename": "images\\Anniversary_Cake.png"
+        "image_file_path": "images\\Anniversary_Cake.png"
     }
 ]
