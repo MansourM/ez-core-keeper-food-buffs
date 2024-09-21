@@ -1,0 +1,1040 @@
+[
+    {
+        "food_name": "Larva Meat",
+        "effects": [
+            "+11 food",
+            "+2.8 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+22 food",
+            "+2.8 health every sec for 20 sec",
+            "+6% critical hit chance for 10 min"
+        ],
+        "sell_value": "1",
+        "image_filename": "images\\Larva_Meat.png"
+    },
+    {
+        "food_name": "Shiny Larva Meat",
+        "effects": [
+            "+12 food",
+            "+6% critical hit chance for 2 min",
+            "+2 life on melee hit for 2 min"
+        ],
+        "base_cooked_effects": [
+            "+25 food",
+            "+13% critical hit chance for 10 min",
+            "+4 life on melee hit for 10 min"
+        ],
+        "sell_value": "12",
+        "image_filename": "images\\Shiny_Larva_Meat.png"
+    },
+    {
+        "food_name": "Mushroom",
+        "effects": [
+            "+9 food",
+            "+2.1 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+4.2 health every sec for 20 sec"
+        ],
+        "sell_value": "1",
+        "image_filename": "images\\Mushroom.png"
+    },
+    {
+        "food_name": "Giant Mushroom",
+        "effects": [
+            "+15 food",
+            "+25 max health (only once)"
+        ],
+        "base_cooked_effects": [
+            "+31 food",
+            "+25 max health (only once)",
+            "+24 max health for 10 min"
+        ],
+        "sell_value": "12",
+        "image_filename": "images\\Giant_Mushroom.png"
+    },
+    {
+        "food_name": "Amber Larva",
+        "effects": [
+            "+11 food",
+            "+50 max health (only once)"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+50 max health (only once)",
+            "+52 max health for 5 min"
+        ],
+        "sell_value": "17",
+        "image_filename": "images\\Amber_Larva.png"
+    },
+    {
+        "food_name": "Marbled Meat",
+        "effects": [
+            "+13 food",
+            "+2.6 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+27 food",
+            "+2.6 health every sec for 20 sec",
+            "+13.3% damage for 10 min"
+        ],
+        "sell_value": "1",
+        "image_filename": "images\\Marbled_Meat.png"
+    },
+    {
+        "food_name": "Dodo Egg",
+        "effects": [
+            "+10 food",
+            "+4.3 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+30 food",
+            "+4.3 health every sec for 20 sec",
+            "+25% more healing from health over time regeneration for 10 min"
+        ],
+        "sell_value": "1",
+        "image_filename": "images\\Dodo_Egg.png"
+    },
+    {
+        "food_name": "Heart Berry",
+        "effects": [
+            "+9 food",
+            "+2.8 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+2.8 health every sec for 20 sec",
+            "+25 max health for 10 min"
+        ],
+        "sell_value": "1",
+        "image_filename": "images\\Heart_Berry.png"
+    },
+    {
+        "food_name": "Glow Tulip",
+        "effects": [
+            "+1 food",
+            "+4 blue glow for 1 min"
+        ],
+        "base_cooked_effects": [
+            "+2 food",
+            "+5 blue glow for 10 min",
+            "+1.4 mana every sec for 10 min"
+        ],
+        "sell_value": "7",
+        "image_filename": "images\\Glow_Tulip.png"
+    },
+    {
+        "food_name": "Bomb Pepper",
+        "effects": [
+            "+5 food",
+            "-11 health"
+        ],
+        "base_cooked_effects": [
+            "+10 food",
+            "+21% movement speed for 1 min"
+        ],
+        "sell_value": "6",
+        "image_filename": "images\\Bomb_Pepper.png"
+    },
+    {
+        "food_name": "Carrock",
+        "effects": [
+            "+7 food",
+            "+4.1 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+15 food",
+            "+23 armor for 10 min"
+        ],
+        "sell_value": "5",
+        "image_filename": "images\\Carrock.png"
+    },
+    {
+        "food_name": "Puffungi",
+        "effects": [
+            "+5 food",
+            "-23 health"
+        ],
+        "base_cooked_effects": [
+            "+10 food",
+            "+5.5 health every sec for 20 sec",
+            "+6% reduced damage taken from bosses for 10 min"
+        ],
+        "sell_value": "6",
+        "image_filename": "images\\Puffungi.png"
+    },
+    {
+        "food_name": "Bloat Oat",
+        "effects": [
+            "+22 food"
+        ],
+        "base_cooked_effects": [
+            "+43 food",
+            "+9.1 health every sec for 20 sec"
+        ],
+        "sell_value": "6",
+        "image_filename": "images\\Bloat_Oat.png"
+    },
+    {
+        "food_name": "Pewpaya",
+        "effects": [
+            "+10 food",
+            "+6.3 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+6.3 health every sec for 20 sec",
+            "+22.4% physical range damage for 10 min"
+        ],
+        "sell_value": "5",
+        "image_filename": "images\\Pewpaya.png"
+    },
+    {
+        "food_name": "Pinegrapple",
+        "effects": [
+            "+10 food",
+            "+5.4 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+5.4 health every sec for 20 sec",
+            "+22.4% physical melee damage for 10 min"
+        ],
+        "sell_value": "6",
+        "image_filename": "images\\Pinegrapple.png"
+    },
+    {
+        "food_name": "Grumpkin",
+        "effects": [
+            "+11 food",
+            "+4.3 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+4.3 health every sec for 20 sec",
+            "+45 mining damage for 10 min"
+        ],
+        "sell_value": "6",
+        "image_filename": "images\\Grumpkin.png"
+    },
+    {
+        "food_name": "Sunrice",
+        "effects": [
+            "+7 food"
+        ],
+        "base_cooked_effects": [
+            "+13 food",
+            "+4 glow for 10 min",
+            "+30% magic damage for 10 min"
+        ],
+        "sell_value": "6",
+        "image_filename": "images\\Sunrice.png"
+    },
+    {
+        "food_name": "Lunacorn",
+        "effects": [
+            "+6 food"
+        ],
+        "base_cooked_effects": [
+            "+13 food",
+            "+4 blue glow for 10 min",
+            "+30% minion damage for 10 min"
+        ],
+        "sell_value": "6",
+        "image_filename": "images\\Lunacorn.png"
+    },
+    {
+        "food_name": "Golden Heart Berry",
+        "effects": [
+            "+9 food",
+            "+3.9 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+18 food",
+            "+4.4 health every sec for 20 sec",
+            "+50 max health for 10 min",
+            "+17.1% physical melee damage for 10 min"
+        ],
+        "sell_value": "12",
+        "image_filename": "images\\Golden_Heart_Berry.png"
+    },
+    {
+        "food_name": "Golden Glow Tulip",
+        "effects": [
+            "+1 food",
+            "+5 blue glow for 1 min"
+        ],
+        "base_cooked_effects": [
+            "+2 food",
+            "+6 blue glow for 10 min",
+            "+2.3 mana every sec for 10 min",
+            "+25 max mana for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Golden_Glow_Tulip.png"
+    },
+    {
+        "food_name": "Golden Bomb Pepper",
+        "effects": [
+            "+5 food",
+            "-14 health"
+        ],
+        "base_cooked_effects": [
+            "+11 food",
+            "+26.9% movement speed for 1 min",
+            "+8.9% melee attack speed for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Golden_Bomb_Pepper.png"
+    },
+    {
+        "food_name": "Golden Carrock",
+        "effects": [
+            "+6 food",
+            "+5.4 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+13 food",
+            "+26 armor for 10 min",
+            "+18% knockback chance for 2 min"
+        ],
+        "sell_value": "12",
+        "image_filename": "images\\Golden_Carrock.png"
+    },
+    {
+        "food_name": "Golden Puffungi",
+        "effects": [
+            "+5 food",
+            "-25 health"
+        ],
+        "base_cooked_effects": [
+            "+10 food",
+            "+7.9 health every sec for 20 sec",
+            "+9% reduced damage taken from bosses for 10 min",
+            "+14% damage against bosses for 1 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Golden_Puffungi.png"
+    },
+    {
+        "food_name": "Golden Bloat Oat",
+        "effects": [
+            "+21 food"
+        ],
+        "base_cooked_effects": [
+            "+42 food",
+            "+12.1 health every sec for 20 sec",
+            "+10% less food drained when running for 10 min"
+        ],
+        "sell_value": "11",
+        "image_filename": "images\\Golden_Bloat_Oat.png"
+    },
+    {
+        "food_name": "Golden Pewpaya",
+        "effects": [
+            "+10 food",
+            "+7.4 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+8.2 health every sec for 20 sec",
+            "+28.2% physical range damage for 10 min",
+            "+8.4% range attack speed for 10 min"
+        ],
+        "sell_value": "12",
+        "image_filename": "images\\Golden_Pewpaya.png"
+    },
+    {
+        "food_name": "Golden Pinegrapple",
+        "effects": [
+            "+10 food",
+            "+6.8 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+9 health every sec for 20 sec",
+            "+28.2% physical melee damage for 10 min",
+            "+8.4% melee attack speed for 10 min"
+        ],
+        "sell_value": "11",
+        "image_filename": "images\\Golden_Pinegrapple.png"
+    },
+    {
+        "food_name": "Golden Grumpkin",
+        "effects": [
+            "+9 food",
+            "+5.6 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+18 food",
+            "+6.2 health every sec for 20 sec",
+            "+71 mining damage for 10 min",
+            "+7.2% mining speed for 10 min"
+        ],
+        "sell_value": "12",
+        "image_filename": "images\\Golden_Grumpkin.png"
+    },
+    {
+        "food_name": "Golden Sunrice",
+        "effects": [
+            "+7 food"
+        ],
+        "base_cooked_effects": [
+            "+13 food",
+            "+4 glow for 10 min",
+            "+43.3% magic damage for 10 min",
+            "+49 magic barrier for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Golden_Sunrice.png"
+    },
+    {
+        "food_name": "Golden Lunacorn",
+        "effects": [
+            "+7 food"
+        ],
+        "base_cooked_effects": [
+            "+14 food",
+            "+4 blue glow for 10 min",
+            "+39.5% minion damage for 10 min",
+            "+55.2% minion attack speed for 10 min"
+        ],
+        "sell_value": "11",
+        "image_filename": "images\\Golden_Lunacorn.png"
+    },
+    {
+        "food_name": "Atlantean Worm Heart",
+        "effects": [
+            "+14 food",
+            "+9.5 health every sec for 20 sec",
+            "+100 max health (only once)"
+        ],
+        "base_cooked_effects": [
+            "+27 food",
+            "+20 health every sec to you and all nearby allies for 20 sec",
+            "+100 max health (only once)"
+        ],
+        "sell_value": "17",
+        "image_filename": "images\\Atlantean_Worm_Heart.png"
+    },
+    {
+        "food_name": "Orange Cave Guppy",
+        "effects": [
+            "+10 food",
+            "+2.1 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+2.1 health every sec for 20 sec",
+            "+8 mining damage for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Orange_Cave_Guppy.png"
+    },
+    {
+        "food_name": "Blue Cave Guppy",
+        "effects": [
+            "+11 food",
+            "+2.2 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+2.2 health every sec for 20 sec",
+            "+13 magic barrier for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Blue_Cave_Guppy.png"
+    },
+    {
+        "food_name": "Rock Jaw",
+        "effects": [
+            "+11 food",
+            "+2.5 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+22 food",
+            "+2.5 health every sec for 20 sec",
+            "+15.9% physical melee damage for 10 min"
+        ],
+        "sell_value": "13",
+        "image_filename": "images\\Rock_Jaw.png"
+    },
+    {
+        "food_name": "Gem Crab",
+        "effects": [
+            "+10 food",
+            "+3.1 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+3.1 health every sec for 20 sec",
+            "+14 armor for 10 min"
+        ],
+        "sell_value": "16",
+        "image_filename": "images\\Gem_Crab.png"
+    },
+    {
+        "food_name": "Dagger Fin",
+        "effects": [
+            "+11 food",
+            "+3.9 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+3.9 health every sec for 20 sec",
+            "+23.3% minion damage for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Dagger_Fin.png"
+    },
+    {
+        "food_name": "Pink Palace Fish",
+        "effects": [
+            "+11 food",
+            "+3.9 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+22 food",
+            "+3.9 health every sec for 20 sec",
+            "+9.2% melee attack speed for 10 min"
+        ],
+        "sell_value": "15",
+        "image_filename": "images\\Pink_Palace_Fish.png"
+    },
+    {
+        "food_name": "Teal Palace Fish",
+        "effects": [
+            "+11 food",
+            "+4 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+4 health every sec for 20 sec",
+            "+10.4% range attack speed for 10 min"
+        ],
+        "sell_value": "13",
+        "image_filename": "images\\Teal_Palace_Fish.png"
+    },
+    {
+        "food_name": "Crown Squid",
+        "effects": [
+            "+10 food",
+            "+5 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+5 health every sec for 20 sec",
+            "+19% knockback chance for 10 min"
+        ],
+        "sell_value": "19",
+        "image_filename": "images\\Crown_Squid.png"
+    },
+    {
+        "food_name": "Yellow Blister Head",
+        "effects": [
+            "+10 food",
+            "+2.6 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+2.6 health every sec for 20 sec",
+            "Immune to being slowed by slime for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Yellow_Blister_Head.png"
+    },
+    {
+        "food_name": "Green Blister Head",
+        "effects": [
+            "+10 food",
+            "+2.5 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+2.5 health every sec for 20 sec",
+            "Immune to acid damage for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Green_Blister_Head.png"
+    },
+    {
+        "food_name": "Devil Worm",
+        "effects": [
+            "+10 food",
+            "+3 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+3 health every sec for 20 sec",
+            "+22.8% physical range damage for 10 min"
+        ],
+        "sell_value": "13",
+        "image_filename": "images\\Devil_Worm.png"
+    },
+    {
+        "food_name": "Vampire Eel",
+        "effects": [
+            "+11 food",
+            "+3.5 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+3.5 health every sec for 20 sec",
+            "+3 life on melee hit for 10 min"
+        ],
+        "sell_value": "16",
+        "image_filename": "images\\Vampire_Eel.png"
+    },
+    {
+        "food_name": "Mold Shark",
+        "effects": [
+            "+10 food",
+            "+4.8 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+4.8 health every sec for 20 sec",
+            "+38.6% physical melee damage for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Mold_Shark.png"
+    },
+    {
+        "food_name": "Rot Fish",
+        "effects": [
+            "+11 food",
+            "-22 health"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "Immune to mold infection for 10 min"
+        ],
+        "sell_value": "13",
+        "image_filename": "images\\Rot_Fish.png"
+    },
+    {
+        "food_name": "Black Steel Urchin",
+        "effects": [
+            "+10 food",
+            "+5.3 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+3.6 health every sec for 20 sec",
+            "+22 armor for 10 min",
+            "+15 thorns damage for 10 min"
+        ],
+        "sell_value": "16",
+        "image_filename": "images\\Black_Steel_Urchin.png"
+    },
+    {
+        "food_name": "Azure Feather Fish",
+        "effects": [
+            "+10 food",
+            "+4.1 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+8.1 health every sec for 20 sec"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Azure_Feather_Fish.png"
+    },
+    {
+        "food_name": "Emerald Feather Fish",
+        "effects": [
+            "+10 food",
+            "+4.5 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+3 health every sec for 20 sec",
+            "+29 max mana for 10 min",
+            "+21% magic damage for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Emerald_Feather_Fish.png"
+    },
+    {
+        "food_name": "Spirit Veil",
+        "effects": [
+            "+9 food",
+            "+4.7 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+36.2% movement speed for 2 min"
+        ],
+        "sell_value": "13",
+        "image_filename": "images\\Spirit_Veil.png"
+    },
+    {
+        "food_name": "Astral Jelly",
+        "effects": [
+            "+10 food",
+            "+5.2 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+5.2 health every sec for 20 sec",
+            "+63 fishing for 10 min"
+        ],
+        "sell_value": "16",
+        "image_filename": "images\\Astral_Jelly.png"
+    },
+    {
+        "food_name": "Bottom Tracer",
+        "effects": [
+            "+10 food",
+            "+5.8 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+5.8 health every sec for 20 sec",
+            "+2.8 mana every sec for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Bottom_Tracer.png"
+    },
+    {
+        "food_name": "Silver Dart",
+        "effects": [
+            "+11 food",
+            "+5.5 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+5.5 health every sec for 20 sec",
+            "+31% critical hit damage for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Silver_Dart.png"
+    },
+    {
+        "food_name": "Golden Dart",
+        "effects": [
+            "+11 food",
+            "+5.7 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+22 food",
+            "+5.7 health every sec for 20 sec",
+            "+11% dodge chance for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Golden_Dart.png"
+    },
+    {
+        "food_name": "Pink Coralotl",
+        "effects": [
+            "+11 food",
+            "+7 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+22 food",
+            "+4.7 health every sec for 20 sec",
+            "+50 max mana for 10 min",
+            "+36 magic barrier for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Pink_Coralotl.png"
+    },
+    {
+        "food_name": "White Coralotl",
+        "effects": [
+            "+9 food",
+            "+5.8 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+5.8 health every sec for 20 sec",
+            "+14.8% mining speed for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\White_Coralotl.png"
+    },
+    {
+        "food_name": "Solid Spikeback",
+        "effects": [
+            "+11 food",
+            "+6.4 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+38 armor for 10 min",
+            "+50 thorns damage for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Solid_Spikeback.png"
+    },
+    {
+        "food_name": "Sandy Spikeback",
+        "effects": [
+            "+10 food",
+            "+7 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+78 max health for 10 min",
+            "+206 mining damage for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Sandy_Spikeback.png"
+    },
+    {
+        "food_name": "Grey Dune Tail",
+        "effects": [
+            "+10 food",
+            "+6.7 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+6.7 health every sec for 20 sec",
+            "+13.9% melee attack speed for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Grey_Dune_Tail.png"
+    },
+    {
+        "food_name": "Brown Dune Tail",
+        "effects": [
+            "+11 food",
+            "+8.1 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+8.1 health every sec for 20 sec",
+            "+13.9% range attack speed for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Brown_Dune_Tail.png"
+    },
+    {
+        "food_name": "Tornis Kingfish",
+        "effects": [
+            "+10 food",
+            "+7.8 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+7.8 health every sec for 20 sec",
+            "+50.4% damage for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Tornis_Kingfish.png"
+    },
+    {
+        "food_name": "Dark Lava Eater",
+        "effects": [
+            "+10 food",
+            "+7.8 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+7.8 health every sec for 20 sec",
+            "+7 life on melee hit for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Dark_Lava_Eater.png"
+    },
+    {
+        "food_name": "Bright Lava Eater",
+        "effects": [
+            "+10 food",
+            "+7.1 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+7.1 health every sec for 20 sec",
+            "+21% more healing from health over time regeneration for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Bright_Lava_Eater.png"
+    },
+    {
+        "food_name": "Verdant Dragonfish",
+        "effects": [
+            "+10 food"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+41% critical hit damage for 10 min",
+            "Immune to burning for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Verdant_Dragonfish.png"
+    },
+    {
+        "food_name": "Elder Dragonfish",
+        "effects": [
+            "+9 food"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+14% critical hit chance for 10 min",
+            "Immune to burning for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Elder_Dragonfish.png"
+    },
+    {
+        "food_name": "Starlight Nautilus",
+        "effects": [
+            "+10 food",
+            "+17.7 health every sec for 20 sec",
+            "+100 max health (only once)"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+17.7 health every sec for 20 sec",
+            "+7% critical hit chance for 10 min",
+            "+8.5% melee and range attack speed for 10 min",
+            "+100 max health (only once)"
+        ],
+        "sell_value": "\u200eN/A\u200e",
+        "image_filename": "images\\Starlight_Nautilus.png"
+    },
+    {
+        "food_name": "Beryll Angle Fish",
+        "effects": [
+            "+10 food",
+            "+7.5 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+136 max health for 10 min"
+        ],
+        "sell_value": "15",
+        "image_filename": "images\\Beryll_Angle_Fish.png"
+    },
+    {
+        "food_name": "Glistening Deepstalker",
+        "effects": [
+            "+10 food"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+13% dodge chance for 10 min",
+            "+27.2% movement speed for 1 min"
+        ],
+        "sell_value": "15",
+        "image_filename": "images\\Glistening_Deepstalker.png"
+    },
+    {
+        "food_name": "Cosmic Form",
+        "effects": [
+            "+9 food",
+            "+8.2 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+18 food",
+            "+30.9% damage dealt by your pet for 10 min"
+        ],
+        "sell_value": "15",
+        "image_filename": "images\\Cosmic_Form.png"
+    },
+    {
+        "food_name": "Jasper Angle Fish",
+        "effects": [
+            "+9 food",
+            "+8.5 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+96 max health for 10 min",
+            "+45 armor for 10 min"
+        ],
+        "sell_value": "15",
+        "image_filename": "images\\Jasper_Angle_Fish.png"
+    },
+    {
+        "food_name": "Splendid Deepstalker",
+        "effects": [
+            "+10 food"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+10% dodge chance for 10 min",
+            "+21.2% movement speed for 1 min",
+            "+11.3% melee and range attack speed for 10 min"
+        ],
+        "sell_value": "15",
+        "image_filename": "images\\Splendid_Deepstalker.png"
+    },
+    {
+        "food_name": "Terra Trilobite",
+        "effects": [
+            "+9 food"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+103 max health for 10 min",
+            "+344 mining damage for 10 min"
+        ],
+        "sell_value": "20",
+        "image_filename": "images\\Terra_Trilobite.png"
+    },
+    {
+        "food_name": "Litho Trilobite",
+        "effects": [
+            "+11 food",
+            "+8.3 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+22 food",
+            "+5.5 health every sec for 20 sec",
+            "+69 max mana for 10 min",
+            "+43 magic barrier for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Litho_Trilobite.png"
+    },
+    {
+        "food_name": "Pinkhorn Pico",
+        "effects": [
+            "+10 food",
+            "+9.5 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+20 food",
+            "+9.5 health every sec for 20 sec",
+            "+52.1% minion damage for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Pinkhorn_Pico.png"
+    },
+    {
+        "food_name": "Greenhorn Pico",
+        "effects": [
+            "+11 food",
+            "+9.9 health every sec for 20 sec"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+6.6 health every sec for 40 sec",
+            "+36.8% minion attack speed for 10 min",
+            "+12% minion critical hit chance for 10 min"
+        ],
+        "sell_value": "15",
+        "image_filename": "images\\Greenhorn_Pico.png"
+    },
+    {
+        "food_name": "Riftian Lampfish",
+        "effects": [
+            "+10 food",
+            "+5.1 health every sec for 20 sec",
+            "+5 blue glow for 5 min"
+        ],
+        "base_cooked_effects": [
+            "+19 food",
+            "+7.2 health every sec for 20 sec",
+            "+58 max mana for 10 min",
+            "+27.6% magic damage for 10 min",
+            "+5 blue glow for 10 min"
+        ],
+        "sell_value": "20",
+        "image_filename": "images\\Riftian_Lampfish.png"
+    }
+]

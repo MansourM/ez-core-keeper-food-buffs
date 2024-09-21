@@ -1,0 +1,30 @@
+[
+    {
+        "food_name": "Giant Mushroom (old)",
+        "effects": [
+            "+15 food",
+            "+25 max health"
+        ],
+        "base_cooked_effects": [
+            "+31 food",
+            "+25 max health",
+            "+24 max health for 10 min"
+        ],
+        "sell_value": "10",
+        "image_filename": "images\\Giant_Mushroom.png"
+    },
+    {
+        "food_name": "Amber Larva (old)",
+        "effects": [
+            "+11 food",
+            "+50 max health"
+        ],
+        "base_cooked_effects": [
+            "+21 food",
+            "+50 max health",
+            "+52 max health for 10 min"
+        ],
+        "sell_value": "15",
+        "image_filename": "images\\Amber_Larva.png"
+    }
+]
