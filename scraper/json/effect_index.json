@@ -1,0 +1,329 @@
+{
+    "crit_chance": [
+        "Larva Meat",
+        "Shiny Larva Meat",
+        "Elder Dragonfish",
+        "Starlight Nautilus"
+    ],
+    "food": [
+        "Larva Meat",
+        "Shiny Larva Meat",
+        "Mushroom",
+        "Giant Mushroom",
+        "Amber Larva",
+        "Marbled Meat",
+        "Dodo Egg",
+        "Heart Berry",
+        "Glow Tulip",
+        "Bomb Pepper",
+        "Carrock",
+        "Puffungi",
+        "Bloat Oat",
+        "Pewpaya",
+        "Pinegrapple",
+        "Grumpkin",
+        "Sunrice",
+        "Lunacorn",
+        "Golden Heart Berry",
+        "Golden Glow Tulip",
+        "Golden Bomb Pepper",
+        "Golden Carrock",
+        "Golden Puffungi",
+        "Golden Bloat Oat",
+        "Golden Pewpaya",
+        "Golden Pinegrapple",
+        "Golden Grumpkin",
+        "Golden Sunrice",
+        "Golden Lunacorn",
+        "Atlantean Worm Heart",
+        "Orange Cave Guppy",
+        "Blue Cave Guppy",
+        "Rock Jaw",
+        "Gem Crab",
+        "Dagger Fin",
+        "Pink Palace Fish",
+        "Teal Palace Fish",
+        "Crown Squid",
+        "Yellow Blister Head",
+        "Green Blister Head",
+        "Devil Worm",
+        "Vampire Eel",
+        "Mold Shark",
+        "Rot Fish",
+        "Black Steel Urchin",
+        "Azure Feather Fish",
+        "Emerald Feather Fish",
+        "Spirit Veil",
+        "Astral Jelly",
+        "Bottom Tracer",
+        "Silver Dart",
+        "Golden Dart",
+        "Pink Coralotl",
+        "White Coralotl",
+        "Solid Spikeback",
+        "Sandy Spikeback",
+        "Grey Dune Tail",
+        "Brown Dune Tail",
+        "Tornis Kingfish",
+        "Dark Lava Eater",
+        "Bright Lava Eater",
+        "Verdant Dragonfish",
+        "Elder Dragonfish",
+        "Starlight Nautilus",
+        "Beryll Angle Fish",
+        "Glistening Deepstalker",
+        "Cosmic Form",
+        "Jasper Angle Fish",
+        "Splendid Deepstalker",
+        "Terra Trilobite",
+        "Litho Trilobite",
+        "Pinkhorn Pico",
+        "Greenhorn Pico",
+        "Riftian Lampfish"
+    ],
+    "health_regen": [
+        "Larva Meat",
+        "Mushroom",
+        "Marbled Meat",
+        "Dodo Egg",
+        "Heart Berry",
+        "Carrock",
+        "Puffungi",
+        "Bloat Oat",
+        "Pewpaya",
+        "Pinegrapple",
+        "Grumpkin",
+        "Golden Heart Berry",
+        "Golden Carrock",
+        "Golden Puffungi",
+        "Golden Bloat Oat",
+        "Golden Pewpaya",
+        "Golden Pinegrapple",
+        "Golden Grumpkin",
+        "Atlantean Worm Heart",
+        "Orange Cave Guppy",
+        "Blue Cave Guppy",
+        "Rock Jaw",
+        "Gem Crab",
+        "Dagger Fin",
+        "Pink Palace Fish",
+        "Teal Palace Fish",
+        "Crown Squid",
+        "Yellow Blister Head",
+        "Green Blister Head",
+        "Devil Worm",
+        "Vampire Eel",
+        "Mold Shark",
+        "Black Steel Urchin",
+        "Azure Feather Fish",
+        "Emerald Feather Fish",
+        "Spirit Veil",
+        "Astral Jelly",
+        "Bottom Tracer",
+        "Silver Dart",
+        "Golden Dart",
+        "Pink Coralotl",
+        "White Coralotl",
+        "Solid Spikeback",
+        "Sandy Spikeback",
+        "Grey Dune Tail",
+        "Brown Dune Tail",
+        "Tornis Kingfish",
+        "Dark Lava Eater",
+        "Bright Lava Eater",
+        "Starlight Nautilus",
+        "Beryll Angle Fish",
+        "Cosmic Form",
+        "Jasper Angle Fish",
+        "Litho Trilobite",
+        "Pinkhorn Pico",
+        "Greenhorn Pico",
+        "Riftian Lampfish"
+    ],
+    "life_on_hit": [
+        "Shiny Larva Meat",
+        "Vampire Eel",
+        "Dark Lava Eater"
+    ],
+    "permanent_max_health": [
+        "Giant Mushroom",
+        "Amber Larva",
+        "Atlantean Worm Heart",
+        "Starlight Nautilus"
+    ],
+    "max_health": [
+        "Giant Mushroom",
+        "Amber Larva",
+        "Heart Berry",
+        "Golden Heart Berry",
+        "Sandy Spikeback",
+        "Beryll Angle Fish",
+        "Jasper Angle Fish",
+        "Terra Trilobite"
+    ],
+    "damage": [
+        "Marbled Meat",
+        "Tornis Kingfish"
+    ],
+    "healing_boost": [
+        "Dodo Egg",
+        "Bright Lava Eater"
+    ],
+    "mana_regen": [
+        "Glow Tulip",
+        "Golden Glow Tulip",
+        "Bottom Tracer"
+    ],
+    "blue_glow": [
+        "Glow Tulip",
+        "Lunacorn",
+        "Golden Glow Tulip",
+        "Golden Lunacorn",
+        "Riftian Lampfish"
+    ],
+    "health_loss": [
+        "Bomb Pepper",
+        "Puffungi",
+        "Golden Bomb Pepper",
+        "Golden Puffungi",
+        "Rot Fish"
+    ],
+    "movement_speed": [
+        "Bomb Pepper",
+        "Golden Bomb Pepper",
+        "Spirit Veil",
+        "Glistening Deepstalker",
+        "Splendid Deepstalker"
+    ],
+    "armor": [
+        "Carrock",
+        "Golden Carrock",
+        "Gem Crab",
+        "Black Steel Urchin",
+        "Solid Spikeback",
+        "Jasper Angle Fish"
+    ],
+    "reduced_damage_bosses": [
+        "Puffungi",
+        "Golden Puffungi"
+    ],
+    "physical_range_damage": [
+        "Pewpaya",
+        "Golden Pewpaya",
+        "Devil Worm"
+    ],
+    "physical_melee_damage": [
+        "Pinegrapple",
+        "Golden Heart Berry",
+        "Golden Pinegrapple",
+        "Rock Jaw",
+        "Mold Shark"
+    ],
+    "mining_damage": [
+        "Grumpkin",
+        "Golden Grumpkin",
+        "Orange Cave Guppy",
+        "Sandy Spikeback",
+        "Terra Trilobite"
+    ],
+    "magic_damage": [
+        "Sunrice",
+        "Golden Sunrice",
+        "Emerald Feather Fish",
+        "Riftian Lampfish"
+    ],
+    "glow": [
+        "Sunrice",
+        "Golden Sunrice"
+    ],
+    "minion_damage": [
+        "Lunacorn",
+        "Golden Lunacorn",
+        "Dagger Fin",
+        "Pinkhorn Pico"
+    ],
+    "max_mana": [
+        "Golden Glow Tulip",
+        "Emerald Feather Fish",
+        "Pink Coralotl",
+        "Litho Trilobite",
+        "Riftian Lampfish"
+    ],
+    "melee_attack_speed": [
+        "Golden Bomb Pepper",
+        "Golden Pinegrapple",
+        "Pink Palace Fish",
+        "Grey Dune Tail"
+    ],
+    "knockback_chance": [
+        "Golden Carrock",
+        "Crown Squid"
+    ],
+    "damage_against_bosses": [
+        "Golden Puffungi"
+    ],
+    "less_food_drained_running": [
+        "Golden Bloat Oat"
+    ],
+    "range_attack_speed": [
+        "Golden Pewpaya",
+        "Teal Palace Fish",
+        "Brown Dune Tail"
+    ],
+    "mining_speed": [
+        "Golden Grumpkin",
+        "White Coralotl"
+    ],
+    "magic_barrier": [
+        "Golden Sunrice",
+        "Blue Cave Guppy",
+        "Pink Coralotl",
+        "Litho Trilobite"
+    ],
+    "minion_attack_speed": [
+        "Golden Lunacorn",
+        "Greenhorn Pico"
+    ],
+    "health_regen_allies": [
+        "Atlantean Worm Heart"
+    ],
+    "immune_to_slow": [
+        "Yellow Blister Head"
+    ],
+    "immune_to_damage": [
+        "Green Blister Head"
+    ],
+    "immune_to_infection": [
+        "Rot Fish"
+    ],
+    "thorns_damage": [
+        "Black Steel Urchin",
+        "Solid Spikeback"
+    ],
+    "fishing": [
+        "Astral Jelly"
+    ],
+    "critical_hit_damage": [
+        "Silver Dart",
+        "Verdant Dragonfish"
+    ],
+    "dodge_chance": [
+        "Golden Dart",
+        "Glistening Deepstalker",
+        "Splendid Deepstalker"
+    ],
+    "immune_to_burning": [
+        "Verdant Dragonfish",
+        "Elder Dragonfish"
+    ],
+    "melee_and_range_attack_speed": [
+        "Starlight Nautilus",
+        "Splendid Deepstalker"
+    ],
+    "pet_damage": [
+        "Cosmic Form"
+    ],
+    "minion_critical_hit_chance": [
+        "Greenhorn Pico"
+    ]
+}
