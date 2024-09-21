@@ -64,7 +64,7 @@ def process_food_table_data(soup, table_id):
 
 
 def process_cooking_table_data(soup, table_id):
-    """ TODO """
+    """Fetch cooking data from a table and download associated images."""
 
     heading = soup.find('span', {'id': table_id})
     if not heading:
@@ -116,6 +116,60 @@ def process_cooking_table_data(soup, table_id):
             })
 
             print(f'{Fore.CYAN}{len(data)}. {food_name}')
+
+        else:
+            print(
+                f"{Fore.YELLOW}Warning: Skipping row, as it does not have enough columns. Row content: {row.get_text(separator='|', strip=True)}")
+
+    save_to_json(data, table_id)
+    print(f'{Fore.GREEN}\n==[ Successfully saved {table_id} data to {table_id}.json ]==\n')
+
+    return data
+
+
+def process_cooking_food_items_table_data(soup):
+    """Fetch cooking food items data from a table and download associated images."""
+
+    table_id='Food_items'
+
+    heading = soup.find('span', {'id': table_id})
+    if not heading:
+        print(f"{Fore.YELLOW}Warning: No heading found for table ID '{table_id}'")
+        return []
+
+    table = heading.find_next('table', {'class': 'fandom-table'})
+    if not table:
+        print(f"{Fore.YELLOW}Warning: No table found for heading '{table_id}'")
+        return []
+
+    data = []
+    for row in table.find('tbody').find_all('tr'):
+
+        if row.find('th'):
+            print(
+                f"{Fore.YELLOW}Warning: Skipping row (appears to be a header or invalid). Content: {row.get_text(separator='|', strip=True)}")
+            continue
+
+        columns = row.find_all('td')
+
+        if columns and len(columns) >= 3:
+
+            food_item_name = columns[0].text.strip()
+
+            img_tag = columns[0].find('img')
+            img_file_path = download_image(img_tag)
+
+            produced_by = [item.text.strip() for item in columns[1].find_all('a') if item.text.strip()]
+            hidden_effects = columns[2].text.strip()
+
+            data.append({
+                'food_item_name': food_item_name,
+                'produced_by': produced_by,
+                'hidden_effects': hidden_effects,
+                'img_file_path': img_file_path
+            })
+
+            print(f'{Fore.CYAN}{len(data)}. {food_item_name}')
 
         else:
             print(
@@ -204,3 +258,5 @@ if __name__ == '__main__':
     cooking_others = process_cooking_table_data(cooking_soup, 'Others')
     cooking_plants = process_cooking_table_data(cooking_soup, 'Plants')
     cooking_fish = process_cooking_table_data(cooking_soup, 'Fish')
+
+    cooking_food_items = process_cooking_food_items_table_data(cooking_soup)

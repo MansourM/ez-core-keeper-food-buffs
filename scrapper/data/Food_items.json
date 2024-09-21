@@ -1,0 +1,183 @@
+[
+    {
+        "food_item_name": "Soup",
+        "produced_by": [
+            "Mushroom",
+            "Grumpkin",
+            "Golden Grumpkin"
+        ],
+        "hidden_effects": "+20 food",
+        "img_file_path": "images\\Soup.png"
+    },
+    {
+        "food_item_name": "Salad",
+        "produced_by": [
+            "Glow Tulip",
+            "Golden Glow Tulip",
+            "Giant Mushroom",
+            "Giant Mushroom (old)"
+        ],
+        "hidden_effects": "+5 food",
+        "img_file_path": "images\\Salad.png"
+    },
+    {
+        "food_item_name": "Pudding",
+        "produced_by": [
+            "Heart Berry",
+            "Golden Heart Berry",
+            "Amber Larva",
+            "Amber Larva (old)",
+            "Pinkhorn Pico",
+            "Greenhorn Pico"
+        ],
+        "hidden_effects": "+10 food",
+        "img_file_path": "images\\Pudding.png"
+    },
+    {
+        "food_item_name": "Wrap",
+        "produced_by": [
+            "Bomb Pepper",
+            "Golden Bomb Pepper"
+        ],
+        "hidden_effects": "+15 food",
+        "img_file_path": "images\\Wrap.png"
+    },
+    {
+        "food_item_name": "Steak",
+        "produced_by": [
+            "Larva Meat",
+            "Shiny Larva Meat",
+            "Marbled Meat",
+            "Atlantean Worm Heart"
+        ],
+        "hidden_effects": "+20 food",
+        "img_file_path": "images\\Steak.png"
+    },
+    {
+        "food_item_name": "Dip Snack",
+        "produced_by": [
+            "Carrock",
+            "Golden Carrock"
+        ],
+        "hidden_effects": "+5 food",
+        "img_file_path": "images\\Dip_Snack.png"
+    },
+    {
+        "food_item_name": "Fillet",
+        "produced_by": [
+            "Orange Cave Guppy",
+            "Blue Cave Guppy",
+            "Dagger Fin",
+            "Yellow Blister Head",
+            "Green Blister Head",
+            "Mold Shark",
+            "Azure Feather Fish",
+            "Emerald Feather Fish",
+            "Bottom Tracer",
+            "Solid Spikeback",
+            "Sandy Spikeback",
+            "Verdant Dragonfish",
+            "Elder Dragonfish",
+            "Glistening Deepstalker",
+            "Splendid Deepstalker",
+            "Litho Trilobite"
+        ],
+        "hidden_effects": "+20 food",
+        "img_file_path": "images\\Fillet.png"
+    },
+    {
+        "food_item_name": "Fish Balls",
+        "produced_by": [
+            "Rock Jaw",
+            "Pink Palace Fish",
+            "Teal Palace Fish",
+            "Devil Worm",
+            "Rot Fish",
+            "Spirit Veil",
+            "Pink Coralotl",
+            "White Coralotl",
+            "Grey Dune Tail",
+            "Brown Dune Tail",
+            "Dark Lava Eater",
+            "Bright Lava Eater",
+            "Cosmic Form",
+            "Riftian Lampfish"
+        ],
+        "hidden_effects": "+20 food",
+        "img_file_path": "images\\Fish_Balls.png"
+    },
+    {
+        "food_item_name": "Sushi",
+        "produced_by": [
+            "Gem Crab",
+            "Crown Squid",
+            "Vampire Eel",
+            "Black Steel Urchin",
+            "Astral Jelly",
+            "Silver Dart",
+            "Golden Dart",
+            "Tornis Kingfish",
+            "Starlight Nautilus",
+            "Beryll Angle Fish",
+            "Jasper Angle Fish",
+            "Terra Trilobite"
+        ],
+        "hidden_effects": "+15 food",
+        "img_file_path": "images\\Sushi.png"
+    },
+    {
+        "food_item_name": "Cake",
+        "produced_by": [
+            "Dodo Egg"
+        ],
+        "hidden_effects": "+20 food",
+        "img_file_path": "images\\Cake.png"
+    },
+    {
+        "food_item_name": "Cereal",
+        "produced_by": [
+            "Bloat Oat",
+            "Golden Bloat Oat"
+        ],
+        "hidden_effects": "+20 food",
+        "img_file_path": "images\\Cereal.png"
+    },
+    {
+        "food_item_name": "Cheese",
+        "produced_by": [
+            "Puffungi",
+            "Golden Puffungi"
+        ],
+        "hidden_effects": "+5 food",
+        "img_file_path": "images\\Cheese.png"
+    },
+    {
+        "food_item_name": "Smoothie",
+        "produced_by": [
+            "Pewpaya",
+            "Pinegrapple",
+            "Golden Pewpaya",
+            "Golden Pinegrapple"
+        ],
+        "hidden_effects": "+20 food",
+        "img_file_path": "images\\Smoothie.png"
+    },
+    {
+        "food_item_name": "Curry",
+        "produced_by": [
+            "Sunrice",
+            "Golden Sunrice"
+        ],
+        "hidden_effects": "+20 food",
+        "img_file_path": "images\\Curry.png"
+    },
+    {
+        "food_item_name": "Sandwich",
+        "produced_by": [
+            "Lunacorn",
+            "Golden Lunacorn"
+        ],
+        "hidden_effects": "+15 food",
+        "img_file_path": "images\\Sandwich.png"
+    }
+]
