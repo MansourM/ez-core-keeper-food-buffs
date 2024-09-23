@@ -16,7 +16,46 @@
         "rarity": "Common",
         "ingredient_type": "Others",
         "recipe_type": "Steak",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.8,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 22.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.8,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "crit chance",
+                "value": 6.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "crit chance",
+            "health regen"
+        ]
     },
     {
         "food_name": "Shiny Larva Meat",
@@ -36,7 +75,52 @@
         "rarity": "Rare",
         "ingredient_type": "Others",
         "recipe_type": "Steak",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 12.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "crit chance",
+                "value": 6.0,
+                "unit": "%",
+                "duration": 120
+            },
+            {
+                "type": "life on hit",
+                "value": 2.0,
+                "unit": "life/min",
+                "duration": 120
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 25.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "crit chance",
+                "value": 13.0,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "life on hit",
+                "value": 4.0,
+                "unit": "life/min",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "crit chance",
+            "life on hit"
+        ]
     },
     {
         "food_name": "Mushroom",
@@ -54,7 +138,39 @@
         "rarity": "Common",
         "ingredient_type": "Plants",
         "recipe_type": "Soup",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 9.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.1,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.2,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "categories": [
+            "food",
+            "health regen"
+        ]
     },
     {
         "food_name": "Giant Mushroom",
@@ -73,7 +189,46 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Salad",
-        "hidden_effects": "+5 food"
+        "hidden_effects": "+5 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 15.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "permanent max health",
+                "value": 25.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 31.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "permanent max health",
+                "value": 25.0,
+                "unit": "health",
+                "duration": null
+            },
+            {
+                "type": "max health",
+                "value": 24.0,
+                "unit": "health",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "permanent max health",
+            "max health"
+        ]
     },
     {
         "food_name": "Amber Larva",
@@ -92,7 +247,46 @@
         "rarity": "Epic",
         "ingredient_type": "Others",
         "recipe_type": "Pudding",
-        "hidden_effects": "+10 food"
+        "hidden_effects": "+10 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "permanent max health",
+                "value": 50.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "permanent max health",
+                "value": 50.0,
+                "unit": "health",
+                "duration": null
+            },
+            {
+                "type": "max health",
+                "value": 52.0,
+                "unit": "health",
+                "duration": 300
+            }
+        ],
+        "categories": [
+            "food",
+            "permanent max health",
+            "max health"
+        ]
     },
     {
         "food_name": "Marbled Meat",
@@ -111,7 +305,46 @@
         "rarity": "Common",
         "ingredient_type": "Others",
         "recipe_type": "Steak",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 13.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.6,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 27.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.6,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "damage",
+                "value": 13.3,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Dodo Egg",
@@ -130,7 +363,46 @@
         "rarity": "Common",
         "ingredient_type": "Others",
         "recipe_type": "Cake",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.3,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 30.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.3,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "healing_boost",
+                "value": 25.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "health regen",
+            "healing_boost"
+        ]
     },
     {
         "food_name": "Heart Berry",
@@ -149,7 +421,46 @@
         "rarity": "Common",
         "ingredient_type": "Plants",
         "recipe_type": "Pudding",
-        "hidden_effects": "+10 food"
+        "hidden_effects": "+10 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 9.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.8,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.8,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "max health",
+                "value": 25.0,
+                "unit": "health",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "max health",
+            "health regen"
+        ]
     },
     {
         "food_name": "Glow Tulip",
@@ -168,7 +479,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Plants",
         "recipe_type": "Salad",
-        "hidden_effects": "+5 food"
+        "hidden_effects": "+5 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 1.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "blue glow",
+                "value": 4.0,
+                "unit": "blue glow",
+                "duration": 60
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 2.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "blue glow",
+                "value": 5.0,
+                "unit": "blue glow",
+                "duration": 600
+            },
+            {
+                "type": "mana regen",
+                "value": 1.4,
+                "unit": "mana/sec",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "blue glow",
+            "mana regen"
+        ]
     },
     {
         "food_name": "Bomb Pepper",
@@ -186,7 +536,40 @@
         "rarity": "Uncommon",
         "ingredient_type": "Plants",
         "recipe_type": "Wrap",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 5.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health_loss",
+                "value": -11.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "movement speed",
+                "value": 21.0,
+                "unit": "%",
+                "duration": 60
+            }
+        ],
+        "categories": [
+            "food",
+            "movement speed",
+            "health_loss"
+        ]
     },
     {
         "food_name": "Carrock",
@@ -204,7 +587,40 @@
         "rarity": "Uncommon",
         "ingredient_type": "Plants",
         "recipe_type": "Dip Snack",
-        "hidden_effects": "+5 food"
+        "hidden_effects": "+5 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 7.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.1,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 15.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "armor",
+                "value": 23.0,
+                "unit": "armor",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "armor",
+            "health regen"
+        ]
     },
     {
         "food_name": "Puffungi",
@@ -223,7 +639,47 @@
         "rarity": "Uncommon",
         "ingredient_type": "Plants",
         "recipe_type": "Cheese",
-        "hidden_effects": "+5 food"
+        "hidden_effects": "+5 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 5.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health_loss",
+                "value": -23.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.5,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "reduced damage from bosses",
+                "value": 6.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "health regen",
+            "reduced damage from bosses",
+            "health_loss"
+        ]
     },
     {
         "food_name": "Bloat Oat",
@@ -240,7 +696,33 @@
         "rarity": "Uncommon",
         "ingredient_type": "Plants",
         "recipe_type": "Cereal",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 22.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 43.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 9.1,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "categories": [
+            "food",
+            "health regen"
+        ]
     },
     {
         "food_name": "Pewpaya",
@@ -259,7 +741,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Plants",
         "recipe_type": "Smoothie",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 6.3,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 6.3,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "physical range damage",
+                "value": 22.4,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "physical range damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Pinegrapple",
@@ -278,7 +799,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Plants",
         "recipe_type": "Smoothie",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.4,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.4,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "physical melee damage",
+                "value": 22.4,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "physical melee damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Grumpkin",
@@ -297,7 +857,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Plants",
         "recipe_type": "Soup",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.3,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.3,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "mining damage",
+                "value": 45.0,
+                "unit": "damage",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "mining damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Sunrice",
@@ -315,7 +914,40 @@
         "rarity": "Uncommon",
         "ingredient_type": "Plants",
         "recipe_type": "Curry",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 7.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 13.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "glow",
+                "value": 4.0,
+                "unit": "glow",
+                "duration": 600
+            },
+            {
+                "type": "magic damage",
+                "value": 30.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "magic damage",
+            "glow"
+        ]
     },
     {
         "food_name": "Lunacorn",
@@ -333,7 +965,40 @@
         "rarity": "Uncommon",
         "ingredient_type": "Plants",
         "recipe_type": "Sandwich",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 6.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 13.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "blue glow",
+                "value": 4.0,
+                "unit": "blue glow",
+                "duration": 600
+            },
+            {
+                "type": "minion damage",
+                "value": 30.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "blue glow",
+            "minion damage"
+        ]
     },
     {
         "food_name": "Golden Heart Berry",
@@ -353,7 +1018,53 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Pudding",
-        "hidden_effects": "+10 food"
+        "hidden_effects": "+10 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 9.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.9,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 18.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.4,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "max health",
+                "value": 50.0,
+                "unit": "health",
+                "duration": 600
+            },
+            {
+                "type": "physical melee damage",
+                "value": 17.1,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "physical melee damage",
+            "max health",
+            "health regen"
+        ]
     },
     {
         "food_name": "Golden Glow Tulip",
@@ -373,7 +1084,53 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Salad",
-        "hidden_effects": "+5 food"
+        "hidden_effects": "+5 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 1.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "blue glow",
+                "value": 5.0,
+                "unit": "blue glow",
+                "duration": 60
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 2.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "blue glow",
+                "value": 6.0,
+                "unit": "blue glow",
+                "duration": 600
+            },
+            {
+                "type": "mana regen",
+                "value": 2.3,
+                "unit": "mana/sec",
+                "duration": 600
+            },
+            {
+                "type": "max mana",
+                "value": 25.0,
+                "unit": "mana",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "blue glow",
+            "max mana",
+            "mana regen"
+        ]
     },
     {
         "food_name": "Golden Bomb Pepper",
@@ -392,7 +1149,47 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Wrap",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 5.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health_loss",
+                "value": -14.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "movement speed",
+                "value": 26.9,
+                "unit": "%",
+                "duration": 60
+            },
+            {
+                "type": "melee attack speed",
+                "value": 8.9,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "movement speed",
+            "melee attack speed",
+            "health_loss"
+        ]
     },
     {
         "food_name": "Golden Carrock",
@@ -411,7 +1208,47 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Dip Snack",
-        "hidden_effects": "+5 food"
+        "hidden_effects": "+5 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 6.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.4,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 13.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "armor",
+                "value": 26.0,
+                "unit": "armor",
+                "duration": 600
+            },
+            {
+                "type": "knockback chance",
+                "value": 18.0,
+                "unit": "%",
+                "duration": 120
+            }
+        ],
+        "categories": [
+            "food",
+            "knockback chance",
+            "armor",
+            "health regen"
+        ]
     },
     {
         "food_name": "Golden Puffungi",
@@ -431,7 +1268,54 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Cheese",
-        "hidden_effects": "+5 food"
+        "hidden_effects": "+5 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 5.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health_loss",
+                "value": -25.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.9,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "reduced damage from bosses",
+                "value": 9.0,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "damage against bosses",
+                "value": 14.0,
+                "unit": "%",
+                "duration": 60
+            }
+        ],
+        "categories": [
+            "food",
+            "reduced damage from bosses",
+            "health regen",
+            "damage against bosses",
+            "health_loss"
+        ]
     },
     {
         "food_name": "Golden Bloat Oat",
@@ -449,7 +1333,40 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Cereal",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 42.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 12.1,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "less food drained",
+                "value": 10.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "less food drained",
+            "health regen"
+        ]
     },
     {
         "food_name": "Golden Pewpaya",
@@ -469,7 +1386,53 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Smoothie",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.4,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 8.2,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "physical range damage",
+                "value": 28.2,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "range attack speed",
+                "value": 8.4,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "range attack speed",
+            "physical range damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Golden Pinegrapple",
@@ -489,7 +1452,53 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Smoothie",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 6.8,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 9.0,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "physical melee damage",
+                "value": 28.2,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "melee attack speed",
+                "value": 8.4,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "physical melee damage",
+            "melee attack speed",
+            "health regen"
+        ]
     },
     {
         "food_name": "Golden Grumpkin",
@@ -509,7 +1518,53 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Soup",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 9.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.6,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 18.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 6.2,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "mining damage",
+                "value": 71.0,
+                "unit": "damage",
+                "duration": 600
+            },
+            {
+                "type": "mining speed",
+                "value": 7.2,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "mining damage",
+            "mining speed",
+            "health regen"
+        ]
     },
     {
         "food_name": "Golden Sunrice",
@@ -528,7 +1583,47 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Curry",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 7.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 13.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "glow",
+                "value": 4.0,
+                "unit": "glow",
+                "duration": 600
+            },
+            {
+                "type": "magic damage",
+                "value": 43.3,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "magic barrier",
+                "value": 49.0,
+                "unit": "magic barrier",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "magic damage",
+            "glow",
+            "magic barrier"
+        ]
     },
     {
         "food_name": "Golden Lunacorn",
@@ -547,7 +1642,47 @@
         "rarity": "Rare",
         "ingredient_type": "Plants",
         "recipe_type": "Sandwich",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 7.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 14.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "blue glow",
+                "value": 4.0,
+                "unit": "blue glow",
+                "duration": 600
+            },
+            {
+                "type": "minion damage",
+                "value": 39.5,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "minion attack speed",
+                "value": 55.2,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "blue glow",
+            "minion attack speed",
+            "minion damage"
+        ]
     },
     {
         "food_name": "Atlantean Worm Heart",
@@ -567,7 +1702,53 @@
         "rarity": "Epic",
         "ingredient_type": "Others",
         "recipe_type": "Steak",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 14.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 9.5,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "permanent max health",
+                "value": 100.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 27.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen allies",
+                "value": 20.0,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "permanent max health",
+                "value": 100.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "categories": [
+            "food",
+            "permanent max health",
+            "health regen allies",
+            "health regen"
+        ]
     },
     {
         "food_name": "Orange Cave Guppy",
@@ -586,7 +1767,46 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.1,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.1,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "mining damage",
+                "value": 8.0,
+                "unit": "damage",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "mining damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Blue Cave Guppy",
@@ -605,7 +1825,46 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.2,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.2,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "magic barrier",
+                "value": 13.0,
+                "unit": "magic barrier",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "magic barrier",
+            "health regen"
+        ]
     },
     {
         "food_name": "Rock Jaw",
@@ -624,7 +1883,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.5,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 22.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.5,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "physical melee damage",
+                "value": 15.9,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "physical melee damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Gem Crab",
@@ -643,7 +1941,46 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.1,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.1,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "armor",
+                "value": 14.0,
+                "unit": "armor",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "armor",
+            "health regen"
+        ]
     },
     {
         "food_name": "Dagger Fin",
@@ -662,7 +1999,46 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.9,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.9,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "minion damage",
+                "value": 23.3,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "minion damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Pink Palace Fish",
@@ -681,7 +2057,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.9,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 22.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.9,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "melee attack speed",
+                "value": 9.2,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "melee attack speed",
+            "health regen"
+        ]
     },
     {
         "food_name": "Teal Palace Fish",
@@ -700,7 +2115,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.0,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.0,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "range attack speed",
+                "value": 10.4,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "range attack speed",
+            "health regen"
+        ]
     },
     {
         "food_name": "Crown Squid",
@@ -719,7 +2173,46 @@
         "rarity": "Epic",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.0,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.0,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "knockback chance",
+                "value": 19.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "knockback chance",
+            "health regen"
+        ]
     },
     {
         "food_name": "Yellow Blister Head",
@@ -738,7 +2231,46 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.6,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.6,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "immune to slow",
+                "value": 10.0,
+                "unit": null,
+                "duration": null
+            }
+        ],
+        "categories": [
+            "food",
+            "immune to slow",
+            "health regen"
+        ]
     },
     {
         "food_name": "Green Blister Head",
@@ -757,7 +2289,46 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.5,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 2.5,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "immune to damage",
+                "value": 10.0,
+                "unit": null,
+                "duration": null
+            }
+        ],
+        "categories": [
+            "food",
+            "immune to damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Devil Worm",
@@ -776,7 +2347,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.0,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.0,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "physical range damage",
+                "value": 22.8,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "physical range damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Vampire Eel",
@@ -795,7 +2405,46 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.5,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.5,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "life on hit",
+                "value": 3.0,
+                "unit": "life/min",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "life on hit",
+            "health regen"
+        ]
     },
     {
         "food_name": "Mold Shark",
@@ -814,7 +2463,46 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.8,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.8,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "physical melee damage",
+                "value": 38.6,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "physical melee damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Rot Fish",
@@ -832,7 +2520,40 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health_loss",
+                "value": -22.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "immune to infection",
+                "value": 10.0,
+                "unit": null,
+                "duration": null
+            }
+        ],
+        "categories": [
+            "food",
+            "immune to infection",
+            "health_loss"
+        ]
     },
     {
         "food_name": "Black Steel Urchin",
@@ -852,7 +2573,53 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.3,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.6,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "armor",
+                "value": 22.0,
+                "unit": "armor",
+                "duration": 600
+            },
+            {
+                "type": "thorns damage",
+                "value": 15.0,
+                "unit": "damage",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "armor",
+            "thorns damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Azure Feather Fish",
@@ -870,7 +2637,39 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.1,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 8.1,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "categories": [
+            "food",
+            "health regen"
+        ]
     },
     {
         "food_name": "Emerald Feather Fish",
@@ -890,7 +2689,53 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.5,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 3.0,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "max mana",
+                "value": 29.0,
+                "unit": "mana",
+                "duration": 600
+            },
+            {
+                "type": "magic damage",
+                "value": 21.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "max mana",
+            "magic damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Spirit Veil",
@@ -908,7 +2753,40 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 9.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.7,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "movement speed",
+                "value": 36.2,
+                "unit": "%",
+                "duration": 120
+            }
+        ],
+        "categories": [
+            "food",
+            "movement speed",
+            "health regen"
+        ]
     },
     {
         "food_name": "Astral Jelly",
@@ -927,7 +2805,46 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.2,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.2,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "fishing",
+                "value": 63.0,
+                "unit": "fishing",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "fishing",
+            "health regen"
+        ]
     },
     {
         "food_name": "Bottom Tracer",
@@ -946,7 +2863,46 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.8,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.8,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "mana regen",
+                "value": 2.8,
+                "unit": "mana/sec",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "mana regen",
+            "health regen"
+        ]
     },
     {
         "food_name": "Silver Dart",
@@ -965,7 +2921,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.5,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.5,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "critical hit damage",
+                "value": 31.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "health regen",
+            "critical hit damage"
+        ]
     },
     {
         "food_name": "Golden Dart",
@@ -984,7 +2979,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.7,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 22.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.7,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "dodge chance",
+                "value": 11.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "dodge chance",
+            "health regen"
+        ]
     },
     {
         "food_name": "Pink Coralotl",
@@ -1004,7 +3038,53 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.0,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 22.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 4.7,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "max mana",
+                "value": 50.0,
+                "unit": "mana",
+                "duration": 600
+            },
+            {
+                "type": "magic barrier",
+                "value": 36.0,
+                "unit": "magic barrier",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "max mana",
+            "magic barrier",
+            "health regen"
+        ]
     },
     {
         "food_name": "White Coralotl",
@@ -1023,7 +3103,46 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 9.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.8,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.8,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "mining speed",
+                "value": 14.8,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "mining speed",
+            "health regen"
+        ]
     },
     {
         "food_name": "Solid Spikeback",
@@ -1042,7 +3161,47 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 6.4,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "armor",
+                "value": 38.0,
+                "unit": "armor",
+                "duration": 600
+            },
+            {
+                "type": "thorns damage",
+                "value": 50.0,
+                "unit": "damage",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "armor",
+            "thorns damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Sandy Spikeback",
@@ -1061,7 +3220,47 @@
         "rarity": "Common",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.0,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "max health",
+                "value": 78.0,
+                "unit": "health",
+                "duration": 600
+            },
+            {
+                "type": "mining damage",
+                "value": 206.0,
+                "unit": "damage",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "max health",
+            "mining damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Grey Dune Tail",
@@ -1080,7 +3279,46 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 6.7,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 6.7,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "melee attack speed",
+                "value": 13.9,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "melee attack speed",
+            "health regen"
+        ]
     },
     {
         "food_name": "Brown Dune Tail",
@@ -1099,7 +3337,46 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 8.1,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 8.1,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "range attack speed",
+                "value": 13.9,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "range attack speed",
+            "health regen"
+        ]
     },
     {
         "food_name": "Tornis Kingfish",
@@ -1118,7 +3395,46 @@
         "rarity": "Epic",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.8,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.8,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "damage",
+                "value": 50.4,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Dark Lava Eater",
@@ -1137,7 +3453,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.8,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.8,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "life on hit",
+                "value": 7.0,
+                "unit": "life/min",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "life on hit",
+            "health regen"
+        ]
     },
     {
         "food_name": "Bright Lava Eater",
@@ -1156,7 +3511,46 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.1,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.1,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "healing_boost",
+                "value": 21.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "health regen",
+            "healing_boost"
+        ]
     },
     {
         "food_name": "Verdant Dragonfish",
@@ -1174,7 +3568,40 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "critical hit damage",
+                "value": 41.0,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "immune to burning",
+                "value": 10.0,
+                "unit": null,
+                "duration": null
+            }
+        ],
+        "categories": [
+            "food",
+            "immune to burning",
+            "critical hit damage"
+        ]
     },
     {
         "food_name": "Elder Dragonfish",
@@ -1192,7 +3619,40 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 9.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "crit chance",
+                "value": 14.0,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "immune to burning",
+                "value": 10.0,
+                "unit": null,
+                "duration": null
+            }
+        ],
+        "categories": [
+            "food",
+            "crit chance",
+            "immune to burning"
+        ]
     },
     {
         "food_name": "Starlight Nautilus",
@@ -1214,7 +3674,66 @@
         "rarity": "Legendary",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 17.7,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "permanent max health",
+                "value": 100.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 17.7,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "crit chance",
+                "value": 7.0,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "melee and range attack speed",
+                "value": 8.5,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "permanent max health",
+                "value": 100.0,
+                "unit": "health",
+                "duration": null
+            }
+        ],
+        "categories": [
+            "food",
+            "crit chance",
+            "health regen",
+            "permanent max health",
+            "melee and range attack speed"
+        ]
     },
     {
         "food_name": "Beryll Angle Fish",
@@ -1232,7 +3751,40 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.5,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "max health",
+                "value": 136.0,
+                "unit": "health",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "max health",
+            "health regen"
+        ]
     },
     {
         "food_name": "Glistening Deepstalker",
@@ -1250,7 +3802,40 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "dodge chance",
+                "value": 13.0,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "movement speed",
+                "value": 27.2,
+                "unit": "%",
+                "duration": 60
+            }
+        ],
+        "categories": [
+            "food",
+            "movement speed",
+            "dodge chance"
+        ]
     },
     {
         "food_name": "Cosmic Form",
@@ -1268,7 +3853,40 @@
         "rarity": "Epic",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 9.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 8.2,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 18.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "pet damage",
+                "value": 30.9,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "pet damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Jasper Angle Fish",
@@ -1287,7 +3905,47 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 9.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 8.5,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "max health",
+                "value": 96.0,
+                "unit": "health",
+                "duration": 600
+            },
+            {
+                "type": "armor",
+                "value": 45.0,
+                "unit": "armor",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "armor",
+            "max health",
+            "health regen"
+        ]
     },
     {
         "food_name": "Splendid Deepstalker",
@@ -1306,7 +3964,47 @@
         "rarity": "Epic",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "dodge chance",
+                "value": 10.0,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "movement speed",
+                "value": 21.2,
+                "unit": "%",
+                "duration": 60
+            },
+            {
+                "type": "melee and range attack speed",
+                "value": 11.3,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "movement speed",
+            "melee and range attack speed",
+            "dodge chance"
+        ]
     },
     {
         "food_name": "Terra Trilobite",
@@ -1324,7 +4022,40 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Sushi",
-        "hidden_effects": "+15 food"
+        "hidden_effects": "+15 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 9.0,
+                "unit": "food",
+                "duration": null
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "max health",
+                "value": 103.0,
+                "unit": "health",
+                "duration": 600
+            },
+            {
+                "type": "mining damage",
+                "value": 344.0,
+                "unit": "damage",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "max health",
+            "mining damage"
+        ]
     },
     {
         "food_name": "Litho Trilobite",
@@ -1344,7 +4075,53 @@
         "rarity": "Uncommon",
         "ingredient_type": "Fish",
         "recipe_type": "Fillet",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 8.3,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 22.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.5,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "max mana",
+                "value": 69.0,
+                "unit": "mana",
+                "duration": 600
+            },
+            {
+                "type": "magic barrier",
+                "value": 43.0,
+                "unit": "magic barrier",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "max mana",
+            "magic barrier",
+            "health regen"
+        ]
     },
     {
         "food_name": "Pinkhorn Pico",
@@ -1363,7 +4140,46 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Pudding",
-        "hidden_effects": "+10 food"
+        "hidden_effects": "+10 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 9.5,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 20.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 9.5,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "minion damage",
+                "value": 52.1,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "minion damage",
+            "health regen"
+        ]
     },
     {
         "food_name": "Greenhorn Pico",
@@ -1383,7 +4199,53 @@
         "rarity": "Rare",
         "ingredient_type": "Fish",
         "recipe_type": "Pudding",
-        "hidden_effects": "+10 food"
+        "hidden_effects": "+10 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 11.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 9.9,
+                "unit": "health/sec",
+                "duration": 20
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 21.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 6.6,
+                "unit": "health/sec",
+                "duration": 40
+            },
+            {
+                "type": "minion attack speed",
+                "value": 36.8,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "minion critical hit chance",
+                "value": 12.0,
+                "unit": "%",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "minion attack speed",
+            "minion critical hit chance",
+            "health regen"
+        ]
     },
     {
         "food_name": "Riftian Lampfish",
@@ -1405,6 +4267,65 @@
         "rarity": "Epic",
         "ingredient_type": "Fish",
         "recipe_type": "Fish Balls",
-        "hidden_effects": "+20 food"
+        "hidden_effects": "+20 food",
+        "effects_parsed": [
+            {
+                "type": "food",
+                "value": 10.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 5.1,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "blue glow",
+                "value": 5.0,
+                "unit": "blue glow",
+                "duration": 300
+            }
+        ],
+        "base_cooked_effects_parsed": [
+            {
+                "type": "food",
+                "value": 19.0,
+                "unit": "food",
+                "duration": null
+            },
+            {
+                "type": "health regen",
+                "value": 7.2,
+                "unit": "health/sec",
+                "duration": 20
+            },
+            {
+                "type": "max mana",
+                "value": 58.0,
+                "unit": "mana",
+                "duration": 600
+            },
+            {
+                "type": "magic damage",
+                "value": 27.6,
+                "unit": "%",
+                "duration": 600
+            },
+            {
+                "type": "blue glow",
+                "value": 5.0,
+                "unit": "blue glow",
+                "duration": 600
+            }
+        ],
+        "categories": [
+            "food",
+            "blue glow",
+            "health regen",
+            "magic damage",
+            "max mana"
+        ]
     }
 ]

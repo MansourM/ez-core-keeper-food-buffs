@@ -1,8 +1,9 @@
-import json
 import os
 import re
 from collections import defaultdict
 from colorama import Fore, init
+
+import json
 
 init(autoreset=True)  # Initialize colorama
 
@@ -27,94 +28,154 @@ def find_recipe_info(food_name, food_items):
 
 
 def parse_effect(effect_string):
-    # (regex, index_key, unit)
+    # (regex, index_key, unit, reconstructor)
     patterns = [
-        # Example: "+11 food"
-        (r"(\+\d+) food", "food", "food"),
-        # Example: "+2.8 health every sec for 20 sec"
-        (r"(\+\d+\.?\d*) health every sec for (\d+) (sec|min)", "health_regen", "health/sec"),
-        # Example: "+6% critical hit chance for 10 min"
-        (r"(\+\d+)%?\s*critical hit chance for (\d+) (sec|min)", "crit_chance", "%"),
-        # Example: "+2 life on melee hit for 2 min"
-        (r"(\+\d+) life on melee hit for (\d+) (sec|min)", "life_on_hit", "life/min"),
+        # Health related patterns
         # Example: "+25 max health (only once)"
-        (r"(\+\d+) max health \(only once\)", "permanent_max_health", "health"),
+        (r"(\+\d+) max health \(only once\)", "permanent max health", "health",
+         '`+${data.value} max health (only once)`;'),
         # Example: "+25 max health for 10 min"
-        (r"(\+\d+) max health for (\d+) (sec|min)", "max_health", "health"),
-        # Example: "+13.3% damage for 10 min"
-        (r"(\+\d+\.?\d*)% damage for (\d+) (sec|min)", "damage", "%"),
-        # Example: "+25% more healing from health over time regeneration for 10 min"
-        (r"(\+\d+\.?\d*)% more healing from health over time regeneration for (\d+) (sec|min)", "healing_boost", "%"),
-        # Example: "+4 blue glow for 1 min"
-        (r"(\+\d+) blue glow for (\d+) (sec|min)", "blue_glow", "blue_glow"),
-        # Example: "+1.4 mana every sec for 10 min"
-        (r"(\+\d+\.?\d*) mana every sec for (\d+) (sec|min)", "mana_regen", "mana/sec"),
+        (r"(\+\d+) max health for (\d+) (sec|min)", "max health", "health",
+         '`+${data.value} max health for ${formatDuration(data.duration)}`;'),
         # Example: "-11 health"
-        (r"(-\d+) health", "health_loss", "health"),
-        # Example: "+21% movement speed for 1 min"
-        (r"(\+\d+\.?\d*)% movement speed for (\d+) (sec|min)", "movement_speed", "%"),
-        # Example: "+23 armor for 10 min"
-        (r"(\+\d+) armor for (\d+) (sec|min)", "armor", "armor"),
-        # Example: "+6% reduced damage taken from bosses for 10 min"
-        (r"(\+\d+\.?\d*)% reduced damage taken from bosses for (\d+) (sec|min)", "reduced_damage_bosses", "%"),
-        # Example: "+22.4% physical range damage for 10 min"
-        (r"(\+\d+\.?\d*)% physical range damage for (\d+) (sec|min)", "physical_range_damage", "%"),
-        # Example: "+22.4% physical melee damage for 10 min"
-        (r"(\+\d+\.?\d*)% physical melee damage for (\d+) (sec|min)", "physical_melee_damage", "%"),
-        # Example: "+45 mining damage for 10 min"
-        (r"(\+\d+) mining damage for (\d+) (sec|min)", "mining_damage", "damage"),
-        # Example: "+4 glow for 10 min"
-        (r"(\+\d+) glow for (\d+) (sec|min)", "glow", "glow"),
-        # Example: "+30% magic damage for 10 min"
-        (r"(\+\d+\.?\d*)% magic damage for (\d+) (sec|min)", "magic_damage", "%"),
-        # Example: "+30% minion damage for 10 min"
-        (r"(\+\d+\.?\d*)% minion damage for (\d+) (sec|min)", "minion_damage", "%"),
-        # Example: "+25 max mana for 10 min"
-        (r"(\+\d+) max mana for (\d+) (sec|min)", "max_mana", "mana"),
-        # Example: "+8.9% melee attack speed for 10 min"
-        (r"(\+\d+\.?\d*)% melee attack speed for (\d+) (sec|min)", "melee_attack_speed", "%"),
-        # Example: "+18% knockback chance for 2 min"
-        (r"(\+\d+\.?\d*)% knockback chance for (\d+) (sec|min)", "knockback_chance", "%"),
-        # Example: "+14% damage against bosses for 1 min"
-        (r"(\+\d+\.?\d*)% damage against bosses for (\d+) (sec|min)", "damage_against_bosses", "%"),
-        # Example: "+10% less food drained when running for 10 min"
-        (r"(\+\d+\.?\d*)% less food drained when running for (\d+) (sec|min)", "less_food_drained_running", "%"),
-        # Example: "+8.4% range attack speed for 10 min"
-        (r"(\+\d+\.?\d*)% range attack speed for (\d+) (sec|min)", "range_attack_speed", "%"),
-        # Example: "+7.2% mining speed for 10 min"
-        (r"(\+\d+\.?\d*)% mining speed for (\d+) (sec|min)", "mining_speed", "%"),
-        # Example: "+49 magic barrier for 10 min"
-        (r"(\+\d+) magic barrier for (\d+) (sec|min)", "magic_barrier", "magic_barrier"),
-        # Example: "+55.2% minion attack speed for 10 min"
-        (r"(\+\d+\.?\d*)% minion attack speed for (\d+) (sec|min)", "minion_attack_speed", "%"),
+        (r"(-\d+) health", "health_loss", "health",
+         '`${data.value} health`;'),
+        # Example: "+2.8 health every sec for 20 sec"
+        (r"(\+\d+\.?\d*) health every sec for (\d+) (sec|min)", "health regen", "health/sec",
+         '`+${data.value.toFixed(1)} health every sec for ${formatDuration(data.duration)}`;'),
         # Example: "+20 health every sec to you and all nearby allies for 20 sec"
-        (r"(\+\d+) health every sec to you and all nearby allies for (\d+) (sec|min)", "health_regen_allies",
-         "health/sec"),
-        # Example: "Immune to being slowed by slime for 10 min"
-        (r"Immune to being slowed by \w+ for (\d+) (sec|min)", "immune_to_slow", None),
-        # Example: "Immune to acid damage for 10 min"
-        (r"Immune to \w+ damage for (\d+) (sec|min)", "immune_to_damage", None),
-        # Example: "Immune to mold infection for 10 min"
-        (r"Immune to \w+ infection for (\d+) (sec|min)", "immune_to_infection", None),
+        (r"(\+\d+) health every sec to you and all nearby allies for (\d+) (sec|min)", "health regen allies",
+         "health/sec",
+         '`+${data.value} health every sec to you and all nearby allies for ${formatDuration(data.duration)}`;'),
+        # Example: "+2 life on melee hit for 2 min"
+        (r"(\+\d+) life on melee hit for (\d+) (sec|min)", "life on hit", "life/min",
+         '`+${data.value} life on melee hit for ${formatDuration(data.duration)}`;'),
+        # Example: "+25% more healing from health over time regeneration for 10 min"
+        (r"(\+\d+\.?\d*)% more healing from health over time regeneration for (\d+) (sec|min)", "healing_boost", "%",
+         '`+${data.value}% more healing from health over time regeneration for ${formatDuration(data.duration)}`;'),
+
+        # Mana related patterns
+        # Example: "+25 max mana for 10 min"
+        (r"(\+\d+) max mana for (\d+) (sec|min)", "max mana", "mana",
+         '`+${data.value} max mana for ${formatDuration(data.duration)}`;'),
+        # Example: "+1.4 mana every sec for 10 min"
+        (r"(\+\d+\.?\d*) mana every sec for (\d+) (sec|min)", "mana regen", "mana/sec",
+         '`+${data.value.toFixed(1)} mana every sec for ${formatDuration(data.duration)}`;'),
+
+        # Damage related patterns
+        # Example: "+13.3% damage for 10 min"
+        (r"(\+\d+\.?\d*)% damage for (\d+) (sec|min)", "damage", "%",
+         '`+${data.value}% damage for ${formatDuration(data.duration)}`;'),
+        # Example: "+22.4% physical range damage for 10 min"
+        (r"(\+\d+\.?\d*)% physical range damage for (\d+) (sec|min)", "physical range damage", "%",
+         '`+${data.value}% physical range damage for ${formatDuration(data.duration)}`;'),
+        # Example: "+22.4% physical melee damage for 10 min"
+        (r"(\+\d+\.?\d*)% physical melee damage for (\d+) (sec|min)", "physical melee damage", "%",
+         '`+${data.value}% physical melee damage for ${formatDuration(data.duration)}`;'),
+        # Example: "+30% magic damage for 10 min"
+        (r"(\+\d+\.?\d*)% magic damage for (\d+) (sec|min)", "magic damage", "%",
+         '`+${data.value}% magic damage for ${formatDuration(data.duration)}`;'),
+        # Example: "+30% minion damage for 10 min"
+        (r"(\+\d+\.?\d*)% minion damage for (\d+) (sec|min)", "minion damage", "%",
+         '`+${data.value}% minion damage for ${formatDuration(data.duration)}`;'),
+        # Example: "+14% damage against bosses for 1 min"
+        (r"(\+\d+\.?\d*)% damage against bosses for (\d+) (sec|min)", "damage against bosses", "%",
+         '`+${data.value}% damage against bosses for ${formatDuration(data.duration)}`;'),
+        # Example: "+6% reduced damage taken from bosses for 10 min"
+        (r"(\+\d+\.?\d*)% reduced damage taken from bosses for (\d+) (sec|min)", "reduced damage from bosses", "%",
+         '`+${data.value}% reduced damage taken from bosses for ${formatDuration(data.duration)}`;'),
         # Example: "+15 thorns damage for 10 min"
-        (r"(\+\d+) thorns damage for (\d+) (sec|min)", "thorns_damage", "damage"),
-        # Example: "+63 fishing for 10 min"
-        (r"(\+\d+) fishing for (\d+) (sec|min)", "fishing", "fishing"),
-        # Example: "+31% critical hit damage for 10 min"
-        (r"(\+\d+\.?\d*)% critical hit damage for (\d+) (sec|min)", "critical_hit_damage", "%"),
-        # Example: "+11% dodge chance for 10 min"
-        (r"(\+\d+\.?\d*)% dodge chance for (\d+) (sec|min)", "dodge_chance", "%"),
-        # Example: "Immune to burning for 10 min"
-        (r"Immune to burning for (\d+) (sec|min)", "immune_to_burning", None),
-        # Example: "+8.5% melee and range attack speed for 10 min"
-        (r"(\+\d+\.?\d*)% melee and range attack speed for (\d+) (sec|min)", "melee_and_range_attack_speed", "%"),
+        (r"(\+\d+) thorns damage for (\d+) (sec|min)", "thorns damage", "damage",
+         '`+${data.value} thorns damage for ${formatDuration(data.duration)}`;'),
+        # Example: "+45 mining damage for 10 min"
+        (r"(\+\d+) mining damage for (\d+) (sec|min)", "mining damage", "damage",
+         '`+${data.value} mining damage for ${formatDuration(data.duration)}`;'),
         # Example: "+30.9% damage dealt by your pet for 10 min"
-        (r"(\+\d+\.?\d*)% damage dealt by your pet for (\d+) (sec|min)", "pet_damage", "%"),
+        (r"(\+\d+\.?\d*)% damage dealt by your pet for (\d+) (sec|min)", "pet damage", "%",
+         '`+${data.value}% damage dealt by your pet for ${formatDuration(data.duration)}`;'),
+
+        # Critical hit related patterns
+        # Example: "+6% critical hit chance for 10 min"
+        (r"(\+\d+)%?\s*critical hit chance for (\d+) (sec|min)", "crit chance", "%",
+         '`+${data.value}% critical hit chance for ${formatDuration(data.duration)}`;'),
         # Example: "+12% minion critical hit chance for 10 min"
-        (r"(\+\d+\.?\d*)% minion critical hit chance for (\d+) (sec|min)", "minion_critical_hit_chance", "%"),
+        (r"(\+\d+\.?\d*)% minion critical hit chance for (\d+) (sec|min)", "minion critical hit chance", "%",
+         '`+${data.value}% minion critical hit chance for ${formatDuration(data.duration)}`;'),
+        # Example: "+31% critical hit damage for 10 min"
+        (r"(\+\d+\.?\d*)% critical hit damage for (\d+) (sec|min)", "critical hit damage", "%",
+         '`+${data.value}% critical hit damage for ${formatDuration(data.duration)}`;'),
+
+        # Attack Speed related patterns
+        # Example: "+8.9% melee attack speed for 10 min"
+        (r"(\+\d+\.?\d*)% melee attack speed for (\d+) (sec|min)", "melee attack speed", "%",
+         '`+${data.value}% melee attack speed for ${formatDuration(data.duration)}`;'),
+        # Example: "+8.4% range attack speed for 10 min"
+        (r"(\+\d+\.?\d*)% range attack speed for (\d+) (sec|min)", "range attack speed", "%",
+         '`+${data.value}% range attack speed for ${formatDuration(data.duration)}`;'),
+        # Example: "+55.2% minion attack speed for 10 min"
+        (r"(\+\d+\.?\d*)% minion attack speed for (\d+) (sec|min)", "minion attack speed", "%",
+         '`+${data.value}% minion attack speed for ${formatDuration(data.duration)}`;'),
+        # Example: "+8.5% melee and range attack speed for 10 min"
+        (r"(\+\d+\.?\d*)% melee and range attack speed for (\d+) (sec|min)", "melee and range attack speed", "%",
+         '`+${data.value}% melee and range attack speed for ${formatDuration(data.duration)}`;'),
+
+        # Defense related patterns
+        # Example: "+23 armor for 10 min"
+        (r"(\+\d+) armor for (\d+) (sec|min)", "armor", "armor",
+         '`+${data.value} armor for ${formatDuration(data.duration)}`;'),
+        # Example: "+49 magic barrier for 10 min"
+        (r"(\+\d+) magic barrier for (\d+) (sec|min)", "magic barrier", "magic barrier",
+         '`+${data.value} magic barrier for ${formatDuration(data.duration)}`;'),
+        # Example: "+11% dodge chance for 10 min"
+        (r"(\+\d+\.?\d*)% dodge chance for (\d+) (sec|min)", "dodge chance", "%",
+         '`+${data.value}% dodge chance for ${formatDuration(data.duration)}`;'),
+        # Example: "Immune to being slowed by slime for 10 min"
+        (r"Immune to being slowed by \w+ for (\d+) (sec|min)", "immune to slow", None,
+         '`Immune to being slowed by ${data.effect} for ${formatDuration(data.duration)}`;'),
+        # Example: "Immune to acid damage for 10 min"
+        (r"Immune to \w+ damage for (\d+) (sec|min)", "immune to damage", None,
+         '`Immune to ${data.effect} damage for ${formatDuration(data.duration)}`;'),
+        # Example: "Immune to burning for 10 min"
+        (r"Immune to burning for (\d+) (sec|min)", "immune to burning", None,
+         '`Immune to burning for ${formatDuration(data.duration)}`;'),
+        # Example: "Immune to mold infection for 10 min"
+        (r"Immune to \w+ infection for (\d+) (sec|min)", "immune to infection", None,
+         '`Immune to mold infection for ${formatDuration(data.duration)}`;'),
+
+        # Other patterns
+        # Example: "+21% movement speed for 1 min"
+        (r"(\+\d+\.?\d*)% movement speed for (\d+) (sec|min)", "movement speed", "%",
+         '`+${data.value}% movement speed for ${formatDuration(data.duration)}`;'),
+        # Example: "+18% knockback chance for 2 min"
+        (r"(\+\d+\.?\d*)% knockback chance for (\d+) (sec|min)", "knockback chance", "%",
+         '`+${data.value}% knockback chance for ${formatDuration(data.duration)}`;'),
+        # Example: "+11 food"
+        (r"(\+\d+) food", "food", "food",
+         '`+${data.value} food`;'),
+        # Example: "+10% less food drained when running for 10 min"
+        (r"(\+\d+\.?\d*)% less food drained when running for (\d+) (sec|min)", "less food drained", "%",
+         '`+${data.value}% less food drained when running for ${formatDuration(data.duration)}`;'),
+        # Example: "+4 blue glow for 1 min"
+        (r"(\+\d+) blue glow for (\d+) (sec|min)", "blue glow", "blue glow",
+         '`+${data.value} blue glow for ${formatDuration(data.duration)}`;'),
+        # Example: "+4 glow for 10 min"
+        (r"(\+\d+) glow for (\d+) (sec|min)", "glow", "glow",
+         '`+${data.value} glow for ${formatDuration(data.duration)}`;'),
+        # Example: "+7.2% mining speed for 10 min"
+        (r"(\+\d+\.?\d*)% mining speed for (\d+) (sec|min)", "mining speed", "%",
+         '`+${data.value}% mining speed for ${formatDuration(data.duration)}`;'),
+        # Example: "+63 fishing for 10 min"
+        (r"(\+\d+) fishing for (\d+) (sec|min)", "fishing", "fishing",
+         '`+${data.value} fishing for ${formatDuration(data.duration)}`;'),
     ]
 
-    for regex, index_key, unit in patterns:
+    reconstructors = {}
+    for regex, index_key, unit, reconstructor in patterns:
+        reconstructors[index_key] = reconstructor
+
+    save_to_json(reconstructors, 'reconstructors')
+
+    for regex, index_key, unit, reconstructor in patterns:
         match = re.search(regex, effect_string)
         if match:
             value = float(match.group(1))
@@ -125,14 +186,12 @@ def parse_effect(effect_string):
                 if duration_unit == "min":
                     duration_value = duration_value * 60
 
-            parsed_effect = {
+            return {
                 "type": index_key,
                 "value": value,
                 "unit": unit,
                 "duration": duration_value
             }
-            print(f"{Fore.GREEN}Parsed effect: {parsed_effect}")
-            return parsed_effect
 
     print(f"{Fore.RED}Error: could not parse effect for: {effect_string}")
     exit(1)
