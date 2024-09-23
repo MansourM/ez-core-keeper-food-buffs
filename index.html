@@ -6,26 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ez-Core-Keeper-Food-Buffs</title>
 
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link href="css/main.css" rel="stylesheet">
+    <script defer src="js/main.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
 <body>
 
-<h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message" class="text-4xl font-bold underline"></h1>
-<div x-data="{ checked: false }" class="inline-block">
-    <button
-            @click="checked = !checked"
-            :class="checked ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'"
-            class="px-4 py-2 rounded-md focus:outline-none transition-colors duration-300"
-    >
-        Toggle Me
-    </button>
-
-    <div x-show="checked" class="mt-4">
-        <p class="text-blue-600">The button is toggled on!</p>
-    </div>
+<h1 class="mt-3">Test 3</h1>
+<div x-data="toggleEffects()">
+    <ul class="space-y-2">
+        <template x-for="(effects, index) in effectIndexes" :key="index">
+            <li class="flex items-center p-2 border rounded bg-gray-100">
+                <button x-text="index"
+                        @click="toggles[index] = !toggles[index]"
+                        :class="toggles[index] ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'"
+                        class="ml-4 px-4 py-2 rounded-md focus:outline-none transition-colors duration-300"
+                >
+                </button>
+                <span x-show="toggles[index]" x-text="effects.join(', ')"></span>
+            </li>
+        </template>
+    </ul>
 </div>
+
+<script>
+    function toggleEffects() {
+        return {
+            effectIndexes: effect_indexes, // Assuming effect_indexes is defined globally
+            toggles: Array(Object.keys(effect_indexes).length).fill(false) // Initialize toggles array
+        }
+    }
+</script>
 
 </body>
 
