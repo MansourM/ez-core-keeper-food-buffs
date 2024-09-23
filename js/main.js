@@ -1,4 +1,14 @@
-[
+const formatDuration = (duration) => {
+    const minutes = Math.floor(duration / 60);
+    const seconds = duration % 60;
+    if (minutes > 0) {
+        return seconds > 0 ? `${minutes} min ${seconds} sec` : `${minutes} min`;
+    } else {
+        return `${seconds} sec`;
+    }
+};
+
+const cooking_ingredients = [
     {
         "food_name": "Larva Meat",
         "effects": [
@@ -25,7 +35,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.8,
                 "unit": "health/sec",
                 "duration": 20
@@ -39,22 +49,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.8,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "crit_chance",
+                "type": "crit chance",
                 "value": 6.0,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "crit_chance",
-            "food"
+            "health regen",
+            "food",
+            "crit chance"
         ]
     },
     {
@@ -84,13 +94,13 @@
                 "duration": null
             },
             {
-                "type": "crit_chance",
+                "type": "crit chance",
                 "value": 6.0,
                 "unit": "%",
                 "duration": 120
             },
             {
-                "type": "life_on_hit",
+                "type": "life on hit",
                 "value": 2.0,
                 "unit": "life/min",
                 "duration": 120
@@ -104,22 +114,22 @@
                 "duration": null
             },
             {
-                "type": "crit_chance",
+                "type": "crit chance",
                 "value": 13.0,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "life_on_hit",
+                "type": "life on hit",
                 "value": 4.0,
                 "unit": "life/min",
                 "duration": 600
             }
         ],
         "categories": [
-            "crit_chance",
-            "life_on_hit",
-            "food"
+            "life on hit",
+            "food",
+            "crit chance"
         ]
     },
     {
@@ -147,7 +157,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.1,
                 "unit": "health/sec",
                 "duration": 20
@@ -161,14 +171,14 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.2,
                 "unit": "health/sec",
                 "duration": 20
             }
         ],
         "categories": [
-            "health_regen",
+            "health regen",
             "food"
         ]
     },
@@ -198,7 +208,7 @@
                 "duration": null
             },
             {
-                "type": "permanent_max_health",
+                "type": "permanent max health",
                 "value": 25.0,
                 "unit": "health",
                 "duration": null
@@ -212,22 +222,22 @@
                 "duration": null
             },
             {
-                "type": "permanent_max_health",
+                "type": "permanent max health",
                 "value": 25.0,
                 "unit": "health",
                 "duration": null
             },
             {
-                "type": "max_health",
+                "type": "max health",
                 "value": 24.0,
                 "unit": "health",
                 "duration": 600
             }
         ],
         "categories": [
-            "max_health",
-            "permanent_max_health",
-            "food"
+            "permanent max health",
+            "food",
+            "max health"
         ]
     },
     {
@@ -256,7 +266,7 @@
                 "duration": null
             },
             {
-                "type": "permanent_max_health",
+                "type": "permanent max health",
                 "value": 50.0,
                 "unit": "health",
                 "duration": null
@@ -270,22 +280,22 @@
                 "duration": null
             },
             {
-                "type": "permanent_max_health",
+                "type": "permanent max health",
                 "value": 50.0,
                 "unit": "health",
                 "duration": null
             },
             {
-                "type": "max_health",
+                "type": "max health",
                 "value": 52.0,
                 "unit": "health",
                 "duration": 300
             }
         ],
         "categories": [
-            "max_health",
-            "permanent_max_health",
-            "food"
+            "permanent max health",
+            "food",
+            "max health"
         ]
     },
     {
@@ -314,7 +324,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.6,
                 "unit": "health/sec",
                 "duration": 20
@@ -328,7 +338,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.6,
                 "unit": "health/sec",
                 "duration": 20
@@ -341,9 +351,9 @@
             }
         ],
         "categories": [
-            "health_regen",
-            "damage",
-            "food"
+            "health regen",
+            "food",
+            "damage"
         ]
     },
     {
@@ -372,7 +382,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.3,
                 "unit": "health/sec",
                 "duration": 20
@@ -386,7 +396,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.3,
                 "unit": "health/sec",
                 "duration": 20
@@ -399,7 +409,7 @@
             }
         ],
         "categories": [
-            "health_regen",
+            "health regen",
             "healing_boost",
             "food"
         ]
@@ -430,7 +440,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.8,
                 "unit": "health/sec",
                 "duration": 20
@@ -444,22 +454,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.8,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "max_health",
+                "type": "max health",
                 "value": 25.0,
                 "unit": "health",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "max_health",
-            "food"
+            "health regen",
+            "food",
+            "max health"
         ]
     },
     {
@@ -488,9 +498,9 @@
                 "duration": null
             },
             {
-                "type": "blue_glow",
+                "type": "blue glow",
                 "value": 4.0,
-                "unit": "blue_glow",
+                "unit": "blue glow",
                 "duration": 60
             }
         ],
@@ -502,22 +512,22 @@
                 "duration": null
             },
             {
-                "type": "blue_glow",
+                "type": "blue glow",
                 "value": 5.0,
-                "unit": "blue_glow",
+                "unit": "blue glow",
                 "duration": 600
             },
             {
-                "type": "mana_regen",
+                "type": "mana regen",
                 "value": 1.4,
                 "unit": "mana/sec",
                 "duration": 600
             }
         ],
         "categories": [
-            "mana_regen",
-            "blue_glow",
-            "food"
+            "food",
+            "blue glow",
+            "mana regen"
         ]
     },
     {
@@ -559,16 +569,16 @@
                 "duration": null
             },
             {
-                "type": "movement_speed",
+                "type": "movement speed",
                 "value": 21.0,
                 "unit": "%",
                 "duration": 60
             }
         ],
         "categories": [
-            "movement_speed",
             "health_loss",
-            "food"
+            "food",
+            "movement speed"
         ]
     },
     {
@@ -596,7 +606,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.1,
                 "unit": "health/sec",
                 "duration": 20
@@ -617,7 +627,7 @@
             }
         ],
         "categories": [
-            "health_regen",
+            "health regen",
             "armor",
             "food"
         ]
@@ -662,23 +672,23 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.5,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "reduced_damage_bosses",
+                "type": "reduced damage from bosses",
                 "value": 6.0,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "reduced_damage_bosses",
+            "health regen",
             "health_loss",
-            "food"
+            "food",
+            "reduced damage from bosses"
         ]
     },
     {
@@ -713,14 +723,14 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 9.1,
                 "unit": "health/sec",
                 "duration": 20
             }
         ],
         "categories": [
-            "health_regen",
+            "health regen",
             "food"
         ]
     },
@@ -750,7 +760,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 6.3,
                 "unit": "health/sec",
                 "duration": 20
@@ -764,21 +774,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 6.3,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "physical_range_damage",
+                "type": "physical range damage",
                 "value": 22.4,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "physical_range_damage",
+            "health regen",
+            "physical range damage",
             "food"
         ]
     },
@@ -808,7 +818,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.4,
                 "unit": "health/sec",
                 "duration": 20
@@ -822,21 +832,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.4,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "physical_melee_damage",
+                "type": "physical melee damage",
                 "value": 22.4,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "physical_melee_damage",
+            "health regen",
+            "physical melee damage",
             "food"
         ]
     },
@@ -866,7 +876,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.3,
                 "unit": "health/sec",
                 "duration": 20
@@ -880,21 +890,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.3,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "mining_damage",
+                "type": "mining damage",
                 "value": 45.0,
                 "unit": "damage",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "mining_damage",
+            "mining damage",
+            "health regen",
             "food"
         ]
     },
@@ -937,16 +947,16 @@
                 "duration": 600
             },
             {
-                "type": "magic_damage",
+                "type": "magic damage",
                 "value": 30.0,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "glow",
-            "magic_damage",
-            "food"
+            "food",
+            "magic damage",
+            "glow"
         ]
     },
     {
@@ -982,22 +992,22 @@
                 "duration": null
             },
             {
-                "type": "blue_glow",
+                "type": "blue glow",
                 "value": 4.0,
-                "unit": "blue_glow",
+                "unit": "blue glow",
                 "duration": 600
             },
             {
-                "type": "minion_damage",
+                "type": "minion damage",
                 "value": 30.0,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "minion_damage",
-            "blue_glow",
-            "food"
+            "food",
+            "blue glow",
+            "minion damage"
         ]
     },
     {
@@ -1027,7 +1037,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.9,
                 "unit": "health/sec",
                 "duration": 20
@@ -1041,29 +1051,29 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.4,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "max_health",
+                "type": "max health",
                 "value": 50.0,
                 "unit": "health",
                 "duration": 600
             },
             {
-                "type": "physical_melee_damage",
+                "type": "physical melee damage",
                 "value": 17.1,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "max_health",
-            "physical_melee_damage",
-            "food"
+            "health regen",
+            "physical melee damage",
+            "food",
+            "max health"
         ]
     },
     {
@@ -1093,9 +1103,9 @@
                 "duration": null
             },
             {
-                "type": "blue_glow",
+                "type": "blue glow",
                 "value": 5.0,
-                "unit": "blue_glow",
+                "unit": "blue glow",
                 "duration": 60
             }
         ],
@@ -1107,29 +1117,29 @@
                 "duration": null
             },
             {
-                "type": "blue_glow",
+                "type": "blue glow",
                 "value": 6.0,
-                "unit": "blue_glow",
+                "unit": "blue glow",
                 "duration": 600
             },
             {
-                "type": "mana_regen",
+                "type": "mana regen",
                 "value": 2.3,
                 "unit": "mana/sec",
                 "duration": 600
             },
             {
-                "type": "max_mana",
+                "type": "max mana",
                 "value": 25.0,
                 "unit": "mana",
                 "duration": 600
             }
         ],
         "categories": [
-            "max_mana",
-            "mana_regen",
-            "blue_glow",
-            "food"
+            "food",
+            "blue glow",
+            "max mana",
+            "mana regen"
         ]
     },
     {
@@ -1172,23 +1182,23 @@
                 "duration": null
             },
             {
-                "type": "movement_speed",
+                "type": "movement speed",
                 "value": 26.9,
                 "unit": "%",
                 "duration": 60
             },
             {
-                "type": "melee_attack_speed",
+                "type": "melee attack speed",
                 "value": 8.9,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "movement_speed",
-            "melee_attack_speed",
             "health_loss",
-            "food"
+            "food",
+            "melee attack speed",
+            "movement speed"
         ]
     },
     {
@@ -1217,7 +1227,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.4,
                 "unit": "health/sec",
                 "duration": 20
@@ -1237,17 +1247,17 @@
                 "duration": 600
             },
             {
-                "type": "knockback_chance",
+                "type": "knockback chance",
                 "value": 18.0,
                 "unit": "%",
                 "duration": 120
             }
         ],
         "categories": [
-            "health_regen",
+            "health regen",
             "armor",
-            "knockback_chance",
-            "food"
+            "food",
+            "knockback chance"
         ]
     },
     {
@@ -1291,30 +1301,30 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.9,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "reduced_damage_bosses",
+                "type": "reduced damage from bosses",
                 "value": 9.0,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "damage_against_bosses",
+                "type": "damage against bosses",
                 "value": 14.0,
                 "unit": "%",
                 "duration": 60
             }
         ],
         "categories": [
-            "health_regen",
+            "damage against bosses",
             "health_loss",
-            "food",
-            "reduced_damage_bosses",
-            "damage_against_bosses"
+            "health regen",
+            "reduced damage from bosses",
+            "food"
         ]
     },
     {
@@ -1350,21 +1360,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 12.1,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "less_food_drained_running",
+                "type": "less food drained",
                 "value": 10.0,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "less_food_drained_running",
+            "less food drained",
+            "health regen",
             "food"
         ]
     },
@@ -1395,7 +1405,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.4,
                 "unit": "health/sec",
                 "duration": 20
@@ -1409,28 +1419,28 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 8.2,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "physical_range_damage",
+                "type": "physical range damage",
                 "value": 28.2,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "range_attack_speed",
+                "type": "range attack speed",
                 "value": 8.4,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "range_attack_speed",
-            "physical_range_damage",
+            "range attack speed",
+            "health regen",
+            "physical range damage",
             "food"
         ]
     },
@@ -1461,7 +1471,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 6.8,
                 "unit": "health/sec",
                 "duration": 20
@@ -1475,29 +1485,29 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 9.0,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "physical_melee_damage",
+                "type": "physical melee damage",
                 "value": 28.2,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "melee_attack_speed",
+                "type": "melee attack speed",
                 "value": 8.4,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "physical_melee_damage",
-            "melee_attack_speed",
-            "food"
+            "health regen",
+            "physical melee damage",
+            "food",
+            "melee attack speed"
         ]
     },
     {
@@ -1527,7 +1537,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.6,
                 "unit": "health/sec",
                 "duration": 20
@@ -1541,29 +1551,29 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 6.2,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "mining_damage",
+                "type": "mining damage",
                 "value": 71.0,
                 "unit": "damage",
                 "duration": 600
             },
             {
-                "type": "mining_speed",
+                "type": "mining speed",
                 "value": 7.2,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "mining_damage",
-            "mining_speed",
-            "food"
+            "mining damage",
+            "health regen",
+            "food",
+            "mining speed"
         ]
     },
     {
@@ -1606,23 +1616,23 @@
                 "duration": 600
             },
             {
-                "type": "magic_damage",
+                "type": "magic damage",
                 "value": 43.3,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "magic_barrier",
+                "type": "magic barrier",
                 "value": 49.0,
-                "unit": "magic_barrier",
+                "unit": "magic barrier",
                 "duration": 600
             }
         ],
         "categories": [
+            "food",
+            "magic damage",
             "glow",
-            "magic_damage",
-            "magic_barrier",
-            "food"
+            "magic barrier"
         ]
     },
     {
@@ -1659,29 +1669,29 @@
                 "duration": null
             },
             {
-                "type": "blue_glow",
+                "type": "blue glow",
                 "value": 4.0,
-                "unit": "blue_glow",
+                "unit": "blue glow",
                 "duration": 600
             },
             {
-                "type": "minion_damage",
+                "type": "minion damage",
                 "value": 39.5,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "minion_attack_speed",
+                "type": "minion attack speed",
                 "value": 55.2,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "minion_attack_speed",
-            "minion_damage",
-            "blue_glow",
-            "food"
+            "minion attack speed",
+            "food",
+            "blue glow",
+            "minion damage"
         ]
     },
     {
@@ -1711,13 +1721,13 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 9.5,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "permanent_max_health",
+                "type": "permanent max health",
                 "value": 100.0,
                 "unit": "health",
                 "duration": null
@@ -1731,22 +1741,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen_allies",
+                "type": "health regen allies",
                 "value": 20.0,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "permanent_max_health",
+                "type": "permanent max health",
                 "value": 100.0,
                 "unit": "health",
                 "duration": null
             }
         ],
         "categories": [
-            "health_regen",
-            "health_regen_allies",
-            "permanent_max_health",
+            "permanent max health",
+            "health regen",
+            "health regen allies",
             "food"
         ]
     },
@@ -1776,7 +1786,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.1,
                 "unit": "health/sec",
                 "duration": 20
@@ -1790,21 +1800,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.1,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "mining_damage",
+                "type": "mining damage",
                 "value": 8.0,
                 "unit": "damage",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "mining_damage",
+            "mining damage",
+            "health regen",
             "food"
         ]
     },
@@ -1834,7 +1844,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.2,
                 "unit": "health/sec",
                 "duration": 20
@@ -1848,22 +1858,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.2,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "magic_barrier",
+                "type": "magic barrier",
                 "value": 13.0,
-                "unit": "magic_barrier",
+                "unit": "magic barrier",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "magic_barrier",
-            "food"
+            "health regen",
+            "food",
+            "magic barrier"
         ]
     },
     {
@@ -1892,7 +1902,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.5,
                 "unit": "health/sec",
                 "duration": 20
@@ -1906,21 +1916,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.5,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "physical_melee_damage",
+                "type": "physical melee damage",
                 "value": 15.9,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "physical_melee_damage",
+            "health regen",
+            "physical melee damage",
             "food"
         ]
     },
@@ -1950,7 +1960,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.1,
                 "unit": "health/sec",
                 "duration": 20
@@ -1964,7 +1974,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.1,
                 "unit": "health/sec",
                 "duration": 20
@@ -1977,7 +1987,7 @@
             }
         ],
         "categories": [
-            "health_regen",
+            "health regen",
             "armor",
             "food"
         ]
@@ -2008,7 +2018,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.9,
                 "unit": "health/sec",
                 "duration": 20
@@ -2022,22 +2032,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.9,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "minion_damage",
+                "type": "minion damage",
                 "value": 23.3,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "minion_damage",
-            "food"
+            "health regen",
+            "food",
+            "minion damage"
         ]
     },
     {
@@ -2066,7 +2076,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.9,
                 "unit": "health/sec",
                 "duration": 20
@@ -2080,22 +2090,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.9,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "melee_attack_speed",
+                "type": "melee attack speed",
                 "value": 9.2,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "melee_attack_speed",
-            "food"
+            "health regen",
+            "food",
+            "melee attack speed"
         ]
     },
     {
@@ -2124,7 +2134,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.0,
                 "unit": "health/sec",
                 "duration": 20
@@ -2138,21 +2148,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.0,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "range_attack_speed",
+                "type": "range attack speed",
                 "value": 10.4,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "range_attack_speed",
+            "range attack speed",
+            "health regen",
             "food"
         ]
     },
@@ -2182,7 +2192,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.0,
                 "unit": "health/sec",
                 "duration": 20
@@ -2196,22 +2206,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.0,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "knockback_chance",
+                "type": "knockback chance",
                 "value": 19.0,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "knockback_chance",
-            "food"
+            "health regen",
+            "food",
+            "knockback chance"
         ]
     },
     {
@@ -2240,7 +2250,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.6,
                 "unit": "health/sec",
                 "duration": 20
@@ -2254,22 +2264,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.6,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "immune_to_slow",
+                "type": "immune to slow",
                 "value": 10.0,
                 "unit": null,
                 "duration": null
             }
         ],
         "categories": [
-            "health_regen",
-            "immune_to_slow",
-            "food"
+            "health regen",
+            "food",
+            "immune to slow"
         ]
     },
     {
@@ -2298,7 +2308,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.5,
                 "unit": "health/sec",
                 "duration": 20
@@ -2312,22 +2322,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 2.5,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "immune_to_damage",
+                "type": "immune to damage",
                 "value": 10.0,
                 "unit": null,
                 "duration": null
             }
         ],
         "categories": [
-            "health_regen",
-            "immune_to_damage",
-            "food"
+            "health regen",
+            "food",
+            "immune to damage"
         ]
     },
     {
@@ -2356,7 +2366,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.0,
                 "unit": "health/sec",
                 "duration": 20
@@ -2370,21 +2380,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.0,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "physical_range_damage",
+                "type": "physical range damage",
                 "value": 22.8,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "physical_range_damage",
+            "health regen",
+            "physical range damage",
             "food"
         ]
     },
@@ -2414,7 +2424,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.5,
                 "unit": "health/sec",
                 "duration": 20
@@ -2428,22 +2438,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.5,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "life_on_hit",
+                "type": "life on hit",
                 "value": 3.0,
                 "unit": "life/min",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "life_on_hit",
-            "food"
+            "health regen",
+            "food",
+            "life on hit"
         ]
     },
     {
@@ -2472,7 +2482,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.8,
                 "unit": "health/sec",
                 "duration": 20
@@ -2486,21 +2496,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.8,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "physical_melee_damage",
+                "type": "physical melee damage",
                 "value": 38.6,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "physical_melee_damage",
+            "health regen",
+            "physical melee damage",
             "food"
         ]
     },
@@ -2543,14 +2553,14 @@
                 "duration": null
             },
             {
-                "type": "immune_to_infection",
+                "type": "immune to infection",
                 "value": 10.0,
                 "unit": null,
                 "duration": null
             }
         ],
         "categories": [
-            "immune_to_infection",
+            "immune to infection",
             "health_loss",
             "food"
         ]
@@ -2582,7 +2592,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.3,
                 "unit": "health/sec",
                 "duration": 20
@@ -2596,7 +2606,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.6,
                 "unit": "health/sec",
                 "duration": 20
@@ -2608,16 +2618,16 @@
                 "duration": 600
             },
             {
-                "type": "thorns_damage",
+                "type": "thorns damage",
                 "value": 15.0,
                 "unit": "damage",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
+            "thorns damage",
+            "health regen",
             "armor",
-            "thorns_damage",
             "food"
         ]
     },
@@ -2646,7 +2656,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.1,
                 "unit": "health/sec",
                 "duration": 20
@@ -2660,14 +2670,14 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 8.1,
                 "unit": "health/sec",
                 "duration": 20
             }
         ],
         "categories": [
-            "health_regen",
+            "health regen",
             "food"
         ]
     },
@@ -2698,7 +2708,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.5,
                 "unit": "health/sec",
                 "duration": 20
@@ -2712,29 +2722,29 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 3.0,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "max_mana",
+                "type": "max mana",
                 "value": 29.0,
                 "unit": "mana",
                 "duration": 600
             },
             {
-                "type": "magic_damage",
+                "type": "magic damage",
                 "value": 21.0,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "magic_damage",
-            "max_mana",
-            "food"
+            "health regen",
+            "food",
+            "max mana",
+            "magic damage"
         ]
     },
     {
@@ -2762,7 +2772,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.7,
                 "unit": "health/sec",
                 "duration": 20
@@ -2776,16 +2786,16 @@
                 "duration": null
             },
             {
-                "type": "movement_speed",
+                "type": "movement speed",
                 "value": 36.2,
                 "unit": "%",
                 "duration": 120
             }
         ],
         "categories": [
-            "health_regen",
-            "movement_speed",
-            "food"
+            "health regen",
+            "food",
+            "movement speed"
         ]
     },
     {
@@ -2814,7 +2824,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.2,
                 "unit": "health/sec",
                 "duration": 20
@@ -2828,7 +2838,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.2,
                 "unit": "health/sec",
                 "duration": 20
@@ -2841,9 +2851,9 @@
             }
         ],
         "categories": [
-            "health_regen",
-            "fishing",
-            "food"
+            "health regen",
+            "food",
+            "fishing"
         ]
     },
     {
@@ -2872,7 +2882,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.8,
                 "unit": "health/sec",
                 "duration": 20
@@ -2886,22 +2896,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.8,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "mana_regen",
+                "type": "mana regen",
                 "value": 2.8,
                 "unit": "mana/sec",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "mana_regen",
-            "food"
+            "health regen",
+            "food",
+            "mana regen"
         ]
     },
     {
@@ -2930,7 +2940,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.5,
                 "unit": "health/sec",
                 "duration": 20
@@ -2944,22 +2954,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.5,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "critical_hit_damage",
+                "type": "critical hit damage",
                 "value": 31.0,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "critical_hit_damage",
-            "food"
+            "health regen",
+            "food",
+            "critical hit damage"
         ]
     },
     {
@@ -2988,7 +2998,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.7,
                 "unit": "health/sec",
                 "duration": 20
@@ -3002,21 +3012,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.7,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "dodge_chance",
+                "type": "dodge chance",
                 "value": 11.0,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "dodge_chance",
+            "dodge chance",
+            "health regen",
             "food"
         ]
     },
@@ -3047,7 +3057,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.0,
                 "unit": "health/sec",
                 "duration": 20
@@ -3061,29 +3071,29 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 4.7,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "max_mana",
+                "type": "max mana",
                 "value": 50.0,
                 "unit": "mana",
                 "duration": 600
             },
             {
-                "type": "magic_barrier",
+                "type": "magic barrier",
                 "value": 36.0,
-                "unit": "magic_barrier",
+                "unit": "magic barrier",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "max_mana",
-            "magic_barrier",
-            "food"
+            "health regen",
+            "food",
+            "max mana",
+            "magic barrier"
         ]
     },
     {
@@ -3112,7 +3122,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.8,
                 "unit": "health/sec",
                 "duration": 20
@@ -3126,22 +3136,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.8,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "mining_speed",
+                "type": "mining speed",
                 "value": 14.8,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "mining_speed",
-            "food"
+            "health regen",
+            "food",
+            "mining speed"
         ]
     },
     {
@@ -3170,7 +3180,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 6.4,
                 "unit": "health/sec",
                 "duration": 20
@@ -3190,16 +3200,16 @@
                 "duration": 600
             },
             {
-                "type": "thorns_damage",
+                "type": "thorns damage",
                 "value": 50.0,
                 "unit": "damage",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
+            "thorns damage",
+            "health regen",
             "armor",
-            "thorns_damage",
             "food"
         ]
     },
@@ -3229,7 +3239,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.0,
                 "unit": "health/sec",
                 "duration": 20
@@ -3243,23 +3253,23 @@
                 "duration": null
             },
             {
-                "type": "max_health",
+                "type": "max health",
                 "value": 78.0,
                 "unit": "health",
                 "duration": 600
             },
             {
-                "type": "mining_damage",
+                "type": "mining damage",
                 "value": 206.0,
                 "unit": "damage",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "mining_damage",
-            "max_health",
-            "food"
+            "mining damage",
+            "health regen",
+            "food",
+            "max health"
         ]
     },
     {
@@ -3288,7 +3298,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 6.7,
                 "unit": "health/sec",
                 "duration": 20
@@ -3302,22 +3312,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 6.7,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "melee_attack_speed",
+                "type": "melee attack speed",
                 "value": 13.9,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "melee_attack_speed",
-            "food"
+            "health regen",
+            "food",
+            "melee attack speed"
         ]
     },
     {
@@ -3346,7 +3356,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 8.1,
                 "unit": "health/sec",
                 "duration": 20
@@ -3360,21 +3370,21 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 8.1,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "range_attack_speed",
+                "type": "range attack speed",
                 "value": 13.9,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "range_attack_speed",
+            "range attack speed",
+            "health regen",
             "food"
         ]
     },
@@ -3404,7 +3414,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.8,
                 "unit": "health/sec",
                 "duration": 20
@@ -3418,7 +3428,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.8,
                 "unit": "health/sec",
                 "duration": 20
@@ -3431,9 +3441,9 @@
             }
         ],
         "categories": [
-            "health_regen",
-            "damage",
-            "food"
+            "health regen",
+            "food",
+            "damage"
         ]
     },
     {
@@ -3462,7 +3472,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.8,
                 "unit": "health/sec",
                 "duration": 20
@@ -3476,22 +3486,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.8,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "life_on_hit",
+                "type": "life on hit",
                 "value": 7.0,
                 "unit": "life/min",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "life_on_hit",
-            "food"
+            "health regen",
+            "food",
+            "life on hit"
         ]
     },
     {
@@ -3520,7 +3530,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.1,
                 "unit": "health/sec",
                 "duration": 20
@@ -3534,7 +3544,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.1,
                 "unit": "health/sec",
                 "duration": 20
@@ -3547,7 +3557,7 @@
             }
         ],
         "categories": [
-            "health_regen",
+            "health regen",
             "healing_boost",
             "food"
         ]
@@ -3585,22 +3595,22 @@
                 "duration": null
             },
             {
-                "type": "critical_hit_damage",
+                "type": "critical hit damage",
                 "value": 41.0,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "immune_to_burning",
+                "type": "immune to burning",
                 "value": 10.0,
                 "unit": null,
                 "duration": null
             }
         ],
         "categories": [
-            "immune_to_burning",
-            "critical_hit_damage",
-            "food"
+            "food",
+            "critical hit damage",
+            "immune to burning"
         ]
     },
     {
@@ -3636,22 +3646,22 @@
                 "duration": null
             },
             {
-                "type": "crit_chance",
+                "type": "crit chance",
                 "value": 14.0,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "immune_to_burning",
+                "type": "immune to burning",
                 "value": 10.0,
                 "unit": null,
                 "duration": null
             }
         ],
         "categories": [
-            "immune_to_burning",
-            "crit_chance",
-            "food"
+            "food",
+            "crit chance",
+            "immune to burning"
         ]
     },
     {
@@ -3683,13 +3693,13 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 17.7,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "permanent_max_health",
+                "type": "permanent max health",
                 "value": 100.0,
                 "unit": "health",
                 "duration": null
@@ -3703,36 +3713,36 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 17.7,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "crit_chance",
+                "type": "crit chance",
                 "value": 7.0,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "melee_and_range_attack_speed",
+                "type": "melee and range attack speed",
                 "value": 8.5,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "permanent_max_health",
+                "type": "permanent max health",
                 "value": 100.0,
                 "unit": "health",
                 "duration": null
             }
         ],
         "categories": [
-            "health_regen",
-            "melee_and_range_attack_speed",
-            "permanent_max_health",
+            "health regen",
+            "crit chance",
+            "permanent max health",
             "food",
-            "crit_chance"
+            "melee and range attack speed"
         ]
     },
     {
@@ -3760,7 +3770,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.5,
                 "unit": "health/sec",
                 "duration": 20
@@ -3774,16 +3784,16 @@
                 "duration": null
             },
             {
-                "type": "max_health",
+                "type": "max health",
                 "value": 136.0,
                 "unit": "health",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "max_health",
-            "food"
+            "health regen",
+            "food",
+            "max health"
         ]
     },
     {
@@ -3819,22 +3829,22 @@
                 "duration": null
             },
             {
-                "type": "dodge_chance",
+                "type": "dodge chance",
                 "value": 13.0,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "movement_speed",
+                "type": "movement speed",
                 "value": 27.2,
                 "unit": "%",
                 "duration": 60
             }
         ],
         "categories": [
-            "dodge_chance",
-            "movement_speed",
-            "food"
+            "dodge chance",
+            "food",
+            "movement speed"
         ]
     },
     {
@@ -3862,7 +3872,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 8.2,
                 "unit": "health/sec",
                 "duration": 20
@@ -3876,16 +3886,16 @@
                 "duration": null
             },
             {
-                "type": "pet_damage",
+                "type": "pet damage",
                 "value": 30.9,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "pet_damage",
-            "food"
+            "health regen",
+            "food",
+            "pet damage"
         ]
     },
     {
@@ -3914,7 +3924,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 8.5,
                 "unit": "health/sec",
                 "duration": 20
@@ -3928,7 +3938,7 @@
                 "duration": null
             },
             {
-                "type": "max_health",
+                "type": "max health",
                 "value": 96.0,
                 "unit": "health",
                 "duration": 600
@@ -3941,10 +3951,10 @@
             }
         ],
         "categories": [
-            "health_regen",
-            "max_health",
+            "health regen",
             "armor",
-            "food"
+            "food",
+            "max health"
         ]
     },
     {
@@ -3981,29 +3991,29 @@
                 "duration": null
             },
             {
-                "type": "dodge_chance",
+                "type": "dodge chance",
                 "value": 10.0,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "movement_speed",
+                "type": "movement speed",
                 "value": 21.2,
                 "unit": "%",
                 "duration": 60
             },
             {
-                "type": "melee_and_range_attack_speed",
+                "type": "melee and range attack speed",
                 "value": 11.3,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "dodge_chance",
-            "movement_speed",
-            "melee_and_range_attack_speed",
-            "food"
+            "dodge chance",
+            "food",
+            "melee and range attack speed",
+            "movement speed"
         ]
     },
     {
@@ -4039,22 +4049,22 @@
                 "duration": null
             },
             {
-                "type": "max_health",
+                "type": "max health",
                 "value": 103.0,
                 "unit": "health",
                 "duration": 600
             },
             {
-                "type": "mining_damage",
+                "type": "mining damage",
                 "value": 344.0,
                 "unit": "damage",
                 "duration": 600
             }
         ],
         "categories": [
-            "mining_damage",
-            "max_health",
-            "food"
+            "mining damage",
+            "food",
+            "max health"
         ]
     },
     {
@@ -4084,7 +4094,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 8.3,
                 "unit": "health/sec",
                 "duration": 20
@@ -4098,29 +4108,29 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.5,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "max_mana",
+                "type": "max mana",
                 "value": 69.0,
                 "unit": "mana",
                 "duration": 600
             },
             {
-                "type": "magic_barrier",
+                "type": "magic barrier",
                 "value": 43.0,
-                "unit": "magic_barrier",
+                "unit": "magic barrier",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "max_mana",
-            "magic_barrier",
-            "food"
+            "health regen",
+            "food",
+            "max mana",
+            "magic barrier"
         ]
     },
     {
@@ -4149,7 +4159,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 9.5,
                 "unit": "health/sec",
                 "duration": 20
@@ -4163,22 +4173,22 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 9.5,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "minion_damage",
+                "type": "minion damage",
                 "value": 52.1,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "minion_damage",
-            "food"
+            "health regen",
+            "food",
+            "minion damage"
         ]
     },
     {
@@ -4208,7 +4218,7 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 9.9,
                 "unit": "health/sec",
                 "duration": 20
@@ -4222,29 +4232,29 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 6.6,
                 "unit": "health/sec",
                 "duration": 40
             },
             {
-                "type": "minion_attack_speed",
+                "type": "minion attack speed",
                 "value": 36.8,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "minion_critical_hit_chance",
+                "type": "minion critical hit chance",
                 "value": 12.0,
                 "unit": "%",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "minion_attack_speed",
-            "minion_critical_hit_chance",
-            "food"
+            "health regen",
+            "food",
+            "minion critical hit chance",
+            "minion attack speed"
         ]
     },
     {
@@ -4276,15 +4286,15 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 5.1,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "blue_glow",
+                "type": "blue glow",
                 "value": 5.0,
-                "unit": "blue_glow",
+                "unit": "blue glow",
                 "duration": 300
             }
         ],
@@ -4296,36 +4306,410 @@
                 "duration": null
             },
             {
-                "type": "health_regen",
+                "type": "health regen",
                 "value": 7.2,
                 "unit": "health/sec",
                 "duration": 20
             },
             {
-                "type": "max_mana",
+                "type": "max mana",
                 "value": 58.0,
                 "unit": "mana",
                 "duration": 600
             },
             {
-                "type": "magic_damage",
+                "type": "magic damage",
                 "value": 27.6,
                 "unit": "%",
                 "duration": 600
             },
             {
-                "type": "blue_glow",
+                "type": "blue glow",
                 "value": 5.0,
-                "unit": "blue_glow",
+                "unit": "blue glow",
                 "duration": 600
             }
         ],
         "categories": [
-            "health_regen",
-            "blue_glow",
-            "max_mana",
+            "health regen",
+            "blue glow",
+            "magic damage",
             "food",
-            "magic_damage"
+            "max mana"
         ]
     }
-]
+];
+
+const effect_index = {
+    "health regen": [
+        "Larva Meat",
+        "Mushroom",
+        "Marbled Meat",
+        "Dodo Egg",
+        "Heart Berry",
+        "Carrock",
+        "Puffungi",
+        "Bloat Oat",
+        "Pewpaya",
+        "Pinegrapple",
+        "Grumpkin",
+        "Golden Heart Berry",
+        "Golden Carrock",
+        "Golden Puffungi",
+        "Golden Bloat Oat",
+        "Golden Pewpaya",
+        "Golden Pinegrapple",
+        "Golden Grumpkin",
+        "Atlantean Worm Heart",
+        "Orange Cave Guppy",
+        "Blue Cave Guppy",
+        "Rock Jaw",
+        "Gem Crab",
+        "Dagger Fin",
+        "Pink Palace Fish",
+        "Teal Palace Fish",
+        "Crown Squid",
+        "Yellow Blister Head",
+        "Green Blister Head",
+        "Devil Worm",
+        "Vampire Eel",
+        "Mold Shark",
+        "Black Steel Urchin",
+        "Azure Feather Fish",
+        "Emerald Feather Fish",
+        "Spirit Veil",
+        "Astral Jelly",
+        "Bottom Tracer",
+        "Silver Dart",
+        "Golden Dart",
+        "Pink Coralotl",
+        "White Coralotl",
+        "Solid Spikeback",
+        "Sandy Spikeback",
+        "Grey Dune Tail",
+        "Brown Dune Tail",
+        "Tornis Kingfish",
+        "Dark Lava Eater",
+        "Bright Lava Eater",
+        "Starlight Nautilus",
+        "Beryll Angle Fish",
+        "Cosmic Form",
+        "Jasper Angle Fish",
+        "Litho Trilobite",
+        "Pinkhorn Pico",
+        "Greenhorn Pico",
+        "Riftian Lampfish"
+    ],
+    "food": [
+        "Larva Meat",
+        "Shiny Larva Meat",
+        "Mushroom",
+        "Giant Mushroom",
+        "Amber Larva",
+        "Marbled Meat",
+        "Dodo Egg",
+        "Heart Berry",
+        "Glow Tulip",
+        "Bomb Pepper",
+        "Carrock",
+        "Puffungi",
+        "Bloat Oat",
+        "Pewpaya",
+        "Pinegrapple",
+        "Grumpkin",
+        "Sunrice",
+        "Lunacorn",
+        "Golden Heart Berry",
+        "Golden Glow Tulip",
+        "Golden Bomb Pepper",
+        "Golden Carrock",
+        "Golden Puffungi",
+        "Golden Bloat Oat",
+        "Golden Pewpaya",
+        "Golden Pinegrapple",
+        "Golden Grumpkin",
+        "Golden Sunrice",
+        "Golden Lunacorn",
+        "Atlantean Worm Heart",
+        "Orange Cave Guppy",
+        "Blue Cave Guppy",
+        "Rock Jaw",
+        "Gem Crab",
+        "Dagger Fin",
+        "Pink Palace Fish",
+        "Teal Palace Fish",
+        "Crown Squid",
+        "Yellow Blister Head",
+        "Green Blister Head",
+        "Devil Worm",
+        "Vampire Eel",
+        "Mold Shark",
+        "Rot Fish",
+        "Black Steel Urchin",
+        "Azure Feather Fish",
+        "Emerald Feather Fish",
+        "Spirit Veil",
+        "Astral Jelly",
+        "Bottom Tracer",
+        "Silver Dart",
+        "Golden Dart",
+        "Pink Coralotl",
+        "White Coralotl",
+        "Solid Spikeback",
+        "Sandy Spikeback",
+        "Grey Dune Tail",
+        "Brown Dune Tail",
+        "Tornis Kingfish",
+        "Dark Lava Eater",
+        "Bright Lava Eater",
+        "Verdant Dragonfish",
+        "Elder Dragonfish",
+        "Starlight Nautilus",
+        "Beryll Angle Fish",
+        "Glistening Deepstalker",
+        "Cosmic Form",
+        "Jasper Angle Fish",
+        "Splendid Deepstalker",
+        "Terra Trilobite",
+        "Litho Trilobite",
+        "Pinkhorn Pico",
+        "Greenhorn Pico",
+        "Riftian Lampfish"
+    ],
+    "crit chance": [
+        "Larva Meat",
+        "Shiny Larva Meat",
+        "Elder Dragonfish",
+        "Starlight Nautilus"
+    ],
+    "life on hit": [
+        "Shiny Larva Meat",
+        "Vampire Eel",
+        "Dark Lava Eater"
+    ],
+    "permanent max health": [
+        "Giant Mushroom",
+        "Amber Larva",
+        "Atlantean Worm Heart",
+        "Starlight Nautilus"
+    ],
+    "max health": [
+        "Giant Mushroom",
+        "Amber Larva",
+        "Heart Berry",
+        "Golden Heart Berry",
+        "Sandy Spikeback",
+        "Beryll Angle Fish",
+        "Jasper Angle Fish",
+        "Terra Trilobite"
+    ],
+    "damage": [
+        "Marbled Meat",
+        "Tornis Kingfish"
+    ],
+    "healing_boost": [
+        "Dodo Egg",
+        "Bright Lava Eater"
+    ],
+    "blue glow": [
+        "Glow Tulip",
+        "Lunacorn",
+        "Golden Glow Tulip",
+        "Golden Lunacorn",
+        "Riftian Lampfish"
+    ],
+    "mana regen": [
+        "Glow Tulip",
+        "Golden Glow Tulip",
+        "Bottom Tracer"
+    ],
+    "health_loss": [
+        "Bomb Pepper",
+        "Puffungi",
+        "Golden Bomb Pepper",
+        "Golden Puffungi",
+        "Rot Fish"
+    ],
+    "movement speed": [
+        "Bomb Pepper",
+        "Golden Bomb Pepper",
+        "Spirit Veil",
+        "Glistening Deepstalker",
+        "Splendid Deepstalker"
+    ],
+    "armor": [
+        "Carrock",
+        "Golden Carrock",
+        "Gem Crab",
+        "Black Steel Urchin",
+        "Solid Spikeback",
+        "Jasper Angle Fish"
+    ],
+    "reduced damage from bosses": [
+        "Puffungi",
+        "Golden Puffungi"
+    ],
+    "physical range damage": [
+        "Pewpaya",
+        "Golden Pewpaya",
+        "Devil Worm"
+    ],
+    "physical melee damage": [
+        "Pinegrapple",
+        "Golden Heart Berry",
+        "Golden Pinegrapple",
+        "Rock Jaw",
+        "Mold Shark"
+    ],
+    "mining damage": [
+        "Grumpkin",
+        "Golden Grumpkin",
+        "Orange Cave Guppy",
+        "Sandy Spikeback",
+        "Terra Trilobite"
+    ],
+    "magic damage": [
+        "Sunrice",
+        "Golden Sunrice",
+        "Emerald Feather Fish",
+        "Riftian Lampfish"
+    ],
+    "glow": [
+        "Sunrice",
+        "Golden Sunrice"
+    ],
+    "minion damage": [
+        "Lunacorn",
+        "Golden Lunacorn",
+        "Dagger Fin",
+        "Pinkhorn Pico"
+    ],
+    "max mana": [
+        "Golden Glow Tulip",
+        "Emerald Feather Fish",
+        "Pink Coralotl",
+        "Litho Trilobite",
+        "Riftian Lampfish"
+    ],
+    "melee attack speed": [
+        "Golden Bomb Pepper",
+        "Golden Pinegrapple",
+        "Pink Palace Fish",
+        "Grey Dune Tail"
+    ],
+    "knockback chance": [
+        "Golden Carrock",
+        "Crown Squid"
+    ],
+    "damage against bosses": [
+        "Golden Puffungi"
+    ],
+    "less food drained": [
+        "Golden Bloat Oat"
+    ],
+    "range attack speed": [
+        "Golden Pewpaya",
+        "Teal Palace Fish",
+        "Brown Dune Tail"
+    ],
+    "mining speed": [
+        "Golden Grumpkin",
+        "White Coralotl"
+    ],
+    "magic barrier": [
+        "Golden Sunrice",
+        "Blue Cave Guppy",
+        "Pink Coralotl",
+        "Litho Trilobite"
+    ],
+    "minion attack speed": [
+        "Golden Lunacorn",
+        "Greenhorn Pico"
+    ],
+    "health regen allies": [
+        "Atlantean Worm Heart"
+    ],
+    "immune to slow": [
+        "Yellow Blister Head"
+    ],
+    "immune to damage": [
+        "Green Blister Head"
+    ],
+    "immune to infection": [
+        "Rot Fish"
+    ],
+    "thorns damage": [
+        "Black Steel Urchin",
+        "Solid Spikeback"
+    ],
+    "fishing": [
+        "Astral Jelly"
+    ],
+    "critical hit damage": [
+        "Silver Dart",
+        "Verdant Dragonfish"
+    ],
+    "dodge chance": [
+        "Golden Dart",
+        "Glistening Deepstalker",
+        "Splendid Deepstalker"
+    ],
+    "immune to burning": [
+        "Verdant Dragonfish",
+        "Elder Dragonfish"
+    ],
+    "melee and range attack speed": [
+        "Starlight Nautilus",
+        "Splendid Deepstalker"
+    ],
+    "pet damage": [
+        "Cosmic Form"
+    ],
+    "minion critical hit chance": [
+        "Greenhorn Pico"
+    ]
+};
+
+const reconstructors = {
+    "permanent max health": "`+${data.value} max health (only once)`;",
+    "max health": "`+${data.value} max health for ${formatDuration(data.duration)}`;",
+    "health_loss": "`${data.value} health`;",
+    "health regen": "`+${data.value.toFixed(1)} health every sec for ${formatDuration(data.duration)}`;",
+    "health regen allies": "`+${data.value} health every sec to you and all nearby allies for ${formatDuration(data.duration)}`;",
+    "life on hit": "`+${data.value} life on melee hit for ${formatDuration(data.duration)}`;",
+    "healing_boost": "`+${data.value}% more healing from health over time regeneration for ${formatDuration(data.duration)}`;",
+    "max mana": "`+${data.value} max mana for ${formatDuration(data.duration)}`;",
+    "mana regen": "`+${data.value.toFixed(1)} mana every sec for ${formatDuration(data.duration)}`;",
+    "damage": "`+${data.value}% damage for ${formatDuration(data.duration)}`;",
+    "physical range damage": "`+${data.value}% physical range damage for ${formatDuration(data.duration)}`;",
+    "physical melee damage": "`+${data.value}% physical melee damage for ${formatDuration(data.duration)}`;",
+    "magic damage": "`+${data.value}% magic damage for ${formatDuration(data.duration)}`;",
+    "minion damage": "`+${data.value}% minion damage for ${formatDuration(data.duration)}`;",
+    "damage against bosses": "`+${data.value}% damage against bosses for ${formatDuration(data.duration)}`;",
+    "reduced damage from bosses": "`+${data.value}% reduced damage taken from bosses for ${formatDuration(data.duration)}`;",
+    "thorns damage": "`+${data.value} thorns damage for ${formatDuration(data.duration)}`;",
+    "mining damage": "`+${data.value} mining damage for ${formatDuration(data.duration)}`;",
+    "pet damage": "`+${data.value}% damage dealt by your pet for ${formatDuration(data.duration)}`;",
+    "crit chance": "`+${data.value}% critical hit chance for ${formatDuration(data.duration)}`;",
+    "minion critical hit chance": "`+${data.value}% minion critical hit chance for ${formatDuration(data.duration)}`;",
+    "critical hit damage": "`+${data.value}% critical hit damage for ${formatDuration(data.duration)}`;",
+    "melee attack speed": "`+${data.value}% melee attack speed for ${formatDuration(data.duration)}`;",
+    "range attack speed": "`+${data.value}% range attack speed for ${formatDuration(data.duration)}`;",
+    "minion attack speed": "`+${data.value}% minion attack speed for ${formatDuration(data.duration)}`;",
+    "melee and range attack speed": "`+${data.value}% melee and range attack speed for ${formatDuration(data.duration)}`;",
+    "armor": "`+${data.value} armor for ${formatDuration(data.duration)}`;",
+    "magic barrier": "`+${data.value} magic barrier for ${formatDuration(data.duration)}`;",
+    "dodge chance": "`+${data.value}% dodge chance for ${formatDuration(data.duration)}`;",
+    "immune to slow": "`Immune to being slowed by ${data.effect} for ${formatDuration(data.duration)}`;",
+    "immune to damage": "`Immune to ${data.effect} damage for ${formatDuration(data.duration)}`;",
+    "immune to burning": "`Immune to burning for ${formatDuration(data.duration)}`;",
+    "immune to infection": "`Immune to mold infection for ${formatDuration(data.duration)}`;",
+    "movement speed": "`+${data.value}% movement speed for ${formatDuration(data.duration)}`;",
+    "knockback chance": "`+${data.value}% knockback chance for ${formatDuration(data.duration)}`;",
+    "food": "`+${data.value} food`;",
+    "less food drained": "`+${data.value}% less food drained when running for ${formatDuration(data.duration)}`;",
+    "blue glow": "`+${data.value} blue glow for ${formatDuration(data.duration)}`;",
+    "glow": "`+${data.value} glow for ${formatDuration(data.duration)}`;",
+    "mining speed": "`+${data.value}% mining speed for ${formatDuration(data.duration)}`;",
+    "fishing": "`+${data.value} fishing for ${formatDuration(data.duration)}`;"
+};
