@@ -13,28 +13,64 @@
 
 <body>
 
-<h1 class="mt-3">Test 3</h1>
+<h1 class="mt-3">Test 5</h1>
+
 <div x-data="toggleEffects()">
-    <ul class="space-y-2">
-        <template x-for="(effects, index) in effectIndexes" :key="index">
-            <li class="flex items-center p-2 border rounded bg-gray-100">
-                <button x-text="index"
-                        @click="toggles[index] = !toggles[index]"
-                        :class="toggles[index] ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'"
-                        class="ml-4 px-4 py-2 rounded-md focus:outline-none transition-colors duration-300"
-                >
-                </button>
-                <span x-show="toggles[index]" x-text="effects.join(', ')"></span>
-            </li>
+    <div>
+        <template x-for="(effects, effect_category) in effectIndexes" :key="effect_category">
+            <button x-text="effect_category"
+                    @click="toggles[effect_category] = !toggles[effect_category]"
+                    :class="toggles[effect_category] ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'"
+                    class="ml-4 px-4 py-2 rounded-md focus:outline-none transition-colors duration-300 gap-40"
+            >
+            </button>
         </template>
-    </ul>
+
+        <table class="table w-full mt-4">
+            <thead>
+            <tr class="bg-gray-200 text-gray-700">
+                <th class="text-center px-4 py-2 font-medium">#</th>
+                <th class="text-left px-4 py-2 font-medium">Name</th>
+                <th class="text-left px-4 py-2 font-medium">Effects</th>
+                <th class="text-left px-4 py-2 font-medium">Base Cooked Effects</th>
+                <th class="text-left px-4 py-2 font-medium">Sell Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <template x-for="(cooking_ingredient, index) in filteredIngredients()" :key="cooking_ingredient.food_name">
+                <tr class="hover:bg-gray-50">
+                    <td class="text-center px-4 py-2 border-b bg-gray-100 font-semibold" x-text="index + 1"></td>
+                    <td class="px-4 py-2 border-b" x-text="cooking_ingredient.food_name"></td>
+                    <td class="px-4 py-2 border-b" x-text="cooking_ingredient.effects"></td>
+                    <td class="px-4 py-2 border-b" x-text="cooking_ingredient.base_cooked_effects"></td>
+                    <td class="px-4 py-2 border-b" x-text="cooking_ingredient.sell_value"></td>
+                </tr>
+            </template>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <script>
-    function toggleEffects() {
+    function data() {
         return {
-            effectIndexes: effect_indexes, // Assuming effect_indexes is defined globally
-            toggles: Array(Object.keys(effect_indexes).length).fill(false) // Initialize toggles array
+            effectIndexes: effect_indexes,
+            cooking_ingredients: cooking_ingredients,
+            toggles: Object.keys(effect_indexes).reduce((togglesObject, effect_category) => {
+                togglesObject[effect_category] = false;
+                return togglesObject;
+            }, {}),
+            isAnyFilterActive() {
+                return Object.values(this.toggles).some(isActive => isActive);
+            },
+            filteredIngredients() {
+                if (!this.isAnyFilterActive()) {
+                    return this.cooking_ingredients;
+                }
+                return this.cooking_ingredients.filter(ingredient =>
+                    ingredient.categories.some(category => this.toggles[category])
+                );
+            }
         }
     }
 </script>

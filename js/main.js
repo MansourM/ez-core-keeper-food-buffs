@@ -4340,7 +4340,7 @@ const cooking_ingredients = [
     }
 ];
 
-var effect_indexes = {
+const effect_indexes = {
     "health regen": [
         "Larva Meat",
         "Mushroom",
