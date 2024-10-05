@@ -36,7 +36,7 @@
     "knockback chance": "`+${data.value}% knockback chance for ${formatDuration(data.duration)}`;",
     "food": "`+${data.value} food`;",
     "less food drained": "`+${data.value}% less food drained when running for ${formatDuration(data.duration)}`;",
-    "blue glow": "`+${data.value} blue glow for ${formatDuration(data.duration)}`;",
+    "glow (blue)": "`+${data.value} blue glow for ${formatDuration(data.duration)}`;",
     "glow": "`+${data.value} glow for ${formatDuration(data.duration)}`;",
     "mining speed": "`+${data.value}% mining speed for ${formatDuration(data.duration)}`;",
     "fishing": "`+${data.value} fishing for ${formatDuration(data.duration)}`;"

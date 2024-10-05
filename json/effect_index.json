@@ -169,7 +169,7 @@
         "Dodo Egg",
         "Bright Lava Eater"
     ],
-    "blue glow": [
+    "glow (blue)": [
         "Glow Tulip",
         "Lunacorn",
         "Golden Glow Tulip",
@@ -181,19 +181,19 @@
         "Golden Glow Tulip",
         "Bottom Tracer"
     ],
-    "movement speed": [
-        "Bomb Pepper",
-        "Golden Bomb Pepper",
-        "Spirit Veil",
-        "Glistening Deepstalker",
-        "Splendid Deepstalker"
-    ],
     "health_loss": [
         "Bomb Pepper",
         "Puffungi",
         "Golden Bomb Pepper",
         "Golden Puffungi",
         "Rot Fish"
+    ],
+    "movement speed": [
+        "Bomb Pepper",
+        "Golden Bomb Pepper",
+        "Spirit Veil",
+        "Glistening Deepstalker",
+        "Splendid Deepstalker"
     ],
     "armor": [
         "Carrock",

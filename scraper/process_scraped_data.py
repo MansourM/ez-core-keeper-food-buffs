@@ -156,7 +156,7 @@ def parse_effect(effect_string):
         (r"(\+\d+\.?\d*)% less food drained when running for (\d+) (sec|min)", "less food drained", "%",
          '`+${data.value}% less food drained when running for ${formatDuration(data.duration)}`;'),
         # Example: "+4 blue glow for 1 min"
-        (r"(\+\d+) blue glow for (\d+) (sec|min)", "blue glow", "blue glow",
+        (r"(\+\d+) blue glow for (\d+) (sec|min)", "glow (blue)", "blue glow",
          '`+${data.value} blue glow for ${formatDuration(data.duration)}`;'),
         # Example: "+4 glow for 10 min"
         (r"(\+\d+) glow for (\d+) (sec|min)", "glow", "glow",

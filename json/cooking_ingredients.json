@@ -225,9 +225,9 @@
             }
         ],
         "categories": [
-            "food",
             "permanent max health",
-            "max health"
+            "max health",
+            "food"
         ]
     },
     {
@@ -283,9 +283,9 @@
             }
         ],
         "categories": [
-            "food",
             "permanent max health",
-            "max health"
+            "max health",
+            "food"
         ]
     },
     {
@@ -399,9 +399,9 @@
             }
         ],
         "categories": [
+            "more healing",
             "health regen",
-            "food",
-            "more healing"
+            "food"
         ]
     },
     {
@@ -457,9 +457,9 @@
             }
         ],
         "categories": [
+            "max health",
             "health regen",
-            "food",
-            "max health"
+            "food"
         ]
     },
     {
@@ -488,7 +488,7 @@
                 "duration": null
             },
             {
-                "type": "blue glow",
+                "type": "glow (blue)",
                 "value": 4.0,
                 "unit": "blue glow",
                 "duration": 60
@@ -502,7 +502,7 @@
                 "duration": null
             },
             {
-                "type": "blue glow",
+                "type": "glow (blue)",
                 "value": 5.0,
                 "unit": "blue glow",
                 "duration": 600
@@ -515,7 +515,7 @@
             }
         ],
         "categories": [
-            "blue glow",
+            "glow (blue)",
             "mana regen",
             "food"
         ]
@@ -566,9 +566,9 @@
             }
         ],
         "categories": [
-            "food",
+            "health_loss",
             "movement speed",
-            "health_loss"
+            "food"
         ]
     },
     {
@@ -617,9 +617,9 @@
             }
         ],
         "categories": [
-            "armor",
             "health regen",
-            "food"
+            "food",
+            "armor"
         ]
     },
     {
@@ -675,10 +675,10 @@
             }
         ],
         "categories": [
-            "health regen",
-            "food",
             "health_loss",
-            "reduced damage from bosses"
+            "health regen",
+            "reduced damage from bosses",
+            "food"
         ]
     },
     {
@@ -777,8 +777,8 @@
             }
         ],
         "categories": [
-            "health regen",
             "physical range damage",
+            "health regen",
             "food"
         ]
     },
@@ -835,8 +835,8 @@
             }
         ],
         "categories": [
-            "physical melee damage",
             "health regen",
+            "physical melee damage",
             "food"
         ]
     },
@@ -893,9 +893,9 @@
             }
         ],
         "categories": [
+            "mining damage",
             "health regen",
-            "food",
-            "mining damage"
+            "food"
         ]
     },
     {
@@ -945,8 +945,8 @@
         ],
         "categories": [
             "magic damage",
-            "food",
-            "glow"
+            "glow",
+            "food"
         ]
     },
     {
@@ -982,7 +982,7 @@
                 "duration": null
             },
             {
-                "type": "blue glow",
+                "type": "glow (blue)",
                 "value": 4.0,
                 "unit": "blue glow",
                 "duration": 600
@@ -995,9 +995,9 @@
             }
         ],
         "categories": [
-            "blue glow",
-            "food",
-            "minion damage"
+            "glow (blue)",
+            "minion damage",
+            "food"
         ]
     },
     {
@@ -1060,10 +1060,10 @@
             }
         ],
         "categories": [
-            "physical melee damage",
+            "max health",
             "health regen",
-            "food",
-            "max health"
+            "physical melee damage",
+            "food"
         ]
     },
     {
@@ -1093,7 +1093,7 @@
                 "duration": null
             },
             {
-                "type": "blue glow",
+                "type": "glow (blue)",
                 "value": 5.0,
                 "unit": "blue glow",
                 "duration": 60
@@ -1107,7 +1107,7 @@
                 "duration": null
             },
             {
-                "type": "blue glow",
+                "type": "glow (blue)",
                 "value": 6.0,
                 "unit": "blue glow",
                 "duration": 600
@@ -1126,10 +1126,10 @@
             }
         ],
         "categories": [
-            "blue glow",
+            "max mana",
+            "glow (blue)",
             "mana regen",
-            "food",
-            "max mana"
+            "food"
         ]
     },
     {
@@ -1185,10 +1185,10 @@
             }
         ],
         "categories": [
-            "melee attack speed",
-            "food",
+            "health_loss",
             "movement speed",
-            "health_loss"
+            "melee attack speed",
+            "food"
         ]
     },
     {
@@ -1244,10 +1244,10 @@
             }
         ],
         "categories": [
-            "armor",
             "health regen",
+            "knockback chance",
             "food",
-            "knockback chance"
+            "armor"
         ]
     },
     {
@@ -1310,10 +1310,10 @@
             }
         ],
         "categories": [
-            "food",
-            "health regen",
-            "damage against bosses",
             "health_loss",
+            "food",
+            "damage against bosses",
+            "health regen",
             "reduced damage from bosses"
         ]
     },
@@ -1364,8 +1364,8 @@
         ],
         "categories": [
             "health regen",
-            "food",
-            "less food drained"
+            "less food drained",
+            "food"
         ]
     },
     {
@@ -1428,10 +1428,10 @@
             }
         ],
         "categories": [
-            "health regen",
             "physical range damage",
-            "food",
-            "range attack speed"
+            "health regen",
+            "range attack speed",
+            "food"
         ]
     },
     {
@@ -1494,10 +1494,10 @@
             }
         ],
         "categories": [
-            "physical melee damage",
             "health regen",
-            "food",
-            "melee attack speed"
+            "physical melee damage",
+            "melee attack speed",
+            "food"
         ]
     },
     {
@@ -1560,10 +1560,10 @@
             }
         ],
         "categories": [
-            "health regen",
-            "food",
             "mining damage",
-            "mining speed"
+            "health regen",
+            "mining speed",
+            "food"
         ]
     },
     {
@@ -1620,9 +1620,9 @@
         ],
         "categories": [
             "magic damage",
-            "food",
+            "glow",
             "magic barrier",
-            "glow"
+            "food"
         ]
     },
     {
@@ -1659,7 +1659,7 @@
                 "duration": null
             },
             {
-                "type": "blue glow",
+                "type": "glow (blue)",
                 "value": 4.0,
                 "unit": "blue glow",
                 "duration": 600
@@ -1678,10 +1678,10 @@
             }
         ],
         "categories": [
-            "blue glow",
-            "food",
+            "minion attack speed",
+            "glow (blue)",
             "minion damage",
-            "minion attack speed"
+            "food"
         ]
     },
     {
@@ -1744,10 +1744,10 @@
             }
         ],
         "categories": [
+            "permanent max health",
             "health regen",
-            "food",
             "health regen allies",
-            "permanent max health"
+            "food"
         ]
     },
     {
@@ -1803,9 +1803,9 @@
             }
         ],
         "categories": [
+            "mining damage",
             "health regen",
-            "food",
-            "mining damage"
+            "food"
         ]
     },
     {
@@ -1861,9 +1861,9 @@
             }
         ],
         "categories": [
+            "magic barrier",
             "health regen",
-            "food",
-            "magic barrier"
+            "food"
         ]
     },
     {
@@ -1919,8 +1919,8 @@
             }
         ],
         "categories": [
-            "physical melee damage",
             "health regen",
+            "physical melee damage",
             "food"
         ]
     },
@@ -1977,9 +1977,9 @@
             }
         ],
         "categories": [
-            "armor",
             "health regen",
-            "food"
+            "food",
+            "armor"
         ]
     },
     {
@@ -2035,8 +2035,8 @@
             }
         ],
         "categories": [
-            "minion damage",
             "health regen",
+            "minion damage",
             "food"
         ]
     },
@@ -2094,8 +2094,8 @@
         ],
         "categories": [
             "health regen",
-            "food",
-            "melee attack speed"
+            "melee attack speed",
+            "food"
         ]
     },
     {
@@ -2152,8 +2152,8 @@
         ],
         "categories": [
             "health regen",
-            "food",
-            "range attack speed"
+            "range attack speed",
+            "food"
         ]
     },
     {
@@ -2210,8 +2210,8 @@
         ],
         "categories": [
             "health regen",
-            "food",
-            "knockback chance"
+            "knockback chance",
+            "food"
         ]
     },
     {
@@ -2325,9 +2325,9 @@
             }
         ],
         "categories": [
+            "immune to damage",
             "health regen",
-            "food",
-            "immune to damage"
+            "food"
         ]
     },
     {
@@ -2383,8 +2383,8 @@
             }
         ],
         "categories": [
-            "health regen",
             "physical range damage",
+            "health regen",
             "food"
         ]
     },
@@ -2441,9 +2441,9 @@
             }
         ],
         "categories": [
+            "life on hit",
             "health regen",
-            "food",
-            "life on hit"
+            "food"
         ]
     },
     {
@@ -2499,8 +2499,8 @@
             }
         ],
         "categories": [
-            "physical melee damage",
             "health regen",
+            "physical melee damage",
             "food"
         ]
     },
@@ -2550,9 +2550,9 @@
             }
         ],
         "categories": [
+            "health_loss",
             "food",
-            "immune to infection",
-            "health_loss"
+            "immune to infection"
         ]
     },
     {
@@ -2615,10 +2615,10 @@
             }
         ],
         "categories": [
-            "armor",
             "health regen",
+            "thorns damage",
             "food",
-            "thorns damage"
+            "armor"
         ]
     },
     {
@@ -2731,10 +2731,10 @@
             }
         ],
         "categories": [
-            "health regen",
+            "magic damage",
             "max mana",
-            "food",
-            "magic damage"
+            "health regen",
+            "food"
         ]
     },
     {
@@ -2784,8 +2784,8 @@
         ],
         "categories": [
             "health regen",
-            "food",
-            "movement speed"
+            "movement speed",
+            "food"
         ]
     },
     {
@@ -2899,8 +2899,8 @@
             }
         ],
         "categories": [
-            "mana regen",
             "health regen",
+            "mana regen",
             "food"
         ]
     },
@@ -2957,9 +2957,9 @@
             }
         ],
         "categories": [
+            "critical hit damage",
             "health regen",
-            "food",
-            "critical hit damage"
+            "food"
         ]
     },
     {
@@ -3015,9 +3015,9 @@
             }
         ],
         "categories": [
+            "dodge chance",
             "health regen",
-            "food",
-            "dodge chance"
+            "food"
         ]
     },
     {
@@ -3080,8 +3080,8 @@
             }
         ],
         "categories": [
-            "health regen",
             "max mana",
+            "health regen",
             "food",
             "magic barrier"
         ]
@@ -3139,9 +3139,9 @@
             }
         ],
         "categories": [
+            "mining speed",
             "health regen",
-            "food",
-            "mining speed"
+            "food"
         ]
     },
     {
@@ -3197,10 +3197,10 @@
             }
         ],
         "categories": [
-            "armor",
             "health regen",
+            "thorns damage",
             "food",
-            "thorns damage"
+            "armor"
         ]
     },
     {
@@ -3256,10 +3256,10 @@
             }
         ],
         "categories": [
-            "health regen",
-            "food",
+            "max health",
             "mining damage",
-            "max health"
+            "health regen",
+            "food"
         ]
     },
     {
@@ -3316,8 +3316,8 @@
         ],
         "categories": [
             "health regen",
-            "food",
-            "melee attack speed"
+            "melee attack speed",
+            "food"
         ]
     },
     {
@@ -3374,8 +3374,8 @@
         ],
         "categories": [
             "health regen",
-            "food",
-            "range attack speed"
+            "range attack speed",
+            "food"
         ]
     },
     {
@@ -3489,9 +3489,9 @@
             }
         ],
         "categories": [
+            "life on hit",
             "health regen",
-            "food",
-            "life on hit"
+            "food"
         ]
     },
     {
@@ -3547,9 +3547,9 @@
             }
         ],
         "categories": [
+            "more healing",
             "health regen",
-            "food",
-            "more healing"
+            "food"
         ]
     },
     {
@@ -3599,8 +3599,8 @@
         ],
         "categories": [
             "critical hit damage",
-            "food",
-            "immune to burning"
+            "immune to burning",
+            "food"
         ]
     },
     {
@@ -3728,11 +3728,11 @@
             }
         ],
         "categories": [
-            "food",
             "permanent max health",
-            "health regen",
+            "food",
             "crit chance",
-            "melee and range attack speed"
+            "melee and range attack speed",
+            "health regen"
         ]
     },
     {
@@ -3781,9 +3781,9 @@
             }
         ],
         "categories": [
+            "max health",
             "health regen",
-            "food",
-            "max health"
+            "food"
         ]
     },
     {
@@ -3832,9 +3832,9 @@
             }
         ],
         "categories": [
+            "dodge chance",
             "movement speed",
-            "food",
-            "dodge chance"
+            "food"
         ]
     },
     {
@@ -3884,8 +3884,8 @@
         ],
         "categories": [
             "health regen",
-            "food",
-            "pet damage"
+            "pet damage",
+            "food"
         ]
     },
     {
@@ -3941,10 +3941,10 @@
             }
         ],
         "categories": [
-            "armor",
+            "max health",
             "health regen",
             "food",
-            "max health"
+            "armor"
         ]
     },
     {
@@ -4000,10 +4000,10 @@
             }
         ],
         "categories": [
-            "movement speed",
+            "dodge chance",
             "melee and range attack speed",
-            "food",
-            "dodge chance"
+            "movement speed",
+            "food"
         ]
     },
     {
@@ -4052,9 +4052,9 @@
             }
         ],
         "categories": [
-            "food",
+            "max health",
             "mining damage",
-            "max health"
+            "food"
         ]
     },
     {
@@ -4117,8 +4117,8 @@
             }
         ],
         "categories": [
-            "health regen",
             "max mana",
+            "health regen",
             "food",
             "magic barrier"
         ]
@@ -4176,8 +4176,8 @@
             }
         ],
         "categories": [
-            "minion damage",
             "health regen",
+            "minion damage",
             "food"
         ]
     },
@@ -4241,10 +4241,10 @@
             }
         ],
         "categories": [
-            "health regen",
-            "food",
             "minion critical hit chance",
-            "minion attack speed"
+            "minion attack speed",
+            "health regen",
+            "food"
         ]
     },
     {
@@ -4282,7 +4282,7 @@
                 "duration": 20
             },
             {
-                "type": "blue glow",
+                "type": "glow (blue)",
                 "value": 5.0,
                 "unit": "blue glow",
                 "duration": 300
@@ -4314,18 +4314,18 @@
                 "duration": 600
             },
             {
-                "type": "blue glow",
+                "type": "glow (blue)",
                 "value": 5.0,
                 "unit": "blue glow",
                 "duration": 600
             }
         ],
         "categories": [
+            "glow (blue)",
+            "max mana",
             "food",
-            "health regen",
-            "blue glow",
             "magic damage",
-            "max mana"
+            "health regen"
         ]
     }
 ]
