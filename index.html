@@ -17,14 +17,19 @@
 
 <div x-data="data()">
     <div>
-        <template x-for="(effects, effect_category) in effectIndexes" :key="effect_category">
-            <button x-text="effect_category"
-                    @click="toggles[effect_category] = !toggles[effect_category]"
-                    :class="toggles[effect_category] ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'"
-                    class="ml-4 px-4 py-2 rounded-md focus:outline-none transition-colors duration-300 gap-40"
-            >
-            </button>
-        </template>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            <template x-for="(effects, effect_category) in effectIndexes" :key="effect_category">
+                <button
+                        x-text="effect_category"
+                        @click="toggles[effect_category] = !toggles[effect_category]"
+                        :title="effect_category"
+                        :class="toggles[effect_category] ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-800'"
+                        class="px-4 py-2 rounded-md focus:outline-none transition-colors duration-300 overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                </button>
+                </button>
+            </template>
+        </div>
 
         <table class="table w-full mt-4">
             <thead>
