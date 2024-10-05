@@ -51,7 +51,7 @@ def parse_effect(effect_string):
         (r"(\+\d+) life on melee hit for (\d+) (sec|min)", "life on hit", "life/min",
          '`+${data.value} life on melee hit for ${formatDuration(data.duration)}`;'),
         # Example: "+25% more healing from health over time regeneration for 10 min"
-        (r"(\+\d+\.?\d*)% more healing from health over time regeneration for (\d+) (sec|min)", "healing_boost", "%",
+        (r"(\+\d+\.?\d*)% more healing from health over time regeneration for (\d+) (sec|min)", "more healing", "%",
          '`+${data.value}% more healing from health over time regeneration for ${formatDuration(data.duration)}`;'),
 
         # Mana related patterns

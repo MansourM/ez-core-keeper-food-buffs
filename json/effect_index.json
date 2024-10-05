@@ -165,7 +165,7 @@
         "Marbled Meat",
         "Tornis Kingfish"
     ],
-    "healing_boost": [
+    "more healing": [
         "Dodo Egg",
         "Bright Lava Eater"
     ],
@@ -181,19 +181,19 @@
         "Golden Glow Tulip",
         "Bottom Tracer"
     ],
-    "health_loss": [
-        "Bomb Pepper",
-        "Puffungi",
-        "Golden Bomb Pepper",
-        "Golden Puffungi",
-        "Rot Fish"
-    ],
     "movement speed": [
         "Bomb Pepper",
         "Golden Bomb Pepper",
         "Spirit Veil",
         "Glistening Deepstalker",
         "Splendid Deepstalker"
+    ],
+    "health_loss": [
+        "Bomb Pepper",
+        "Puffungi",
+        "Golden Bomb Pepper",
+        "Golden Puffungi",
+        "Rot Fish"
     ],
     "armor": [
         "Carrock",

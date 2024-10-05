@@ -5,7 +5,7 @@
     "health regen": "`+${data.value.toFixed(1)} health every sec for ${formatDuration(data.duration)}`;",
     "health regen allies": "`+${data.value} health every sec to you and all nearby allies for ${formatDuration(data.duration)}`;",
     "life on hit": "`+${data.value} life on melee hit for ${formatDuration(data.duration)}`;",
-    "healing_boost": "`+${data.value}% more healing from health over time regeneration for ${formatDuration(data.duration)}`;",
+    "more healing": "`+${data.value}% more healing from health over time regeneration for ${formatDuration(data.duration)}`;",
     "max mana": "`+${data.value} max mana for ${formatDuration(data.duration)}`;",
     "mana regen": "`+${data.value.toFixed(1)} mana every sec for ${formatDuration(data.duration)}`;",
     "damage": "`+${data.value}% damage for ${formatDuration(data.duration)}`;",

@@ -235,8 +235,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "permanent max health",
             "food",
+            "permanent max health",
             "max health"
         ]
     },
@@ -293,8 +293,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "permanent max health",
             "food",
+            "permanent max health",
             "max health"
         ]
     },
@@ -402,7 +402,7 @@ const cooking_ingredients = [
                 "duration": 20
             },
             {
-                "type": "healing_boost",
+                "type": "more healing",
                 "value": 25.0,
                 "unit": "%",
                 "duration": 600
@@ -410,8 +410,8 @@ const cooking_ingredients = [
         ],
         "categories": [
             "health regen",
-            "healing_boost",
-            "food"
+            "food",
+            "more healing"
         ]
     },
     {
@@ -525,9 +525,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "food",
             "blue glow",
-            "mana regen"
+            "mana regen",
+            "food"
         ]
     },
     {
@@ -576,9 +576,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health_loss",
             "food",
-            "movement speed"
+            "movement speed",
+            "health_loss"
         ]
     },
     {
@@ -627,8 +627,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health regen",
             "armor",
+            "health regen",
             "food"
         ]
     },
@@ -686,8 +686,8 @@ const cooking_ingredients = [
         ],
         "categories": [
             "health regen",
-            "health_loss",
             "food",
+            "health_loss",
             "reduced damage from bosses"
         ]
     },
@@ -845,8 +845,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health regen",
             "physical melee damage",
+            "health regen",
             "food"
         ]
     },
@@ -903,9 +903,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "mining damage",
             "health regen",
-            "food"
+            "food",
+            "mining damage"
         ]
     },
     {
@@ -954,8 +954,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "food",
             "magic damage",
+            "food",
             "glow"
         ]
     },
@@ -1005,8 +1005,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "food",
             "blue glow",
+            "food",
             "minion damage"
         ]
     },
@@ -1070,8 +1070,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health regen",
             "physical melee damage",
+            "health regen",
             "food",
             "max health"
         ]
@@ -1136,10 +1136,10 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "food",
             "blue glow",
-            "max mana",
-            "mana regen"
+            "mana regen",
+            "food",
+            "max mana"
         ]
     },
     {
@@ -1195,10 +1195,10 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health_loss",
-            "food",
             "melee attack speed",
-            "movement speed"
+            "food",
+            "movement speed",
+            "health_loss"
         ]
     },
     {
@@ -1254,8 +1254,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health regen",
             "armor",
+            "health regen",
             "food",
             "knockback chance"
         ]
@@ -1320,11 +1320,11 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
+            "food",
+            "health regen",
             "damage against bosses",
             "health_loss",
-            "health regen",
-            "reduced damage from bosses",
-            "food"
+            "reduced damage from bosses"
         ]
     },
     {
@@ -1373,9 +1373,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "less food drained",
             "health regen",
-            "food"
+            "food",
+            "less food drained"
         ]
     },
     {
@@ -1438,10 +1438,10 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "range attack speed",
             "health regen",
             "physical range damage",
-            "food"
+            "food",
+            "range attack speed"
         ]
     },
     {
@@ -1504,8 +1504,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health regen",
             "physical melee damage",
+            "health regen",
             "food",
             "melee attack speed"
         ]
@@ -1570,9 +1570,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "mining damage",
             "health regen",
             "food",
+            "mining damage",
             "mining speed"
         ]
     },
@@ -1629,10 +1629,10 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "food",
             "magic damage",
-            "glow",
-            "magic barrier"
+            "food",
+            "magic barrier",
+            "glow"
         ]
     },
     {
@@ -1688,10 +1688,10 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "minion attack speed",
-            "food",
             "blue glow",
-            "minion damage"
+            "food",
+            "minion damage",
+            "minion attack speed"
         ]
     },
     {
@@ -1754,10 +1754,10 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "permanent max health",
             "health regen",
+            "food",
             "health regen allies",
-            "food"
+            "permanent max health"
         ]
     },
     {
@@ -1813,9 +1813,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "mining damage",
             "health regen",
-            "food"
+            "food",
+            "mining damage"
         ]
     },
     {
@@ -1929,8 +1929,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health regen",
             "physical melee damage",
+            "health regen",
             "food"
         ]
     },
@@ -1987,8 +1987,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health regen",
             "armor",
+            "health regen",
             "food"
         ]
     },
@@ -2045,9 +2045,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
+            "minion damage",
             "health regen",
-            "food",
-            "minion damage"
+            "food"
         ]
     },
     {
@@ -2161,9 +2161,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "range attack speed",
             "health regen",
-            "food"
+            "food",
+            "range attack speed"
         ]
     },
     {
@@ -2509,8 +2509,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health regen",
             "physical melee damage",
+            "health regen",
             "food"
         ]
     },
@@ -2560,9 +2560,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
+            "food",
             "immune to infection",
-            "health_loss",
-            "food"
+            "health_loss"
         ]
     },
     {
@@ -2625,10 +2625,10 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "thorns damage",
-            "health regen",
             "armor",
-            "food"
+            "health regen",
+            "food",
+            "thorns damage"
         ]
     },
     {
@@ -2742,8 +2742,8 @@ const cooking_ingredients = [
         ],
         "categories": [
             "health regen",
-            "food",
             "max mana",
+            "food",
             "magic damage"
         ]
     },
@@ -2852,8 +2852,8 @@ const cooking_ingredients = [
         ],
         "categories": [
             "health regen",
-            "food",
-            "fishing"
+            "fishing",
+            "food"
         ]
     },
     {
@@ -2909,9 +2909,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
+            "mana regen",
             "health regen",
-            "food",
-            "mana regen"
+            "food"
         ]
     },
     {
@@ -3025,9 +3025,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "dodge chance",
             "health regen",
-            "food"
+            "food",
+            "dodge chance"
         ]
     },
     {
@@ -3091,8 +3091,8 @@ const cooking_ingredients = [
         ],
         "categories": [
             "health regen",
-            "food",
             "max mana",
+            "food",
             "magic barrier"
         ]
     },
@@ -3207,10 +3207,10 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "thorns damage",
-            "health regen",
             "armor",
-            "food"
+            "health regen",
+            "food",
+            "thorns damage"
         ]
     },
     {
@@ -3266,9 +3266,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "mining damage",
             "health regen",
             "food",
+            "mining damage",
             "max health"
         ]
     },
@@ -3383,9 +3383,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "range attack speed",
             "health regen",
-            "food"
+            "food",
+            "range attack speed"
         ]
     },
     {
@@ -3550,7 +3550,7 @@ const cooking_ingredients = [
                 "duration": 20
             },
             {
-                "type": "healing_boost",
+                "type": "more healing",
                 "value": 21.0,
                 "unit": "%",
                 "duration": 600
@@ -3558,8 +3558,8 @@ const cooking_ingredients = [
         ],
         "categories": [
             "health regen",
-            "healing_boost",
-            "food"
+            "food",
+            "more healing"
         ]
     },
     {
@@ -3608,8 +3608,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "food",
             "critical hit damage",
+            "food",
             "immune to burning"
         ]
     },
@@ -3659,9 +3659,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
+            "immune to burning",
             "food",
-            "crit chance",
-            "immune to burning"
+            "crit chance"
         ]
     },
     {
@@ -3738,10 +3738,10 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
+            "food",
+            "permanent max health",
             "health regen",
             "crit chance",
-            "permanent max health",
-            "food",
             "melee and range attack speed"
         ]
     },
@@ -3842,9 +3842,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "dodge chance",
+            "movement speed",
             "food",
-            "movement speed"
+            "dodge chance"
         ]
     },
     {
@@ -3951,8 +3951,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "health regen",
             "armor",
+            "health regen",
             "food",
             "max health"
         ]
@@ -4010,10 +4010,10 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "dodge chance",
-            "food",
+            "movement speed",
             "melee and range attack speed",
-            "movement speed"
+            "food",
+            "dodge chance"
         ]
     },
     {
@@ -4062,8 +4062,8 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
-            "mining damage",
             "food",
+            "mining damage",
             "max health"
         ]
     },
@@ -4128,8 +4128,8 @@ const cooking_ingredients = [
         ],
         "categories": [
             "health regen",
-            "food",
             "max mana",
+            "food",
             "magic barrier"
         ]
     },
@@ -4186,9 +4186,9 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
+            "minion damage",
             "health regen",
-            "food",
-            "minion damage"
+            "food"
         ]
     },
     {
@@ -4331,16 +4331,16 @@ const cooking_ingredients = [
             }
         ],
         "categories": [
+            "food",
             "health regen",
             "blue glow",
             "magic damage",
-            "food",
             "max mana"
         ]
     }
 ];
 
-const effect_indexes = {
+const effect_index = {
     "health regen": [
         "Larva Meat",
         "Mushroom",
@@ -4507,7 +4507,7 @@ const effect_indexes = {
         "Marbled Meat",
         "Tornis Kingfish"
     ],
-    "healing_boost": [
+    "more healing": [
         "Dodo Egg",
         "Bright Lava Eater"
     ],
@@ -4523,19 +4523,19 @@ const effect_indexes = {
         "Golden Glow Tulip",
         "Bottom Tracer"
     ],
-    "health_loss": [
-        "Bomb Pepper",
-        "Puffungi",
-        "Golden Bomb Pepper",
-        "Golden Puffungi",
-        "Rot Fish"
-    ],
     "movement speed": [
         "Bomb Pepper",
         "Golden Bomb Pepper",
         "Spirit Veil",
         "Glistening Deepstalker",
         "Splendid Deepstalker"
+    ],
+    "health_loss": [
+        "Bomb Pepper",
+        "Puffungi",
+        "Golden Bomb Pepper",
+        "Golden Puffungi",
+        "Rot Fish"
     ],
     "armor": [
         "Carrock",
@@ -4677,7 +4677,7 @@ const reconstructors = {
     "health regen": "`+${data.value.toFixed(1)} health every sec for ${formatDuration(data.duration)}`;",
     "health regen allies": "`+${data.value} health every sec to you and all nearby allies for ${formatDuration(data.duration)}`;",
     "life on hit": "`+${data.value} life on melee hit for ${formatDuration(data.duration)}`;",
-    "healing_boost": "`+${data.value}% more healing from health over time regeneration for ${formatDuration(data.duration)}`;",
+    "more healing": "`+${data.value}% more healing from health over time regeneration for ${formatDuration(data.duration)}`;",
     "max mana": "`+${data.value} max mana for ${formatDuration(data.duration)}`;",
     "mana regen": "`+${data.value.toFixed(1)} mana every sec for ${formatDuration(data.duration)}`;",
     "damage": "`+${data.value}% damage for ${formatDuration(data.duration)}`;",
